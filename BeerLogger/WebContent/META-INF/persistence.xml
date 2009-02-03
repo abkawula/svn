@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" 
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd" 
+             version="1.0">
+   <persistence-unit name="bookingDatabase">
+      <provider>org.hibernate.ejb.HibernatePersistence</provider>
+      <!-- 
+      <class>org.springframework.webflow.samples.booking.User</class>
+      <class>org.springframework.webflow.samples.booking.Booking</class>
+      <class>org.springframework.webflow.samples.booking.Hotel</class>
+       -->
+		<class>domain.Additive</class>
+		<class>domain.AdditiveIngredient</class>
+		<class>domain.Barley</class>
+		<class>domain.BarleyIngredient</class>
+		<class>domain.Flavoring</class>
+		<class>domain.FlavoringIngredient</class>
+		<class>domain.Hop</class>
+		<class>domain.HopIngredient</class>
+		<class>domain.Recipe</class>
+		<class>domain.Yeast</class>
+		<class>domain.YeastIngredient</class>   		
+      <properties>
+      <!-- 
+      	 <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>
+      	 <property name="hibernate.hbm2ddl.auto" value="create-drop" />
+         <property name="hibernate.show_sql" value="true"/>
+         <property name="hibernate.cache.provider_class" value="org.hibernate.cache.HashtableCacheProvider"/>
+       -->
+       
+        <property name="hibernate.connection.driver_class" value="org.gjt.mm.mysql.Driver" />
+        <property name="hibernate.connection.password" value="beersnob" />
+        <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/beer" />
+        <property name="hibernate.connection.username" value="michael.jackson"/>
+        <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+        
+        <!-- Enable Hibernate's automatic session context management -->
+        <property name="current_session_context_class" value="thread" />
+
+        <!-- Disable the second-level cache  -->
+        <property name="cache.provider_class" value="org.hibernate.cache.NoCacheProvider" />
+
+        <!-- Echo all executed SQL to stdout -->
+        <property name="show_sql" value="true" />
+
+        <!-- Drop and re-create the database schema on startup -->
+        <property name="hbm2ddl.auto" value="update" />
+      </properties>
+   </persistence-unit>
+</persistence>
