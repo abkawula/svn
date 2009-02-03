@@ -2,12 +2,12 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="test"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="var" path="IVY_CACHE/javax.servlet/com.springsource.javax.servlet/2.4.0/com.springsource.javax.servlet-2.4.0.jar" sourcepath="/IVY_CACHE/javax.servlet/com.springsource.javax.servlet/2.4.0/com.springsource.javax.servlet-sources-2.4.0.jar"/>
 	<classpathentry kind="var" path="IVY_CACHE/javax.servlet/com.springsource.javax.servlet.jsp/2.1.0/com.springsource.javax.servlet.jsp-2.1.0.jar" sourcepath="/IVY_CACHE/javax.servlet/com.springsource.javax.servlet.jsp/2.1.0/com.springsource.javax.servlet.jsp-sources-2.1.0.jar"/>
 	<classpathentry kind="var" path="IVY_CACHE/org.easymock/com.springsource.org.easymock/2.3.0/com.springsource.org.easymock-2.3.0.jar" sourcepath="/IVY_CACHE/org.easymock/com.springsource.org.easymock/2.3.0/com.springsource.org.easymock-sources-2.3.0.jar"/>
 	<classpathentry kind="var" path="IVY_CACHE/org.junit/com.springsource.junit/3.8.2/com.springsource.junit-3.8.2.jar" sourcepath="/IVY_CACHE/org.junit/com.springsource.junit/3.8.2/com.springsource.junit-sources-3.8.2.jar"/>
 	<classpathentry kind="var" path="IVY_CACHE"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-1.5.0-sun-1.5.0.16"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

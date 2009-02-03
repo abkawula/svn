@@ -5,10 +5,9 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+import org.apache.commons.lang.StringUtils;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-
-import com.sun.xml.internal.ws.util.StringUtils;
 
 import domain.Hop;
 import domain.HopIngredient;
