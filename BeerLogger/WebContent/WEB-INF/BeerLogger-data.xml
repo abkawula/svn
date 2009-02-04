@@ -26,10 +26,10 @@
 
 	<!-- Deploys a in-memory "booking" datasource populated -->
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-		<property name="driverClassName" value="org.hsqldb.jdbcDriver" />
-		<property name="url" value="jdbc:hsqldb:mem:booking" />
-		<property name="username" value="sa" />
-		<property name="password" value="" />
+		<property name="driverClassName" value="org.gjt.mm.mysql.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/beer" />
+		<property name="username" value="michael.jackson" />
+		<property name="password" value="beersnob" />
 	</bean>
 	
 </beans>
