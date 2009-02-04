@@ -10,7 +10,6 @@ public class Barley {
 	@Id @GeneratedValue
 	private int id;
 	private String variety;
-	private int category;
 	
 	public int getId() {
 		return id;
@@ -27,14 +26,5 @@ public class Barley {
 	public void setVariety(String variety) {
 		this.variety = variety;
 	}
-
-	public int getCategory() {
-		return category;
-	}
-
-	public void setCategory(int category) {
-		this.category = category;
-	}
-	
 
 }

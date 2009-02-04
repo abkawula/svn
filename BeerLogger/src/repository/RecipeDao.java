@@ -83,9 +83,7 @@ public class RecipeDao extends BeerHibernateUtil {
 			HopIngredient hopIngredient1 = new HopIngredient();
 			hopIngredient1.setBoilTime(0);
 			hopIngredient1.setHop(hop1);
-			hopIngredient1.setIbu(0);
 			hopIngredient1.setQuantity(0);
-			hopIngredient1.setUtilizationRate(0);
 			
 			List<HopIngredient> hops = new ArrayList<HopIngredient>();
 			hops.add(hopIngredient1);

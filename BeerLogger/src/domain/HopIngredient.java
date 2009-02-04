@@ -15,8 +15,6 @@ public class HopIngredient {
 	private double quantity;
 	private String pelletLeaf;
 	private int boilTime;
-	private double utilizationRate;
-	private int ibu;
 	
 	
 	public int getId() {
@@ -49,18 +47,5 @@ public class HopIngredient {
 	public void setBoilTime(int boilTime) {
 		this.boilTime = boilTime;
 	}
-	public double getUtilizationRate() {
-		return utilizationRate;
-	}
-	public void setUtilizationRate(double utilizationRate) {
-		this.utilizationRate = utilizationRate;
-	}
-	public int getIbu() {
-		return ibu;
-	}
-	public void setIbu(int ibu) {
-		this.ibu = ibu;
-	}
-	
 	
 }
