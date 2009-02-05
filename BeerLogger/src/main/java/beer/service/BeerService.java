@@ -25,9 +25,11 @@ public class BeerService implements IBeerService {
 
     @Transactional(readOnly = true)
     @SuppressWarnings("unchecked")
-    public List<Recipe> findRecipeByCategory(Recipe.Style style) {
+    public List<Recipe> getRecipe(SearchCriteria searchCriteria) {
+    	
+    	String style = searchCriteria.getStyle();
 	
-	    return em.createQuery("select r from Recipe r where r.style = :style ")
+	    return em.createQuery("select r from Recipe r")
 		    .getResultList();
 	
     }

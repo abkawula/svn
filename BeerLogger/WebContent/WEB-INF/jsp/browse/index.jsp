@@ -3,5 +3,5 @@
 
 <c:forEach var="style" items="${styles}">
 
-${style.name}<br/>
+<a href="showBeer?style=${style}">${style.name}</a><br/>
 </c:forEach>

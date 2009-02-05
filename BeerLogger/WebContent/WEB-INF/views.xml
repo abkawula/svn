@@ -20,5 +20,9 @@
  
  	<definition name="browse/showCategories" extends="standardLayout">
  		<put-attribute name="body" value = "/WEB-INF/jsp/browse/index.jsp" />
- 	</definition>		
+ 	</definition>
+ 	
+ 	<definition name="browse/showBeer" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/browse/beerList.jsp" />
+ 	</definition>
 </tiles-definitions>

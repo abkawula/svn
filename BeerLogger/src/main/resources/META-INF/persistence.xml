@@ -29,23 +29,18 @@
          <property name="hibernate.cache.provider_class" value="org.hibernate.cache.HashtableCacheProvider"/>
        -->
        
+       <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+       <property name="hibernate.hbm2ddl.auto" value="update" />
+       <property name="hibernate.show_sql" value="true" />
+        <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider" />
+
+<!--         
         <property name="hibernate.connection.driver_class" value="org.gjt.mm.mysql.Driver" />
         <property name="hibernate.connection.password" value="beersnob" />
         <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/beer" />
         <property name="hibernate.connection.username" value="michael.jackson"/>
-        <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
-        
-        <!-- Enable Hibernate's automatic session context management -->
         <property name="current_session_context_class" value="thread" />
-
-        <!-- Disable the second-level cache  -->
-        <property name="cache.provider_class" value="org.hibernate.cache.NoCacheProvider" />
-
-        <!-- Echo all executed SQL to stdout -->
-        <property name="show_sql" value="true" />
-
-        <!-- Drop and re-create the database schema on startup -->
-        <property name="hbm2ddl.auto" value="update" />
+ -->        
       </properties>
    </persistence-unit>
 </persistence>
