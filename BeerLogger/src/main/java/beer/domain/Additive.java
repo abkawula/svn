@@ -1,4 +1,4 @@
-package domain;
+package beer.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -10,17 +10,17 @@
       <class>org.springframework.webflow.samples.booking.Booking</class>
       <class>org.springframework.webflow.samples.booking.Hotel</class>
        -->
-		<class>domain.Additive</class>
-		<class>domain.AdditiveIngredient</class>
-		<class>domain.Barley</class>
-		<class>domain.BarleyIngredient</class>
-		<class>domain.Flavoring</class>
-		<class>domain.FlavoringIngredient</class>
-		<class>domain.Hop</class>
-		<class>domain.HopIngredient</class>
-		<class>domain.Recipe</class>
-		<class>domain.Yeast</class>
-		<class>domain.YeastIngredient</class>   		
+		<class>beer.domain.Additive</class>
+		<class>beer.domain.AdditiveIngredient</class>
+		<class>beer.domain.Barley</class>
+		<class>beer.domain.BarleyIngredient</class>
+		<class>beer.domain.Flavoring</class>
+		<class>beer.domain.FlavoringIngredient</class>
+		<class>beer.domain.Hop</class>
+		<class>beer.domain.HopIngredient</class>
+		<class>beer.domain.Recipe</class>
+		<class>beer.domain.Yeast</class>
+		<class>beer.domain.YeastIngredient</class>   		
       <properties>
       <!-- 
       	 <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>

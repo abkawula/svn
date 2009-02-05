@@ -1,4 +1,4 @@
-package domain;
+package beer.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -6,19 +6,19 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 @Entity
-public class AdditiveIngredient {
+public class YeastIngredient {
 
 	private int id;
 	@Id @GeneratedValue
 	public int getId() {return id;}
 	public void setId(int id) {this.id = id;}
 	
-	private Additive additive;
+	private Yeast yeast;
 	@ManyToOne
-	public Additive getAdditive() {return additive;}
-	public void setAdditive(Additive additive) {this.additive = additive;}
+	public Yeast getYeast() {return yeast;}
+	public void setYeast(Yeast yeast) {this.yeast = yeast;}
 	
 	private double quantity;
 	public double getQuantity() {return quantity;}
-	public void setQuantity(double quantity) {this.quantity = quantity;	}
+	public void setQuantity(double quantity) {this.quantity = quantity;}
 }

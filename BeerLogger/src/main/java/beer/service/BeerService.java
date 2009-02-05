@@ -1,4 +1,4 @@
-package service;
+package beer.service;
 
 import java.util.List;
 
@@ -9,7 +9,8 @@ import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import domain.Recipe;
+import beer.domain.Recipe;
+
 
 @Service("beerService")
 @Repository

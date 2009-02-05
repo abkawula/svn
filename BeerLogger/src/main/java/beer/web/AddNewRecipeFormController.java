@@ -1,9 +1,10 @@
-package web;
+package beer.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
-import service.IBeerService;
+import beer.service.IBeerService;
+
 
 @Controller
 public class AddNewRecipeFormController {

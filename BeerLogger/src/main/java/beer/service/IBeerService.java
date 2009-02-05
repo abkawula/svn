@@ -1,8 +1,9 @@
-package service;
+package beer.service;
 
 import java.util.List;
 
-import domain.Recipe;
+import beer.domain.Recipe;
+
 
 public interface IBeerService {
 
