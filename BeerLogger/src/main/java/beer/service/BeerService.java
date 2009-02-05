@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import beer.domain.HopIngredient;
 import beer.domain.Recipe;
 
 
@@ -28,9 +29,16 @@ public class BeerService implements IBeerService {
     public List<Recipe> getRecipe(SearchCriteria searchCriteria) {
     	
     	String style = searchCriteria.getStyle();
-	
-	    return em.createQuery("select r from Recipe r")
-		    .getResultList();
+    	
+    	List<Recipe> recipes = em.createQuery("select r from Recipe r")
+	    .getResultList();
+    	
+    	for (Recipe r : recipes) {
+    		r.getHops().size();
+    	
+    	}
+    	
+	    return recipes; 
 	
     }
 }

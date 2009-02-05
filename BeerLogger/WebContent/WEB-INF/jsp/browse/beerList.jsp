@@ -3,5 +3,6 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 
 <c:forEach var="recipe" items="${recipeList}">
-${recipe.name}
+<a href="showRecipe?id=${recipe.id }">${recipe.name}</a><br>
+
 </c:forEach>
