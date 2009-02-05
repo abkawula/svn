@@ -15,6 +15,13 @@
         @import url("<c:url value="/resources/css-framework/css/layout.css" />");
         @import url("<c:url value="/resources/styles/booking.css" />");
     </style>
+    <style type="text/css" media="screen">
+    li{
+    	list-style:none;
+    }
+    
+    </style>
+    
     <script type="text/javascript" src="<c:url value="/resources/dojo/dojo.js" />"></script>
     <script type="text/javascript" src="<c:url value="/resources/spring/Spring.js" />"></script>
     <script type="text/javascript" src="<c:url value="/resources/spring/Spring-Dojo.js" />"></script>
