@@ -20,7 +20,9 @@
 		<class>beer.domain.HopIngredient</class>
 		<class>beer.domain.Recipe</class>
 		<class>beer.domain.Yeast</class>
-		<class>beer.domain.YeastIngredient</class>   		
+		<class>beer.domain.YeastIngredient</class>
+		<class>beer.domain.MashSchedule</class>
+		<class>beer.domain.MashStep</class>
       <properties>
       <!-- 
       	 <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>

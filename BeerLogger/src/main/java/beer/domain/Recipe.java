@@ -6,7 +6,9 @@ import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import javax.persistence.Transient;
 
 
 @Entity
@@ -90,5 +92,15 @@ public class Recipe {
 	public Style getStyle() { return style; }
 	public void setStyle(String style) { this.style = Style.valueOf(style); }
 	public void setStyle(Style style) { this.style = style; }
+	
+	private MashSchedule mashSchedule;
+	@ManyToOne
+	public MashSchedule getMashSchedule() {return mashSchedule;	}
+	public void setMashSchedule(MashSchedule mashSchedule) {this.mashSchedule = mashSchedule;}
+	
+	@Transient
+	public double getABV() {
+		return ((initialGravity - finalGravity) * 131);
+	}
 	
 }
