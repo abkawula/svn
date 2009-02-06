@@ -29,7 +29,7 @@ public class MashSchedule {
 	public void setCategory(String category) {this.category = category;}
 	
 	private List<MashStep> mashSteps;
-	@OneToMany(cascade = CascadeType.ALL)	
+	@OneToMany(mappedBy="mashSchedule", cascade = CascadeType.ALL)	
 	public List<MashStep> getMashSteps() {return mashSteps;}
 	public void setMashSteps(List<MashStep> mashSteps) {this.mashSteps = mashSteps;}
 	

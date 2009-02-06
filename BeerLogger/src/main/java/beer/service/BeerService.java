@@ -35,21 +35,21 @@ public class BeerService implements IBeerService {
     	List<Recipe> recipes = em.createQuery("select r from Recipe r")
 	    .getResultList();
     	
-    	MashSchedule m = new MashSchedule();
-    	m.setCategory("British Infusion Mash");
-    	m.setName("Pale Ale / Bitter / Light Ale");
-    	
-    	List<MashStep> steps = new ArrayList<MashStep>();
-    	m.setMashSteps(steps);
-    	
-    	MashStep step1 = new MashStep();
-    	step1.setOrder(1);
-    	step1.setTemp(170);
-    	step1.setWaterQuantity(1.3);
-    	
-    	steps.add(step1);
-    	
-    	em.persist(m);
+//    	MashSchedule m = new MashSchedule();
+//    	m.setCategory("British Infusion Mash");
+//    	m.setName("Pale Ale / Bitter / Light Ale");
+//    	
+//    	List<MashStep> steps = new ArrayList<MashStep>();
+//    	m.setMashSteps(steps);
+//    	
+//    	MashStep step1 = new MashStep();
+//    	step1.setSortOrder(1);
+//    	step1.setTemp(170);
+//    	step1.setWaterQuantity(1.3);
+//    	
+//    	steps.add(step1);
+//    	
+//    	em.persist(m);
     	
 	    return recipes; 
 	

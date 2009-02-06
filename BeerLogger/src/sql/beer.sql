@@ -248,13 +248,16 @@ UNLOCK TABLES;
 -- Table structure for table `MashSchedule_MashStep`
 --
 
-DROP TABLE IF EXISTS `MashSchedule_MashStep`;
+DROP TABLE IF EXISTS `MashStep`;
 SET @saved_cs_client     = @@character_set_client;
 SET character_set_client = utf8;
-CREATE TABLE `MashSchedule_MashStep` (
+CREATE TABLE `MashStep` (
+  `id` int(11) NOT NULL auto_increment,
   `MashSchedule_id` int(11) NOT NULL,
-  `mashSteps_id` int(11) NOT NULL,
-  UNIQUE KEY `mashSteps_id` (`mashSteps_id`),
+  `order` int(11) NOT NULL,
+  `waterQuantity` double NOT NULL,
+  `temp` int(11) NOT NULL,
+  PRIMARY KEY  (`id`),
   KEY `FKC78FFA14E77A3026` (`MashSchedule_id`),
   CONSTRAINT `FKC78FFA14E77A3026` FOREIGN KEY (`MashSchedule_id`) REFERENCES `MashSchedule` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -281,7 +284,7 @@ CREATE TABLE `Recipe` (
   `finalGravity` double NOT NULL,
   `initialGravity` double NOT NULL,
   `name` varchar(255) default NULL,
-  `style` int(11) default NULL,
+  `style` enum('AMBER_ALE', 'AMBER_LAGER', 'BARLEY_WINE', 'BELGIAN', 'BITTER', 'BOCK', 'BRITISH_ALE', 'BROWN_ALE', 'DARK_ALE', 'DARK_LAGER', 'GOLDEN_ALE', 'IPA', 'LIGHT_LAGER', 'PALE_ALE', 'PORTER', 'RED_ALE', 'RYE_ALE', 'SCOTTISH_ALE', 'SEASONAL', 'STOUT', 'WHEAT') default NULL,
   `mashSchedule_id` int(11) default NULL,
   PRIMARY KEY  (`id`),
   KEY `FK91AB41AEE77A3026` (`mashSchedule_id`),

@@ -4,6 +4,8 @@ import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
@@ -89,8 +91,8 @@ public class Recipe {
 	public void setFinalGravity(double finalGravity) {this.finalGravity = finalGravity;}
 	
 	private Style style;
+	@Enumerated(EnumType.STRING)
 	public Style getStyle() { return style; }
-	public void setStyle(String style) { this.style = Style.valueOf(style); }
 	public void setStyle(Style style) { this.style = style; }
 	
 	private MashSchedule mashSchedule;
