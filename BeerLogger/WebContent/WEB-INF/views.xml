@@ -25,4 +25,10 @@
  	<definition name="browse/showBeer" extends="standardLayout">
  		<put-attribute name="body" value = "/WEB-INF/jsp/browse/beerList.jsp" />
  	</definition>
+	
+	<definition name="data/hop" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/data/hopForm.jsp" />
+ 	</definition>
+ 	 	
+ 	
 </tiles-definitions>
