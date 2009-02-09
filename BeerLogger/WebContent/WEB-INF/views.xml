@@ -29,6 +29,25 @@
 	<definition name="data/hop" extends="standardLayout">
  		<put-attribute name="body" value = "/WEB-INF/jsp/data/hopForm.jsp" />
  	</definition>
- 	 	
+ 	
+ 	<definition name="data/barley" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/data/barleyForm.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="data/yeast" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/data/yeastForm.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="data/additive" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/data/additiveForm.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="data/flavoring" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/data/flavoringForm.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="data/recipe" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/data/recipeForm.jsp" />
+ 	</definition>
  	
 </tiles-definitions>
