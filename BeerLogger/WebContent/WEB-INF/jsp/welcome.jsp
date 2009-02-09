@@ -13,7 +13,14 @@
 	<li><a href="browse/showCategories">Browse by category</a></li>
 	<li><a href="#">Browse by popularity</a> </li>
 	<li><a href="#">Search for recipe by ingredients</a></li>
-	<li><a href="#">Add a new recipe</a> </li>
+	<br/>
+	<br/>
+	<li><a href="data/hop">Add a new hop</a> </li>
+	<li><a href="data/barley">Add a new barley</a> </li>
+	<li><a href="data/yeast">Add a new yeast</a> </li>
+	<li><a href="data/additive">Add a new additive</a> </li>
+	<li><a href="data/flavoring">Add a new flavoring</a> </li>
+	<li><a href="data/recipe">Add a new recipe</a> </li>
 </ul>
 </body>
 </html>

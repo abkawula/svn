@@ -24,25 +24,12 @@
 		<class>beer.domain.MashSchedule</class>
 		<class>beer.domain.MashStep</class>
       <properties>
-      <!-- 
-      	 <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect"/>
-      	 <property name="hibernate.hbm2ddl.auto" value="create-drop" />
-         <property name="hibernate.show_sql" value="true"/>
-         <property name="hibernate.cache.provider_class" value="org.hibernate.cache.HashtableCacheProvider"/>
-       -->
        
        <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
        <property name="hibernate.hbm2ddl.auto" value="create-drop" />
        <property name="hibernate.show_sql" value="true" />
         <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider" />
-
-<!--         
-        <property name="hibernate.connection.driver_class" value="org.gjt.mm.mysql.Driver" />
-        <property name="hibernate.connection.password" value="beersnob" />
-        <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/beer" />
-        <property name="hibernate.connection.username" value="michael.jackson"/>
-        <property name="current_session_context_class" value="thread" />
- -->        
+        
       </properties>
    </persistence-unit>
 </persistence>
