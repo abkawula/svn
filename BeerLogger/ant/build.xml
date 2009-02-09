@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="BeerLogger" default="build" basedir="..">
+	<property file="ant/build.properties" />
+	<path id="classpath">
+		<fileset dir="${lib.dir}" includes="*.jar" />
+	</path>
+	
+	<target name="clean">
+		<echo>Cleaning the ${build.dir} and ${dist.dir}</echo>
+		<delete dir="${build.dir}" />
+		<delete dir="${dist.dir}" />
+		<delete dir="${junit.output.dir}" />
+	</target>
+	
+	<target name="init" depends="clean">
+		<echo>Creating the required directories</echo>
+		<mkdir dir="${dist.dir}" />
+		<mkdir dir="${build.dir}/classes" />
+		<mkdir dir="${build.dir}/manifest" />
+	</target>
+	
+	<target name="compile" depends="init">
+		<echo>Compile the source files</echo>
+		<javac srcdir="${src.dir}" destdir="${build.dir}/classes">
+			<classpath refid="classpath" />
+		</javac>
+		<echo>Moving non java files</echo>
+		<copy todir="${build.dir}/classes">
+			<fileset dir="${src.dir}" excludes="**/*.java"/>
+  		</copy>
+	</target>
+	
+	<target name="build_war" depends="compile">
+		<echo>Building the war</echo>
+		<war destfile="${dist.dir}/${jar.name}-${version}.jar" >
+			<fileset dir="${build.dir}/classes" />
+		</war>
+	</target>
+
+	<target name="build" depends="compile, build_war" />
+		
+</project>
