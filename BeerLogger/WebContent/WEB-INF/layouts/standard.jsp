@@ -1,64 +1,92 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles" %>
 <%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Beer Logger</title>
-	<link type="text/css" rel="stylesheet" href="<c:url value="/resources/dijit/themes/soria/soria.css" />" />
-	<style type="text/css" media="screen">
-        @import url("<c:url value="/resources/css-framework/css/tools.css" />");
-        @import url("<c:url value="/resources/css-framework/css/typo.css" />");
-        @import url("<c:url value="/resources/css-framework/css/forms.css" />");
-        @import url("<c:url value="/resources/css-framework/css/layout-navtop-localleft.css" />");
-        @import url("<c:url value="/resources/css-framework/css/layout.css" />");
-        @import url("<c:url value="/resources/styles/booking.css" />");
-    </style>
-    <style type="text/css" media="screen">
-    li{
-    	list-style:none;
-    }
+    <!--Meta--> 
+	<meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="copyright" content="Todd Ballard and Adam Kawula" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="revisit-after" content="1 day" />
+    <meta name="DC.title" content="Beericpe.com" />
+    <meta name="robots" content="all" />
+    <title>Beericpe.com - Beer recipes</title>
+	
+	<!--Style--> 
+	<link rel="stylesheet" type="text/css" href="_css/beer.css" />    
+	<link rel="stylesheet" type="text/css" href="_css/jquery.tabs.css" />   
+	<!--[if lte IE 7]>
+	 <link rel="stylesheet" href="_css/jquery.tabs-ie.css" type="text/css" media="projection, screen">
+	<![endif]--> 	    
+	<link rel="Shortcut Icon" type="image/ico" href="favicon.ico" />
+	
+	<!-- Sourcery-->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+    <script type="text/javascript" src="./jquery.tabs.min.js"></script>
     
-    </style>
-    
+     
     <script type="text/javascript" src="<c:url value="/resources/dojo/dojo.js" />"></script>
     <script type="text/javascript" src="<c:url value="/resources/spring/Spring.js" />"></script>
     <script type="text/javascript" src="<c:url value="/resources/spring/Spring-Dojo.js" />"></script>
+
+
+    <script type="text/javascript">
+	$(document).ready(function() {
+   	 
+	  $("#beer_results").tabs();
+	 
+	});
+    </script>
+
 </head>
-<body class="soria spring">
-<div id="page">
-	<div id="header" class="clearfix spring">
-		<div id="welcome">
-			<div class="left">Beer Logger</div>
-			<%--
-			<div class="right">
-				<security:authorize ifAllGranted="ROLE_USER">
-					<c:if test="${pageContext.request.userPrincipal != null}">
-						Welcome, ${pageContext.request.userPrincipal.name} |
-					</c:if>
-					<a href="<c:url value="/spring/logout" />">Logout</a>
-				</security:authorize>
-				<security:authorize ifAllGranted="ROLE_ANONYMOUS">
-					<a href="<c:url value="/spring/login" />">Login</a>
-				</security:authorize>
-			</div>
-			--%>
-		</div>
-		<%--
-		<div id="branding" class="spring">
-			<a href="<c:url value="/" />"><img src="<c:url value="/resources/images/header.jpg"/>" alt="Spring Travel" /></a>
-		</div>
-		--%>
-	</div>
-	<div id="content" class="clearfix spring">
-		<div id="main">
-			<tiles:insertAttribute name="body" />
-		</div>
-	</div>
-	<div id="footer" class="clearfix spring">
+
+<body>
+<div id="wrapper">
+<div id="header">
+	<h1 id="logo"><img src="./_img/beer_logo.gif" alt="Beer recipe logo" /></h1>	
+	<ul id="menu">		
+		<li><a href="#">My Recipes</a></li>
+		<li><a href="#">Recipe</a>
+			<ul id="recipes">
+	            <li><a href="#">Add Recipes</a></li>
+	            <li><a href="#">Most Popular</a></li>	            
+	        </ul> 
+		</li>
 		
-	</div>
+		<li><a href="#">Ingredient</a>
+			<ul id="ingedients">
+	            <li><a href="#">Add Barley</a></li>
+	            <li><a href="#">Add Hops</a></li>
+	            <li><a href="#">Add xxxx</a></li>
+	        </ul> 
+		</li>
+		
+		<li class="searchContainer">
+	        <div>
+		        <input type="text" id="searchField" />
+		        <img src="magnifier.png" alt="Search" onclick="alert('You clicked on search button')" />
+	        </div>
+	        <ul id="search">
+	            <li><input id="cbxAll" type="checkbox" />All</li>
+	            <li><input id="Articles" type="checkbox" />Search Reipces</li>
+	            <li><input id="Tutorials" type="checkbox" />Search Ingredents</li>
+	            <li><input id="Reviews" type="checkbox" />Search People</li>
+	            <li><input id="Resources" type="checkbox" />Resources</li>
+	        </ul>
+    	</li> 
+	</ul>
+	
+
+	
 </div>
+
+<div id="content_wrapper">
+<tiles:insertAttribute name="body" />
+		
+</div>
+
 </body>
 </html>
