@@ -16,16 +16,19 @@
     <title>Beericpe.com - Beer recipes</title>
 	
 	<!--Style--> 
-	<link rel="stylesheet" type="text/css" href="_css/beer.css" />    
-	<link rel="stylesheet" type="text/css" href="_css/jquery.tabs.css" />   
-	<!--[if lte IE 7]>
-	 <link rel="stylesheet" href="_css/jquery.tabs-ie.css" type="text/css" media="projection, screen">
-	<![endif]--> 	    
+	<style type="text/css" media="projection, screen">
+        @import url("<c:url value="/resources/styles/beer.css" />");
+        @import url("<c:url value="/resources/styles/jquery.tabs.css" />");
+    
+		<!--[if lte IE 7]>
+		 @import url("<c:url value="/resources/styles/jquery.tabs-ie.css" />");
+		<![endif]--> 
+	</style> 	    
 	<link rel="Shortcut Icon" type="image/ico" href="favicon.ico" />
 	
 	<!-- Sourcery-->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
-    <script type="text/javascript" src="./jquery.tabs.min.js"></script>
+    <script type="text/javascript" src="<c:url value="/resources/js/jquery.tabs.min.js" />"></script>
     
      
     <script type="text/javascript" src="<c:url value="/resources/dojo/dojo.js" />"></script>
@@ -39,14 +42,14 @@
 	  $("#beer_results").tabs();
 	 
 	});
-    </script>
+    
 
 </head>
 
 <body>
 <div id="wrapper">
 <div id="header">
-	<h1 id="logo"><img src="./_img/beer_logo.gif" alt="Beer recipe logo" /></h1>	
+	<h1 id="logo"><img src="<c:url value="/resources/images/beer_logo.gif"/>" alt="Spring Travel" /></h1>	
 	<ul id="menu">		
 		<li><a href="#">My Recipes</a></li>
 		<li><a href="#">Recipe</a>
