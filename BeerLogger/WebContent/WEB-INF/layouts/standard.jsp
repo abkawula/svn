@@ -24,7 +24,7 @@
 		 @import url("<c:url value="/resources/styles/jquery.tabs-ie.css" />");
 		<![endif]--> 
 	</style> 	    
-	<link rel="Shortcut Icon" type="image/ico" href="favicon.ico" />
+	<!-- <link rel="Shortcut Icon" type="image/ico" href="favicon.ico" /> -->
 	
 	<!-- Sourcery-->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
@@ -37,11 +37,12 @@
 
 
     <script type="text/javascript">
-	$(document).ready(function() {
-   	 
-	  $("#beer_results").tabs();
-	 
-	});
+		$(document).ready(function() {
+	   	 
+		  $("#beer_results").tabs();
+		 
+		});
+	</script>
     
 
 </head>
