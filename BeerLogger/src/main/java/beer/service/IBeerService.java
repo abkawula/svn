@@ -19,5 +19,5 @@ public interface IBeerService {
 	Additive findAdditiveById(Integer id);
 	Flavoring findFlavoringById(Integer id);
 	Recipe findRecipeById(Integer id);
- 
+	void persist(Object object);
 }

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" 
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd" 
+             version="1.0">
+   <persistence-unit name="beerDatabase">
+      <provider>org.hibernate.ejb.HibernatePersistence</provider>
+      <!-- 
+      <class>org.springframework.webflow.samples.booking.User</class>
+      <class>org.springframework.webflow.samples.booking.Booking</class>
+      <class>org.springframework.webflow.samples.booking.Hotel</class>
+       -->
+		<class>beer.domain.Additive</class>
+		<class>beer.domain.AdditiveIngredient</class>
+		<class>beer.domain.Barley</class>
+		<class>beer.domain.BarleyIngredient</class>
+		<class>beer.domain.Flavoring</class>
+		<class>beer.domain.FlavoringIngredient</class>
+		<class>beer.domain.Hop</class>
+		<class>beer.domain.HopIngredient</class>
+		<class>beer.domain.Recipe</class>
+		<class>beer.domain.Yeast</class>
+		<class>beer.domain.YeastIngredient</class>
+		<class>beer.domain.MashSchedule</class>
+		<class>beer.domain.MashStep</class>
+      <properties>
+       
+       <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+       <property name="hibernate.hbm2ddl.auto" value="create-drop" />
+       <property name="hibernate.show_sql" value="true" />
+        <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider" />
+        
+      </properties>
+   </persistence-unit>
+</persistence>

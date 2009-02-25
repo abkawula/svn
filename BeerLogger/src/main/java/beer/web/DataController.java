@@ -37,6 +37,7 @@ IBeerService beerService;
 	
 	@RequestMapping(method = RequestMethod.POST)
 	public String processHop(@ModelAttribute("hop") Hop hop) {
+		beerService.persist(hop);
 		return "browse/showCategories";
 	}
 	
@@ -64,7 +65,7 @@ IBeerService beerService;
 	}
 	
 	@RequestMapping(method = RequestMethod.POST)
-	public String processHop(@ModelAttribute("yeast") Yeast yeast) {
+	public String processYeast(@ModelAttribute("yeast") Yeast yeast) {
 		return "browse/showCategories";
 	}
 	

@@ -41,21 +41,26 @@ public class BeerService implements IBeerService {
 	
     }
 
+    @Transactional(readOnly = true)
 	public Hop findHopById(Integer id) {
 		return em.find(Hop.class, id);
 	}
 
+    @Transactional(readOnly = true)
 	public Additive findAdditiveById(Integer id) {
 		return em.find(Additive.class, id);
 	}
 
+    @Transactional(readOnly = true)
 	public Barley findBarleyById(Integer id) {
 		return em.find(Barley.class, id);	}
 
+    @Transactional(readOnly = true)
 	public Flavoring findFlavoringById(Integer id) {
 		return em.find(Flavoring.class, id);
 	}
 
+    @Transactional(readOnly = true)
 	public Recipe findRecipeById(Integer id) {
 		return (Recipe) em.createQuery("Select r " +
 				"from Recipe r " +
@@ -67,7 +72,14 @@ public class BeerService implements IBeerService {
 	
 	}
 
+    @Transactional(readOnly = true)
 	public Yeast findYeastById(Integer id) {
 		return em.find(Yeast.class, id);
+	}
+	
+    @Transactional
+	public void persist(Object object) {
+		em.persist(object);
+		System.out.println("object saved:" + object);
 	}
 }

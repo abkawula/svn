@@ -71,7 +71,7 @@
 		<li class="searchContainer">
 	        <div>
 		        <input type="text" id="searchField" />
-		        <img src="magnifier.png" alt="Search" onclick="alert('You clicked on search button')" />
+		        <!-- <img src="magnifier.png" alt="Search" onclick="alert('You clicked on search button')" />  -->
 	        </div>
 	        <ul id="search">
 	            <li><input id="cbxAll" type="checkbox" />All</li>

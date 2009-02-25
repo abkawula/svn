@@ -32,7 +32,7 @@
 	
 	<target name="build_war" depends="compile">
 		<echo>Building the war</echo>
-		<war destfile="${dist.dir}/${jar.name}-${version}.jar" >
+		<war destfile="${dist.dir}/${war.name}.war" >
 			<fileset dir="${build.dir}/classes" />
 		</war>
 	</target>
