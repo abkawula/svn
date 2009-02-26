@@ -18,14 +18,36 @@
 	</c:if>
  
 	<form:hidden path="id"/>
-	<p>Name: <form:input path="name"/></p>
-	<p>Country: <form:input path="country"/></p>
-	<p>Application: <form:textarea path="application"/></p>
-	<p>Aroma / Bitter: <form:textarea path="aroma_bitter"/></p>
-	<p>Average Alpha: <form:input path="alpha" /></p>
-	<p>Storage: <form:input path="storage" /></p>
-	<p>Description: <form:textarea path="description"/></p>
-	
+	<table>
+		<tr>
+			<td>Name: </td>
+			<td><form:input path="name"/></td>
+		</tr>
+		<tr>
+			<td>Country: </td>
+			<td><form:input path="country"/></td>
+		</tr>
+		<tr>
+			<td>Application: </td>
+			<td><form:textarea path="application"/></td>
+		</tr>
+		<tr>
+			<td>Aroma / Bitter: </td>
+			<td><form:textarea path="aroma_bitter"/></td>
+		</tr>
+		<tr>
+			<td>Average Alpha: </td>
+			<td><form:input path="alpha" /></td>
+		</tr>
+		<tr>
+			<td><p>Storage: </td>
+			<td><form:input path="storage" /></td>
+		</tr>
+		<tr>
+			<td>Description: </td>
+			<td><form:textarea path="description"/></td>
+		</tr>
+	</table>
 	<input type="submit" />
 	
 </form:form>

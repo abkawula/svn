@@ -18,8 +18,16 @@
 	</c:if>
 	
 	<form:hidden path="id"/>
-	<p>Name: <form:input path="name"/></p>
-	<p>Brand: <form:input path="brand"/></p>
+	<table>
+		<tr>
+			<td>Name: </td
+			<td><form:input path="name"/></td>
+		</tr>
+		<tr>
+			<td>Brand: </td>
+			<td><form:input path="brand"/></td>
+		</tr>
+	</table>
 	
 	<input type="submit" />
 	

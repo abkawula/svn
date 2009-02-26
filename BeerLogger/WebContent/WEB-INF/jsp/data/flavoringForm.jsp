@@ -18,8 +18,11 @@
 	</c:if>
 	
 	<form:hidden path="id"/>
-	<p>Name: <form:input path="name"/></p>
-	
+	<table>
+		<tr>
+			<td>Name: <form:input path="name"/></td>
+		</tr>
+	</table>
 	<input type="submit" />
 	
 </form:form>
