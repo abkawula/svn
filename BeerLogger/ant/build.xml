@@ -27,12 +27,13 @@
 		<echo>Moving non java files</echo>
 		<copy todir="${build.dir}/classes">
 			<fileset dir="${src.dir}" excludes="**/*.java"/>
+			<fileset dir="${web.dir}" />
   		</copy>
 	</target>
 	
 	<target name="build_war" depends="compile">
 		<echo>Building the war</echo>
-		<war destfile="${dist.dir}/${war.name}.war" >
+		<war destfile="${dist.dir}/Beercipe.jar" >
 			<fileset dir="${build.dir}/classes" />
 		</war>
 	</target>
