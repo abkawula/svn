@@ -15,29 +15,38 @@
 	<target name="init" depends="clean">
 		<echo>Creating the required directories</echo>
 		<mkdir dir="${dist.dir}" />
-		<mkdir dir="${build.dir}/classes" />
-		<mkdir dir="${build.dir}/manifest" />
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${build.dir}/WEB-INF/classes" />
 	</target>
 	
 	<target name="compile" depends="init">
+		<echo>Moving non java files</echo>
+		<copy todir="${build.dir}">
+			<fileset dir="${web.dir}" />
+		</copy>
+		<copy todir="${build.dir}/WEB-INF/classes">
+			<fileset dir="${resource.dir}" />
+		</copy>
 		<echo>Compile the source files</echo>
-		<javac srcdir="${src.dir}" destdir="${build.dir}/classes">
+		<javac srcdir="${src.dir}" destdir="${build.dir}/WEB-INF/classes">
 			<classpath refid="classpath" />
 		</javac>
-		<echo>Moving non java files</echo>
-		<copy todir="${build.dir}/classes">
-			<fileset dir="${src.dir}" excludes="**/*.java"/>
-			<fileset dir="${web.dir}" />
-  		</copy>
 	</target>
 	
 	<target name="build_war" depends="compile">
 		<echo>Building the war</echo>
-		<war destfile="${dist.dir}/Beercipe.jar" >
-			<fileset dir="${build.dir}/classes" />
+		<war destfile="${dist.dir}/Beercipe.war" >
+			<fileset dir="${build.dir}" />
 		</war>
 	</target>
+	
+	<target name="clean_up" depends="build_war">
+		<echo>Removing the ${build.dir}</echo>
+		<delete dir="${build.dir}" />
+	</target>
+	
+	
 
-	<target name="build" depends="compile, build_war" />
-		
+	<target name="build" depends="clean_up" />
+
 </project>
