@@ -5,6 +5,7 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -15,12 +16,15 @@ import beer.domain.Flavoring;
 import beer.domain.Hop;
 import beer.domain.Recipe;
 import beer.domain.Yeast;
+import beer.web.BrowseController;
 
 
 @Service("beerService")
 @Repository
 public class BeerService implements IBeerService {
 
+	private static final Logger log = Logger.getLogger(BeerService.class);
+	
 	private EntityManager em;
 
     @PersistenceContext
@@ -62,13 +66,15 @@ public class BeerService implements IBeerService {
 
     @Transactional(readOnly = true)
 	public Recipe findRecipeById(Integer id) {
-		return (Recipe) em.createQuery("Select r " +
-				"from Recipe r " +
-				"inner join fetch r.additives " +
-				"inner join fetch r.flavorings " +
-				"inner join fetch r.barlies " +
-				"inner join fetch r.yeasts" +
-				"where r.id = " + id).getSingleResult();
+    	Recipe r = em.find(Recipe.class, id);
+    	
+    	r.getAdditives().size();
+		r.getBarlies().size();
+		r.getFlavorings().size();
+		r.getHops().size();
+		r.getYeasts().size();
+		
+		return r;
 	
 	}
 
