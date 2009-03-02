@@ -13,6 +13,8 @@ import javax.persistence.OneToMany;
 import javax.persistence.Transient;
 
 
+
+
 @Entity
 public class Recipe {
 	
@@ -29,6 +31,7 @@ public class Recipe {
 		DARK_LAGER("Dark Lager"),
 		GOLDEN_ALE("GolDen Ale"),
 		IPA("IPA"),
+		LAMBIC("Lambic"),
 		LIGHT_LAGER("Light Lager"),
 		PALE_ALE("Pale Ale"),
 		PORTER("Porter"),
@@ -52,6 +55,7 @@ public class Recipe {
 	private String name;
 	public String getName() { return name; }
 	public void setName(String name) { this.name = name; }
+	
 	
 	private List<HopIngredient> hops;
 	@OneToMany(cascade = CascadeType.ALL)
@@ -99,6 +103,11 @@ public class Recipe {
 	@ManyToOne
 	public MashSchedule getMashSchedule() {return mashSchedule;	}
 	public void setMashSchedule(MashSchedule mashSchedule) {this.mashSchedule = mashSchedule;}
+	
+	// Batch size units are gallons
+	private int batchSize = 5;
+	public int getBatchSize() { return batchSize; }
+	public void setBatchSize(int batchSize) { this.batchSize =batchSize; }
 	
 	@Transient
 	public double getABV() {

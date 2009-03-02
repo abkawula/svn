@@ -15,5 +15,25 @@ public class Barley {
 	private String variety;
 	public String getVariety() {return variety;}
 	public void setVariety(String variety) {this.variety = variety;}
+	
+	private String country;
+	public String getCountry() { return country; }
+	public void setCountry(String country) {this.country = country; }
+	
+	// pound per gallon
+	private double gravity;
+	public double getGravity() { return gravity; }
+	public void setGravity(double gravity) { this.gravity = gravity; }
+	
+	// degrees Lovibond
+	private double color;
+	public double getColor() { return color; }
+	public void setColor(double color) {this.color = color; }
+	
+	private String comment;
+	public String getComment() { return comment; }
+	public void setComment(String comment) { this.comment = comment; }
+	
+	
 
 }

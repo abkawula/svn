@@ -14,7 +14,17 @@ public class Additive {
 
 	private String name;
 	public String getName() {return name;}
-
 	public void setName(String name) {this.name = name;	}
-
+	
+	private double gravity;
+	public double getGravity() { return gravity; }
+	public void setGravity(double gravity) { this.gravity = gravity; }
+	
+	private double color;
+	public double getColor() { return color; }
+	public void setColor(double color) { this.color = color; }
+	
+	private String comment;
+	public String getComment() { return comment; }
+	public void setComment(String comment) {this.comment = comment; }
 }

@@ -23,6 +23,21 @@
 			<td>Name: </td>
 			<td><form:input path="variety"/></td>
 		</tr>
+		
+		<tr>
+			<td>Country: </td>
+			<td><form:input path="country"/></td>
+		</tr>
+		
+		<tr>
+			<td>Gravity: (pound per gallon)</td>
+			<td><form:input path="gravity"/></td>
+		</tr>
+		
+		<tr>
+			<td>Color (degrees Lovibond): </td>
+			<td><form:input path="color"/></td>
+		</tr>
 	</table>
 	<input type="submit" />
 	

@@ -23,6 +23,11 @@
 			<td>Name: </td>
 			<td><form:input path="name"/></td>
 		</tr>
+		
+		<tr>
+			<td>Gravity: </td>
+			<td><form:input path="gravity"/></td>
+		</tr>
 	</table>
 	<input type="submit" />
 	
