@@ -114,4 +114,31 @@ public class Recipe {
 		return ((initialGravity - finalGravity) * 131);
 	}
 	
+	@Transient
+	public double getPotentialGravity() {
+		double gravity = 0;
+		for (BarleyIngredient bi : barlies) {
+			gravity += (bi.getBarley().getGravity() - 1) * bi.getQuantity() / batchSize;
+		}
+		
+		for (AdditiveIngredient ai : additives) {
+			gravity += (ai.getAdditive().getGravity() - 1) * ai.getQuantity() / batchSize;
+		}
+		
+		return gravity + 1;
+	}
+	
+	@Transient
+	public double getHomebrewColorUnits() {
+		double cu = 0;
+		for (BarleyIngredient bi : barlies) {
+			cu += bi.getBarley().getColor() * bi.getQuantity();
+		}
+		
+		for (AdditiveIngredient ai : additives) {
+			cu += ai.getAdditive().getColor() * ai.getQuantity();
+		}
+		
+		return cu /batchSize;
+	}
 }

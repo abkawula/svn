@@ -67,3 +67,63 @@
 		</td>
 	</tr>
 </table>
+
+<h1>Grains and Additives</h1>
+<table>
+	<tr><th></th><th>Qty</th><th>Gravity</th><th>Ingredient</th><th>@CLR</th><th>CU</th></tr>
+	<c:set var="start" value="true" />
+	<c:forEach var="barley" items="${recipe.barlies }">
+		<tr>
+			<c:choose>
+				<c:when test="${start}">
+					<td><h3>Barlies</h3></td>
+					<c:set var="start" value="false" />
+				</c:when>
+				<c:otherwise>
+					<td></td>
+				</c:otherwise>
+			</c:choose>
+			<td>${barley.quantity }</td>
+			<td>${((barley.barley.gravity - 1) * barley.quantity / recipe.batchSize) + 1 }</td>
+			<td>${barley.barley.variety }</td>
+			<td>${barley.barley.color }</td>
+			<td>${barley.barley.color * barley.quantity}</td>
+		</tr>
+	</c:forEach>
+	
+	<c:set var="start" value="true" />
+	<c:if test="${fn:length(recipe.additives) > 0}">
+		<c:forEach var="additive" items="${recipe.additives }">
+			<tr>
+				<c:choose>
+					<c:when test="${start}">
+						<td><h3>Additives</h3></td>
+						<c:set var="start" value="false" />
+					</c:when>
+					<c:otherwise>
+						<td></td>
+					</c:otherwise>
+				</c:choose>
+				<td>${additive.quantity }</td>
+				<td>${((additive.additive.gravity - 1) * additive.quantity / recipe.batchSize) + 1 }</td>
+				<td>${additive.additive.name }</td>
+				<td>${additive.additive.color }</td>
+				<td>${additive.additive.color * additive.quantity}</td>
+			</tr>
+		</c:forEach>
+	</c:if>
+	<tr>
+		<td><h3>Totals:</h3></td>
+		<td></td>
+		<td>${recipe.potentialGravity }</td>
+		<td></td>
+		<td></td>
+		<td>${recipe.homebrewColorUnits }</td>
+	</tr>
+</table>
+
+<h1>Hops</h1>
+
+<table>
+	<tr><th>Qty</th><th>Hop Variety</th><th>Alpha</th><th>P / L</th><th>Boil Time</th><th> Utilization Rate</th><th>IBU</th></tr>
+</table>
