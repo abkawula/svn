@@ -3,7 +3,6 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 
-
 <h1> Shopping List</h1>
 <table>
 	<tr>
@@ -14,9 +13,9 @@
 			<tr>
 				<th>Lbs.</th><th>Type</th>
 			</tr>
-				<c:forEach var="barley" items="${recipe.barlies}">
-					<tr><td>${barley.quantity }</td>
-					<td>${barley.barley.variety }</td></tr>
+				<c:forEach var="barley" items="${barleyMap}">
+					<tr><td>${barley.value }</td>
+					<td>${barley.key }</td></tr>
 				</c:forEach>
 		</table></td>
 		
@@ -24,9 +23,9 @@
 			<tr>
 				<th>Oz</th><th>Type</th>
 			</tr>
-				<c:forEach var="hop" items="${recipe.hops}">
-					<tr><td>${hop.quantity }</td>
-					<td>${hop.hop.name }</td></tr>
+				<c:forEach var="hop" items="${hopMap}">
+					<tr><td>${hop.value }</td>
+					<td>${hop.key }</td></tr>
 				</c:forEach>
 		</table></td>
 		
@@ -34,9 +33,9 @@
 			<tr>
 				<th>Qty.</th><th>Type</th>
 			</tr>
-				<c:forEach var="yeast" items="${recipe.yeasts}">
-					<tr><td>${yeast.quantity }</td>
-					<td>${yeast.yeast.name }</td></tr>
+				<c:forEach var="yeast" items="${yeastMap}">
+					<tr><td>${yeast.value }</td>
+					<td>${yeast.key }</td></tr>
 				</c:forEach>
 		</table></td>
 		
@@ -67,7 +66,7 @@
 		</td>
 	</tr>
 </table>
-
+<%--
 <h1>Grains and Additives</h1>
 <table>
 	<tr><th></th><th>Qty</th><th>Gravity</th><th>Ingredient</th><th>@CLR</th><th>CU</th></tr>
@@ -121,7 +120,7 @@
 		<td>${recipe.homebrewColorUnits }</td>
 	</tr>
 </table>
-
+--%>
 <h1>Hops</h1>
 
 <table>
