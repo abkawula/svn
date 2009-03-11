@@ -26,8 +26,8 @@ public class HopIngredient {
 	public String getPelletLeaf() {return pelletLeaf;}
 	public void setPelletLeaf(String pelletLeaf) {this.pelletLeaf = pelletLeaf;}
 	
-	private int boilTime;
-	public int getBoilTime() {return boilTime;}
-	public void setBoilTime(int boilTime) {this.boilTime = boilTime;}
+	private String boilTime;
+	public String getBoilTime() {return boilTime;}
+	public void setBoilTime(String boilTime) {this.boilTime = boilTime;}
 	
 }

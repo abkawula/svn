@@ -1535,9 +1535,20 @@ insert into Hop_Hop(Hop_id, substitutions_id) values (94, 8);
 insert into Hop_Hop(Hop_id, substitutions_id) values (94, 11);
 insert into Hop_Hop(Hop_id, substitutions_id) values (94, 20);
 
-insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(1,60,'pellet',1,74);
-insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(2,15,'pellet',1,79);
-insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(3,5,'pellet',1,76);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(1,'60','pellet',1,74);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(2,'15','pellet',1,79);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(3,'5','pellet',1,76);
+
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(4,'180','pellet',1.5,8);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(5,'90','pellet',.5,8);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(6,'90','pellet',3,39);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(7,'2','pellet',1,31);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(8,'30','pellet',1,10);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(9,'0','pellet',2.25,7);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(10,'0','pellet',1,31);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(11,'d','pellet',2,31);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(12,'d','pellet',3,10);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(13,'d','pellet',1.75,7);
 
 insert into Barley(id, variety, country, gravity, color, comment) values (1, 'Black Barley', 'American', 1.023, 525.0, 'Imparts dryness. Unmalted; use in porters and dry stouts.');
 insert into Barley(id, variety, country, gravity, color, comment) values (2, 'Black Patent Malt', 'American', 1.026, 500.0, 'Provides color and sharp flavor in stouts and porters.');
@@ -1633,6 +1644,10 @@ insert into BarleyIngredient(id,quantity,barley_id) values (1,8,44);
 insert into BarleyIngredient(id,quantity,barley_id) values (2,.5,84);
 insert into BarleyIngredient(id,quantity,barley_id) values (3,.5,12);
 
+insert into BarleyIngredient(id,quantity,barley_id) values (4,.25,4);
+insert into BarleyIngredient(id,quantity,barley_id) values (5,11.5,14);
+insert into BarleyIngredient(id,quantity,barley_id) values (6,.875,12);
+
 
 insert into Additive(id, name, gravity, color, comment) values (1, 'Belgian Candi Sugar (clear)', 1.036, 0.5, 'Smooth taste, good head retention, sweet aroma and high gravity without being apparent. Use in Belgian and holiday ales. Use clear for tripels.');
 insert into Additive(id, name, gravity, color, comment) values (2, 'Brown Sugar', 1.046, 40.0, 'Imparts rich, sweet flavor. Use in Scottish ales, old ales and holiday beers.');
@@ -1657,24 +1672,44 @@ insert into Additive(id, name, gravity, color, comment) values (20, 'Syrup Malt 
 insert into Additive(id, name, gravity, color, comment) values (21, 'Treacle', 1.036, 100.0, 'Imparts intense, sweet flavor. A British mixture of molasses, invert sugar and golden syrup (corn syrup). Use in dark English ales.');
 
 insert into AdditiveIngredient (id, quantity,additive_id) values (1,2,10);
+insert into AdditiveIngredient (id, quantity,additive_id) values (2,1,5);
 
 insert into Yeast(id,brand,category,name) values (1,'Wyeast',1,'London ESB 1968');
 insert into Yeast(id,brand,category,name) values (2,'White Labs',1,'English Ale 002');
 insert into Yeast(id,brand,category,name) values (3,'Dry Yeast',1,'Muntons Premium Gold');
+insert into Yeast(id,brand,category,name) values (4,'Wyeast',2,'American Ale 1056');
 
 insert into YeastIngredient(id,quantity,yeast_id) values (1,1,1);
+insert into YeastIngredient(id,quantity,yeast_id) values (2,1,4);
 
 insert into Recipe (id,finalGravity,initialGravity,name,style, batchSize) values (1,1.015,1.062,'AHS English Honey Better - All Grain','BITTER', 5);
+insert into Recipe (id,finalGravity,initialGravity,name,style, batchSize) values (2,1.014,1.074,'Pliny the Elder - All Grain','BITTER', 5);
 
 insert into Recipe_AdditiveIngredient (Recipe_id,additives_id) values (1,1);
+insert into Recipe_AdditiveIngredient (Recipe_id,additives_id) values (2,2);
 
 insert into Recipe_BarleyIngredient (Recipe_id,barlies_id) values (1,1);
 insert into Recipe_BarleyIngredient (Recipe_id,barlies_id) values (1,2);
 insert into Recipe_BarleyIngredient (Recipe_id,barlies_id) values (1,3);
+insert into Recipe_BarleyIngredient (Recipe_id,barlies_id) values (2,4);
+insert into Recipe_BarleyIngredient (Recipe_id,barlies_id) values (2,5);
+insert into Recipe_BarleyIngredient (Recipe_id,barlies_id) values (2,6);
 
 insert into Recipe_HopIngredient (Recipe_id, hops_id) values (1,1);
 insert into Recipe_HopIngredient (Recipe_id, hops_id) values (1,2);
 insert into Recipe_HopIngredient (Recipe_id, hops_id) values (1,3);
+insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,4);
+insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,5);
+insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,6);
+insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,7);
+insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,8);
+insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,9);
+insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,10);
+insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,11);
+insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,12);
+insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,13);
+insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,14);
 
 insert into Recipe_YeastIngredient (Recipe_id, yeasts_id) values(1,1);
+insert into Recipe_YeastIngredient (Recipe_id, yeasts_id) values(2,2);
 
