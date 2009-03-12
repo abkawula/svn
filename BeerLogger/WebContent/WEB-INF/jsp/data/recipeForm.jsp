@@ -15,23 +15,7 @@
 	<form:label path="finalGravity">Final Gravity: </form:label><form:input path="finalGravity"/><br>
 	<form:label path="style">Style:</form:label><form:select path="style"><form:options items="${styles}" itemLabel="name"/> </form:select><br>
 	<form:label path="batchSize">Batch Size (Gallons) </form:label><form:input path="batchSize"/><br>
- <h1> test ${fn:length(recipeForm.hop)}</h1>
- 	<table>
- 		<tr><th>Variety</th><th>Quantity (Oz)</th><th>Pellet / Leaf</th><th>Boil Time (minutes)**</th></tr>
- 		
- 		<c:forEach items="${recipeForm.hop}" var="h">
- 			<tr>
- 			
-			<td><form:hidden path="${h.id}"/><form:select path="${h.hop.id}">
-			<form:option value="0" label=""> </form:option> <form:options items="${hops}" itemValue="id" itemLabel="name" /></form:select></td>
-			<td><form:input path="${h.quantity}"/></td>
-			<td><form:select path="${h.pelletLeaf}"><form:option value="L">Leaf</form:option><form:option value="P">Pellet</form:option></form:select></td>
-			<td><form:input path="${h.boilTime}"/></td>
-			
-			</tr>
- 		</c:forEach>
- 		
- 	</table>
+ 
  <h1> Hops </h1>
 	<table>
 		<tr><th>Variety</th><th>Quantity (Oz)</th><th>Pellet / Leaf</th><th>Boil Time (minutes)**</th></tr>

@@ -18,17 +18,6 @@ public class RecipeForm {
 	private Recipe.Style style;
 	private int batchSize;
 	
-	private HopIngredient[] hop = {new HopIngredient(), new HopIngredient(), new HopIngredient(), new HopIngredient(), 
-			new HopIngredient(), new HopIngredient(), new HopIngredient(), new HopIngredient(), new HopIngredient(), 
-			new HopIngredient()};
-	
-	public void setHop(HopIngredient[] hop) {
-		this.hop = hop;
-	}
-	public HopIngredient[] getHop() {
-		return hop;
-	}
-	
 	private HopIngredient hop0 = new HopIngredient();
 	private HopIngredient hop1 = new HopIngredient();
 	private HopIngredient hop2 = new HopIngredient();
@@ -84,8 +73,6 @@ public class RecipeForm {
 		finalGravity = r.getFinalGravity();
 		style = r.getStyle();
 		batchSize = r.getBatchSize();
-		
-		hop = r.getHops().toArray(new HopIngredient[0]);
 		
 		for (int i = 0; i < r.getHops().size(); i++) {
 			switch (i) {
