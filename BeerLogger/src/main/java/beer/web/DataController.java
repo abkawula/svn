@@ -1,5 +1,9 @@
 package beer.web;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -98,12 +102,31 @@ IBeerService beerService;
 	}
 	
 	@RequestMapping(method = RequestMethod.GET)
-	public Recipe recipe(@RequestParam(value="id", required=false) Integer id) {
+	public Map<String, Object> recipe(@RequestParam(value="id", required=false) Integer id) {
+		
+		Map<String, Object> returnMap = new HashMap<String, Object>();
+		
+		returnMap.put("hops", beerService.getAllHops());
+		List<Hop> hops = beerService.getAllHops();
+		returnMap.put("barlies", beerService.getAllBarlies());
+		returnMap.put("yeasts", beerService.getAllYeasts());
+		returnMap.put("additives", beerService.getAllAdditives());
+		returnMap.put("flavorings", beerService.getAllFlavorings());
+		returnMap.put("styles", Recipe.Style.values());
+		
 		if (id != null) {
-			return beerService.findRecipeById(id);
+			returnMap.put("recipeForm", new RecipeForm(beerService.findRecipeById(id)));
 		} else {
-			return new Recipe();
+			returnMap.put("recipeForm", new RecipeForm());
 		}
+		
+//		if (id != null) {
+//			return beerService.findRecipeById(id);
+//		} else {
+//			return new Recipe();
+//		}
+		
+		return returnMap;
 	}
 	
 	@RequestMapping(method = RequestMethod.POST)

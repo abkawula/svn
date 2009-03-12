@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 
 @Entity
-public class Hop {
+public class Hop implements Comparable<Hop> {
 	
 	private int id;
 	@Id @GeneratedValue
@@ -31,4 +31,8 @@ public class Hop {
 	@ManyToMany
 	public List<Hop> getSubstitutions() { return substitutions; }
 	public void setSubstitutions(List<Hop> substitutions) { this.substitutions = substitutions; }
+	
+	public int compareTo(Hop h) {
+		return name.compareTo(h.getName());
+	}
 }

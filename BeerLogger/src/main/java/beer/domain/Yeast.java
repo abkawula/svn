@@ -5,7 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Yeast {
+public class Yeast implements Comparable<Yeast> {
 
 	private int id;
 	@Id @GeneratedValue
@@ -23,4 +23,8 @@ public class Yeast {
 	private String brand;
 	public String getBrand() {return brand;}
 	public void setBrand(String brand) {this.brand = brand;}
+	
+	public int compareTo(Yeast y) {
+		return name.compareTo(y.getName());
+	}
 }

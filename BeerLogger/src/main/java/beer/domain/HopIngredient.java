@@ -13,7 +13,7 @@ public class HopIngredient {
 	public int getId() {return id;}
 	public void setId(int id) {this.id = id;}
 	
-	private Hop hop;
+	private Hop hop = new Hop();
 	@ManyToOne
 	public Hop getHop() {return hop;}
 	public void setHop(Hop hop) {this.hop = hop;}

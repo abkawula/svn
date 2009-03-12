@@ -20,4 +20,9 @@ public interface IBeerService {
 	Flavoring findFlavoringById(Integer id);
 	Recipe findRecipeById(Integer id);
 	void persist(Object object);
+	List<Hop> getAllHops();
+	List<Barley> getAllBarlies();
+	List<Yeast> getAllYeasts();
+	List<Additive> getAllAdditives();
+	List<Flavoring> getAllFlavorings();
 }

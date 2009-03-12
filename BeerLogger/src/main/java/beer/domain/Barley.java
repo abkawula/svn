@@ -5,7 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Barley {
+public class Barley implements Comparable<Barley> {
 
 	private int id;
 	@Id @GeneratedValue
@@ -33,6 +33,13 @@ public class Barley {
 	private String comment;
 	public String getComment() { return comment; }
 	public void setComment(String comment) { this.comment = comment; }
+	
+	
+	public int compareTo(Barley b) {
+		return this.variety.compareTo(b.getVariety());
+	}
+	
+	
 	
 	
 

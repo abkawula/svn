@@ -13,7 +13,7 @@ public class BarleyIngredient {
 	public int getId() {return id;}
 	public void setId(int id) {this.id = id;}
 	
-	private Barley barley;
+	private Barley barley = new Barley();
 	@ManyToOne
 	public Barley getBarley() {return barley;}
 	public void setBarley(Barley barley) {this.barley = barley;}

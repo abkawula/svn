@@ -13,7 +13,7 @@ public class AdditiveIngredient {
 	public int getId() {return id;}
 	public void setId(int id) {this.id = id;}
 	
-	private Additive additive;
+	private Additive additive = new Additive();
 	@ManyToOne
 	public Additive getAdditive() {return additive;}
 	public void setAdditive(Additive additive) {this.additive = additive;}

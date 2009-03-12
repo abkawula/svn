@@ -13,7 +13,7 @@ public class YeastIngredient {
 	public int getId() {return id;}
 	public void setId(int id) {this.id = id;}
 	
-	private Yeast yeast;
+	private Yeast yeast = new Yeast();
 	@ManyToOne
 	public Yeast getYeast() {return yeast;}
 	public void setYeast(Yeast yeast) {this.yeast = yeast;}

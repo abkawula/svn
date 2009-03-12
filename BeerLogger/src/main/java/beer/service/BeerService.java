@@ -88,4 +88,29 @@ public class BeerService implements IBeerService {
 		em.persist(object);
 		System.out.println("object saved:" + object);
 	}
+
+    @Transactional(readOnly = true)
+	public List<Additive> getAllAdditives() {
+		return em.createQuery("from Additive order by name").getResultList();
+	}
+
+    @Transactional(readOnly = true)
+	public List<Barley> getAllBarlies() {
+		return em.createQuery("from Barley order by variety").getResultList();
+	}
+
+    @Transactional(readOnly = true)
+	public List<Flavoring> getAllFlavorings() {
+		return em.createQuery("from Flavoring order by name").getResultList();
+	}
+
+    @Transactional(readOnly = true)
+	public List<Hop> getAllHops() {
+		return em.createQuery("from Hop order by name").getResultList();
+	}
+
+    @Transactional(readOnly = true)
+	public List<Yeast> getAllYeasts() {
+		return em.createQuery("from Yeast order by name").getResultList();
+	}
 }

@@ -5,7 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Additive {
+public class Additive implements Comparable<Additive> {
 
 	private int id;
 	@Id @GeneratedValue
@@ -27,4 +27,8 @@ public class Additive {
 	private String comment;
 	public String getComment() { return comment; }
 	public void setComment(String comment) {this.comment = comment; }
+	
+	public int compareTo(Additive a) {
+		return name.compareTo(a.getName());
+	}
 }

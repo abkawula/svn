@@ -1535,20 +1535,20 @@ insert into Hop_Hop(Hop_id, substitutions_id) values (94, 8);
 insert into Hop_Hop(Hop_id, substitutions_id) values (94, 11);
 insert into Hop_Hop(Hop_id, substitutions_id) values (94, 20);
 
-insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(1,'60','pellet',1,74);
-insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(2,'15','pellet',1,79);
-insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(3,'5','pellet',1,76);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(1,'60','P',1,74);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(2,'15','P',1,79);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(3,'5','P',1,76);
 
-insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(4,'180','pellet',1.5,8);
-insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(5,'90','pellet',.5,8);
-insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(6,'90','pellet',3,39);
-insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(7,'2','pellet',1,31);
-insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(8,'30','pellet',1,10);
-insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(9,'0','pellet',2.25,7);
-insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(10,'0','pellet',1,31);
-insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(11,'d','pellet',2,31);
-insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(12,'d','pellet',3,10);
-insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(13,'d','pellet',1.75,7);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(4,'180','P',1.5,8);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(5,'90','P',.5,8);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(6,'90','P',3,39);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(7,'2','P',1,31);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(8,'30','P',1,10);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(9,'0','P',2.25,7);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(10,'0','P',1,31);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(11,'d','P',2,31);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(12,'d','P',3,10);
+insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id) values(13,'d','P',1.75,7);
 
 insert into Barley(id, variety, country, gravity, color, comment) values (1, 'Black Barley', 'American', 1.023, 525.0, 'Imparts dryness. Unmalted; use in porters and dry stouts.');
 insert into Barley(id, variety, country, gravity, color, comment) values (2, 'Black Patent Malt', 'American', 1.026, 500.0, 'Provides color and sharp flavor in stouts and porters.');
@@ -1708,7 +1708,6 @@ insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,10);
 insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,11);
 insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,12);
 insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,13);
-insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,14);
 
 insert into Recipe_YeastIngredient (Recipe_id, yeasts_id) values(1,1);
 insert into Recipe_YeastIngredient (Recipe_id, yeasts_id) values(2,2);

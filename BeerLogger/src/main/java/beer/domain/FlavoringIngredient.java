@@ -13,7 +13,7 @@ public class FlavoringIngredient {
 	public int getId() {return id;}
 	public void setId(int id) {this.id = id;}
 
-	private Flavoring flavoring;
+	private Flavoring flavoring = new Flavoring();
 	@ManyToOne
 	public Flavoring getFlavoring() {return flavoring;}
 	public void setFlavoring(Flavoring flavoring) {this.flavoring = flavoring;}

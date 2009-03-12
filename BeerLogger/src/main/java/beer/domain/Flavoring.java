@@ -5,7 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Flavoring {
+public class Flavoring implements Comparable<Flavoring> {
 	
 	private int id;
 	@Id @GeneratedValue
@@ -15,5 +15,9 @@ public class Flavoring {
 	private String name;
 	public String getName() {return name;}
 	public void setName(String name) {this.name = name;}
+	
+	public int compareTo(Flavoring f) {
+		return name.compareTo(f.getName());
+	}
 	
 }
