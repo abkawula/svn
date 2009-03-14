@@ -1,0 +1,547 @@
+American Amber & Pale Ale
+10th Anniversary Blend WLP010  	L  	White Labs  	Medium  	75-80%  	65-70°  	Blend of WLP001, WLP002, WLP004 & WLP810.
+American Ale 1056 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Well balanced. Ferments dry, finishes soft.
+American Ale BRY 96 	L 	Siebel Inst. 	Medium 	High 	64-72° 	Very clean ale flavor.
+American Ale II 1272 	L 	Wyeast 	High 	72-76% 	60-72° 	Slightly nutty, soft, clean and tart finish.
+American Ale Yeast Blend WLP060 	L 	White Labs 	Medium 	72-80% 	68-73° 	Blend celebrates the strengths of California ale strains.
+California Ale V WLP051 	L 	White Labs 	Med/High 	70-75% 	66-70° 	Produces a fruity, full-bodied beer.
+California Ale WLP001 	L 	White Labs 	Medium 	67-74% 	65-70° 	Clean flavors accentuate hops; very versatile.
+Canadian/Belgian Style 3864 	L 	Wyeast 	Medium 	75-79% 	65-80° 	Mild phenolics and low ester profile with tart finish.
+Coopers Homebrew Yeast 	D 	Coopers 	High 	High 	68-80° 	Clean, round flavor profile.
+East Coast Ale WLP008 	L 	White Labs 	Low/Med 	70-75% 	68-73° 	Very clean and low esters.
+Fermentis US 56 	D 	Fermentis 	Medium 	77% 	59-75° 	Clean with mild flavor for a wide range of styles.
+Muntons Premium Gold 	D 	Muntons 	High 	High 	57-77° 	Clean balanced ale yeast for 100% malt recipies.
+Muntons Standard Yeast 	D 	Muntons 	High 	High 	57-77° 	Clean well balanced ale yeast.
+Northwest Ale 1332 	L 	Wyeast 	High 	67-71% 	65-75° 	Malty, mildly fruity, good depth and complexity.
+Pacific Ale WLP041 	L 	White Labs 	Medium 	65-70% 	65-68° 	A popular ale yeast from the Pacific Northwest.
+Ringwood Ale 1187 	L 	Wyeast 	High 	67-71% 	64-74° 	A malty, complex profile that clears well.
+Safbrew T-58 	D 	Fermentis 	Low 	75% 	59-75° 	Develops estery and somewhat peppery spiceyness.
+San Francisco Lager WLP810 	L 	White Labs 	High 	65-70% 	58-65° 	For "California Common" type beer.
+Wyeast Ale Blend 1087 	L 	Wyeast 	High 	71-75% 	64-72° 	A blend of the best strains to provide quick starts.
+
+American Lager
+American Lager 2035  	L  	Wyeast  	Medium  	75-80%  	48-58°  	Bold, complex and aromatic; slight diacetyl.
+American Lager BRY 118 	L 	Siebel Inst. 	Very High 	Medium 	68-72° 	Produces slightly fruity beer; some residual sugar.
+American Lager WLP840 	L 	White Labs 	Medium 	75-80% 	50-55° 	Dry and clean with a very slight apple fruitiness.
+California Lager 2112 	L 	Wyeast 	High 	67-71% 	58-68° 	Produces malty, brilliantly clear beers.
+Mexican Lager Yeast WLP940 	L 	White Labs 	Medium 	70-78% 	50-55° 	Produces clean lager beer, with a crisp finish.
+North American Lager 2272 	L 	Wyeast 	High 	70-76% 	52-58° 	Malty finish, traditional Canadian lagers.
+
+Barleywine and Imperial Stout
+10th Anniversary Blend WLP010  	L  	White Labs  	Medium  	75-80%  	65-70°  	Blend of WLP001, WLP002, WLP004 & WLP810.
+American Ale 1056 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Well balanced. Ferments dry, finishes soft.
+American Ale BRY 96 	L 	Siebel Inst. 	Medium 	High 	64-72° 	Very clean ale flavor.
+American Ale Yeast Blend WLP060 	L 	White Labs 	Medium 	72-80% 	68-73° 	Blend celebrates the strengths of California ale strains.
+California Ale V WLP051 	L 	White Labs 	Med/High 	70-75% 	66-70° 	Produces a fruity, full-bodied beer.
+California Ale WLP001 	L 	White Labs 	Medium 	67-74% 	65-70° 	Clean flavors accentuate hops; very versatile.
+Dry English ale WLP007 	L 	White Labs 	High 	70-80% 	65-70° 	Good for high gravity ales with no residuals.
+East Coast Ale WLP008 	L 	White Labs 	Low/Med 	70-75% 	68-73° 	Very clean and low esters.
+Fermentis US 56 	D 	Fermentis 	Medium 	77% 	59-75° 	Clean with mild flavor for a wide range of styles.
+Safbrew S-33 	D 	Fermentis 	Med/High 	75% 	59-75° 	Versatile strain that can perform in beers up to 11.5% ABV.
+Super High Gravity WLP099 	L 	White Labs 	Low 	<80% 	69-74° 	High gravity yeast, ferments up to 25% alcohol.
+Windsor 	D 	Danstar 	Low 	Medium 	64-70° 	Full-bodied, fruity English ale.
+
+Belgian and French Ale
+Belgian Ale WLP550  	L  	White Labs  	Medium  	78-85%  	68-78°  	Phenolic and spicy flavours dominate the profile.
+Belgian Saison 3724 	L 	Wyeast 	Low 	76-80% 	70-80° 	Very tart and dry with spicy and bubblegum aromatics
+Belgian Saison I WLP565 	L 	White Labs 	Medium 	65-75% 	68-75° 	Produces earthy, spicy, and peppery notes.
+Belgian Style Ale Yeast Blend WLP575 	L 	White Labs 	Medium 	74-80% 	68-75° 	Blend of Trappist yeast and Belgian ale yeast
+Biere de Garde 	L 	Wyeast 	Low 	76-80% 	70-95° 	Low to moderate ester production with mild spicyness
+Dutch Castle Yeast 3822 	L 	Wyeast 	Medium 	74-79% 	65-80° 	Spicy, phenolic and tart in the nose.
+Farmhouse Ale 3726 	L 	Wyeast 	Low 	76-81% 	70-95° 	Complex aromas dominated by an earthy/spicy note.
+Leuven Pale Ale 3538 	L 	Wyeast 	High 	75-78% 	60-75° 	Slight phenolics and spicy aromatic characteristics.
+Safbrew T-58 	D 	Fermentis 	Low 	75% 	59-75° 	Develops estery and somewhat peppery spiceyness.
+Trappist Ale BRY 204 	L 	Siebel Inst. 	Medium 	High 	64-72° 	Dry, estery flavor with a light, clove-like spiciness.
+Trappist Ale WLP500 	L 	White Labs 	Low/Med 	75-80% 	65-72° 	Distinctive fruitiness and plum characteristics.
+
+Belgian Lambic and Sour Ale
+Belgian Lambic Blend 3278  	L  	Wyeast  	Low/Med  	65-75%  	63-75°  	Rich, earthy aroma and acidic finish.
+Belgian Sour Mix WLP655 	L 	White Labs 		NA 	NA 	Includes Brettanomyces, Saccharomyces, and the bacterial strains Lactobacillus and Pedioccus.
+Brettan. Bruxellensis 3112 	L 	Wyeast 	Low/Med 	Low 	64-70° 	Produces classic lambic characteristics.
+Brettan. Lambicus 3526 	L 	Wyeast 	Medium 	Low 	60-75° 	Pie cherry-like flavor and sourness.
+Brettanomyces bruxellensis WLP650 	L 	White Labs 		NA 	NA 	Classic strain used in secondary for Belgian styles.
+Brettanomyces Claussenii WLP645 	L 	White Labs 		NA 	NA 	Low intensity Brett character. More aroma than flavor.
+Brettanomyces Lambicus WLP653 	L 	White Labs 		NA 	NA 	High Brett character. Horsey, Smokey and spicy flavors.
+Lactobac. Delbruckii 4335 	L 	Wyeast 		NA 	NA 	Lactic acid bacteria.
+Pediococcus Cerivisiae 4733 	L 	Wyeast 		NA 	NA 	Lactic acid bacteria.
+
+Belgian Strong Ale
+Abbey Ale WLP530  	L  	White Labs  	Med/High  	75-80%  	66-72°  	Produces fruitiness and plum characteristics.
+Bastogne Belgian Ale Yeast WLP510 	L 	White Labs 	Medium 	74-80% 	66-72° 	A high gravity, Trappist style ale yeast.
+Belgian Abbey II 1762 	L 	Wyeast 	Medium 	73-77% 	65-75° 	Slightly fruity with a dry finish.
+Belgian Ale 1214 	L 	Wyeast 	Medium 	72-76% 	58-68° 	Abbey-style, top-fermenting yeast for high gravity.
+Belgian Golden Ale WLP570 	L 	White Labs 	Low 	73-78% 	68-75° 	A combination of fruitiness and phenolic flavors.
+Belgian Strong Ale 1388 	L 	Wyeast 	Low 	73-77% 	65-75° 	Fruity nose and palate, dry, tart finish.
+Belgian Style Ale Yeast Blend WLP575 	L 	White Labs 	Medium 	74-80% 	68-75° 	Blend of Trappist yeast and Belgian ale yeast
+Forbidden Fruit Yeast 3463 	L 	Wyeast 	Low 	73-77% 	63-76° 	Phenolic profile, subdued fruitiness.
+Super High Gravity WLP099 	L 	White Labs 	Low 	<80% 	69-74° 	High gravity yeast, ferments up to 25% alcohol.
+Trappist Ale BRY 204 	L 	Siebel Inst. 	Medium 	High 	64-72° 	Dry, estery flavor with a light, clove-like spiciness.
+Trappist Ale WLP500 	L 	White Labs 	Low/Med 	75-80% 	65-72° 	Distinctive fruitiness and plum characteristics.
+Trappist High Gravity 3787 	L 	Wyeast 	Medium 	72-86% 	64-78° 	Ferments dry, rich ester profile and malty palate.
+
+Bock
+Bavarian Lager 2206  	L  	Wyeast  	Medium  	73-77%  	46-58°  	Produces rich, malty, full-bodied beers.
+Bohemian Lager 2124 	L 	Wyeast 	Medium 	69-73% 	48-58° 	Ferments clean and malty.
+German Bock Lager Yeast WLP833 	L 	White Labs 	Medium 	74-79% 	50-55° 	Produces well balanced beers of malt and hop character.
+German Lager WLP830 	L 	White Labs 	Medium 	74-79% 	50-55° 	Malty and clean; great for all German lagers.
+Munich Lager 2308 	L 	Wyeast 	Medium 	73-77% 	48-56° 	Very smooth, well-rounded and full-bodied.
+Old Bavarian Lager Yeast WLP920 	L 	White Labs 	Medium 	66-73% 	50-55° 	Finishes malty with a slight ester profile. Use in beers such as Octoberfest, Bock, and dark lagers.
+So. German Lager WLP838 	L 	White Labs 	Med/High 	68-76% 	50-55° 	A malty finish and balanced aroma.
+
+Brown Ale
+10th Anniversary Blend WLP010  	L  	White Labs  	Medium  	75-80%  	65-70°  	Blend of WLP001, WLP002, WLP004 & WLP810.
+American Ale 1056 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Well balanced. Ferments dry, finishes soft.
+American Ale BRY 96 	L 	Siebel Inst. 	Medium 	High 	64-72° 	Very clean ale flavor.
+American Ale II 1272 	L 	Wyeast 	High 	72-76% 	60-72° 	Slightly nutty, soft, clean and tart finish.
+American Ale Yeast Blend WLP060 	L 	White Labs 	Medium 	72-80% 	68-73° 	Blend celebrates the strengths of California ale strains.
+Bedford British Ale WLP006 	L 	White Labs 	High 	72-80% 	65-70° 	Good choice for most English style ales.
+British Ale 1098 	L 	Wyeast 	Medium 	73-75% 	64-72° 	Ferments dry and crisp, slightly tart and fruity.
+British Ale II 1335 	L 	Wyeast 	High 	73-75% 	63-75° 	Malty flavor, crisp finish, clean, fairly dry.
+British Ale WLP005 	L 	White Labs 	High 	75-80% 	68-75° 	English strain that produces malty beers.
+British Cask Ale 1026 	L 	Wyeast 	Med/High 	75-78% 	60-75° 	Produces nice malt profile with a hint of fruit.
+Burton Ale WLP023 	L 	White Labs 	Medium 	65-75% 	68-73° 	Subtle fruity flavors: apple, clover honey and pear.
+California Ale V WLP051 	L 	White Labs 	Med/High 	70-75% 	66-70° 	Produces a fruity, full-bodied beer.
+California Ale WLP001 	L 	White Labs 	Medium 	67-74% 	65-70° 	Clean flavors accentuate hops; very versatile.
+Coopers Homebrew Yeast 	D 	Coopers 	High 	High 	68-80° 	Clean, round flavor profile.
+East Coast Ale WLP008 	L 	White Labs 	Low/Med 	70-75% 	68-73° 	Very clean and low esters.
+English Ale BRY 264 	L 	Siebel Inst. 	Medium 	High 	59-68° 	Clean ale with slightly nutty and estery character.
+English Ale WLP002 	L 	White Labs 	Med/High 	70-75% 	68-73° 	Very clear with some residual sweetness.
+English Special Bitter 1768 	L 	Wyeast 	High 	68-72% 	64-72° 	Produces light fruit ethanol aroma with soft finish.
+Essex Ale Yeast WLP022 	L 	White Labs 	Med/High 	71-76% 	66-70° 	Drier finish than many British ale yeasts
+Fermentis US 56 	D 	Fermentis 	Medium 	77% 	59-75° 	Clean with mild flavor for a wide range of styles.
+London Ale 1028 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Bold and crisp with a rich mineral profile.
+London Ale III 1318 	L 	Wyeast 	High 	71-75% 	64-74° 	Very light and fruity, with a soft, balanced palate.
+London Ale WLP013 	L 	White Labs 	Medium 	67-75% 	66-71° 	Dry malty ale yeast for pales, bitters and stouts.
+London ESB Ale 1968 	L 	Wyeast 	High 	67-71% 	64-72° 	Rich, malty character with balanced fruitiness.
+Muntons Premium Gold 	D 	Muntons 	High 	High 	57-77° 	Clean balanced ale yeast for 100% malt recipies.
+Muntons Standard Yeast 	D 	Muntons 	High 	High 	57-77° 	Clean well balanced ale yeast.
+Northwest Ale 1332 	L 	Wyeast 	High 	67-71% 	65-75° 	Malty, mildly fruity, good depth and complexity.
+Nottingham 	D 	Danstar 	High 	High 	57-70° 	Neutral for an ale yeast; fruity estery aromas.
+Pacific Ale WLP041 	L 	White Labs 	Medium 	65-70% 	65-68° 	A popular ale yeast from the Pacific Northwest.
+Ringwood Ale 1187 	L 	Wyeast 	High 	67-71% 	64-74° 	A malty, complex profile that clears well.
+Safale S-04 	D 	Fermentis 	High 	79% 	59-75° 	English ale yeast that forms very compact sediment.
+Southwold Ale WLP025 	L 	White Labs 	Medium 	72-78% 	65-69° 	Complex fruits and citrus flavors.
+Thames Valley Ale 1275 	L 	Wyeast 	Medium 	72-76% 	62-72° 	Clean, light malt character with low esters.
+Thames Valley Ale II 1882 	L 	Wyeast 	High 	73-77% 	62-72° 	Slightly fruitier and maltier than 1275.
+Whitbread Ale 1099 	L 	Wyeast 	High 	68-72% 	64-74° 	Mildly malty and slightly fruity.
+Whitbread Ale WLP017 	L 	White Labs 	Medium 	67-73% 	66-70° 	Brittish style, slightly fruity with a hint of sulfur.
+Windsor 	D 	Danstar 	Low 	Medium 	64-70° 	Full-bodied, fruity English ale.
+Wyeast Ale Blend 1087 	L 	Wyeast 	High 	71-75% 	64-72° 	A blend of the best strains to provide quick starts.
+
+English & Scottish Strong Ale
+Bedford British Ale WLP006  	L  	White Labs  	High  	72-80%  	65-70°  	Good choice for most English style ales.
+British Ale 1098 	L 	Wyeast 	Medium 	73-75% 	64-72° 	Ferments dry and crisp, slightly tart and fruity.
+British Ale II 1335 	L 	Wyeast 	High 	73-75% 	63-75° 	Malty flavor, crisp finish, clean, fairly dry.
+British Ale WLP005 	L 	White Labs 	High 	75-80% 	68-75° 	English strain that produces malty beers.
+British Cask Ale 1026 	L 	Wyeast 	Med/High 	75-78% 	60-75° 	Produces nice malt profile with a hint of fruit.
+Burton Ale WLP023 	L 	White Labs 	Medium 	65-75% 	68-73° 	Subtle fruity flavors: apple, clover honey and pear.
+Coopers Homebrew Yeast 	D 	Coopers 	High 	High 	68-80° 	Clean, round flavor profile.
+Dry English ale WLP007 	L 	White Labs 	High 	70-80% 	65-70° 	Good for high gravity ales with no residuals.
+Edinburgh Ale WLP028 	L 	White Labs 	Medium 	70-75% 	65-70° 	Malty, strong Scottish ales.
+English Ale BRY 264 	L 	Siebel Inst. 	Medium 	High 	59-68° 	Clean ale with slightly nutty and estery character.
+English Ale WLP002 	L 	White Labs 	Med/High 	70-75% 	68-73° 	Very clear with some residual sweetness.
+English Special Bitter 1768 	L 	Wyeast 	High 	68-72% 	64-72° 	Produces light fruit ethanol aroma with soft finish.
+Essex Ale Yeast WLP022 	L 	White Labs 	Med/High 	71-76% 	66-70° 	Drier finish than many British ale yeasts
+London Ale 1028 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Bold and crisp with a rich mineral profile.
+London Ale III 1318 	L 	Wyeast 	High 	71-75% 	64-74° 	Very light and fruity, with a soft, balanced palate.
+London Ale WLP013 	L 	White Labs 	Medium 	67-75% 	66-71° 	Dry malty ale yeast for pales, bitters and stouts.
+London ESB Ale 1968 	L 	Wyeast 	High 	67-71% 	64-72° 	Rich, malty character with balanced fruitiness.
+Muntons Premium Gold 	D 	Muntons 	High 	High 	57-77° 	Clean balanced ale yeast for 100% malt recipies.
+Muntons Standard Yeast 	D 	Muntons 	High 	High 	57-77° 	Clean well balanced ale yeast.
+Nottingham 	D 	Danstar 	High 	High 	57-70° 	Neutral for an ale yeast; fruity estery aromas.
+Ringwood Ale 1187 	L 	Wyeast 	High 	67-71% 	64-74° 	A malty, complex profile that clears well.
+Safale S-04 	D 	Fermentis 	High 	79% 	59-75° 	English ale yeast that forms very compact sediment.
+Safbrew S-33 	D 	Fermentis 	Med/High 	75% 	59-75° 	Versatile strain that can perform in beers up to 11.5% ABV.
+Scottish Ale 1728 	L 	Wyeast 	High 	69-73% 	55-75° 	Suited for Scottish-style ales, high-gravity ales.
+Southwold Ale WLP025 	L 	White Labs 	Medium 	72-78% 	65-69° 	Complex fruits and citrus flavors.
+Super High Gravity WLP099 	L 	White Labs 	Low 	<80% 	69-74° 	High gravity yeast, ferments up to 25% alcohol.
+Thames Valley Ale 1275 	L 	Wyeast 	Medium 	72-76% 	62-72° 	Clean, light malt character with low esters.
+Thames Valley Ale II 1882 	L 	Wyeast 	High 	73-77% 	62-72° 	Slightly fruitier and maltier than 1275.
+Whitbread Ale 1099 	L 	Wyeast 	High 	68-72% 	64-74° 	Mildly malty and slightly fruity.
+Whitbread Ale WLP017 	L 	White Labs 	Medium 	67-73% 	66-70° 	Brittish style, slightly fruity with a hint of sulfur.
+Windsor 	D 	Danstar 	Low 	Medium 	64-70° 	Full-bodied, fruity English ale.
+Wyeast Ale Blend 1087 	L 	Wyeast 	High 	71-75% 	64-72° 	A blend of the best strains to provide quick starts.
+
+English Bitter & Pale Ale
+Australian Ale WLP009  	L  	White Labs  	High  	70-75%  	65-70°  	For a clean, malty and bready beer.
+Bedford British Ale WLP006 	L 	White Labs 	High 	72-80% 	65-70° 	Good choice for most English style ales.
+British Ale 1098 	L 	Wyeast 	Medium 	73-75% 	64-72° 	Ferments dry and crisp, slightly tart and fruity.
+British Ale II 1335 	L 	Wyeast 	High 	73-75% 	63-75° 	Malty flavor, crisp finish, clean, fairly dry.
+British Ale WLP005 	L 	White Labs 	High 	75-80% 	68-75° 	English strain that produces malty beers.
+British Cask Ale 1026 	L 	Wyeast 	Med/High 	75-78% 	60-75° 	Produces nice malt profile with a hint of fruit.
+Burton Ale WLP023 	L 	White Labs 	Medium 	65-75% 	68-73° 	Subtle fruity flavors: apple, clover honey and pear.
+Coopers Homebrew Yeast 	D 	Coopers 	High 	High 	68-80° 	Clean, round flavor profile.
+English Ale BRY 264 	L 	Siebel Inst. 	Medium 	High 	59-68° 	Clean ale with slightly nutty and estery character.
+English Ale WLP002 	L 	White Labs 	Med/High 	70-75% 	68-73° 	Very clear with some residual sweetness.
+English Special Bitter 1768 	L 	Wyeast 	High 	68-72% 	64-72° 	Produces light fruit ethanol aroma with soft finish.
+Essex Ale Yeast WLP022 	L 	White Labs 	Med/High 	71-76% 	66-70° 	Drier finish than many British ale yeasts
+Irish Ale 1084 	L 	Wyeast 	High 	73-77% 	60-72° 	Slight residual diacetyl and fruitiness.
+Irish Ale WLP004 	L 	White Labs 	Medium 	73-80% 	65-70° 	Light fruitiness and slight dry crispness.
+London Ale 1028 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Bold and crisp with a rich mineral profile.
+London Ale III 1318 	L 	Wyeast 	High 	71-75% 	64-74° 	Very light and fruity, with a soft, balanced palate.
+London Ale WLP013 	L 	White Labs 	Medium 	67-75% 	66-71° 	Dry malty ale yeast for pales, bitters and stouts.
+London ESB Ale 1968 	L 	Wyeast 	High 	67-71% 	64-72° 	Rich, malty character with balanced fruitiness.
+Muntons Premium Gold 	D 	Muntons 	High 	High 	57-77° 	Clean balanced ale yeast for 100% malt recipies.
+Muntons Standard Yeast 	D 	Muntons 	High 	High 	57-77° 	Clean well balanced ale yeast.
+Nottingham 	D 	Danstar 	High 	High 	57-70° 	Neutral for an ale yeast; fruity estery aromas.
+Premium Bitter Ale WLP026 	L 	White Labs 	Medium 	70-75% 	67-70° 	Gives a mild but complex estery character.
+Ringwood Ale 1187 	L 	Wyeast 	High 	67-71% 	64-74° 	A malty, complex profile that clears well.
+Safale S-04 	D 	Fermentis 	High 	79% 	59-75° 	English ale yeast that forms very compact sediment.
+Safbrew T-58 	D 	Fermentis 	Low 	75% 	59-75° 	Develops estery and somewhat peppery spiceyness.
+Southwold Ale WLP025 	L 	White Labs 	Medium 	72-78% 	65-69° 	Complex fruits and citrus flavors.
+Thames Valley Ale 1275 	L 	Wyeast 	Medium 	72-76% 	62-72° 	Clean, light malt character with low esters.
+Thames Valley Ale II 1882 	L 	Wyeast 	High 	73-77% 	62-72° 	Slightly fruitier and maltier than 1275.
+Whitbread Ale 1099 	L 	Wyeast 	High 	68-72% 	64-74° 	Mildly malty and slightly fruity.
+Whitbread Ale WLP017 	L 	White Labs 	Medium 	67-73% 	66-70° 	Brittish style, slightly fruity with a hint of sulfur.
+Windsor 	D 	Danstar 	Low 	Medium 	64-70° 	Full-bodied, fruity English ale.
+Wyeast Ale Blend 1087 	L 	Wyeast 	High 	71-75% 	64-72° 	A blend of the best strains to provide quick starts.
+
+European Dark Lager
+Bavarian Lager 2206  	L  	Wyeast  	Medium  	73-77%  	46-58°  	Produces rich, malty, full-bodied beers.
+Bohemian Lager 2124 	L 	Wyeast 	Medium 	69-73% 	48-58° 	Ferments clean and malty.
+Budvar Lager 2000 	L 	Wyeast 	Med/High 	71-75% 	48-56° 	Malty nose with subtle fruit. Finishes dry and crisp.
+California Lager 2112 	L 	Wyeast 	High 	67-71% 	58-68° 	Produces malty, brilliantly clear beers.
+Copenhagen Lager WLP850 	L 	White Labs 	Medium 	72-78% 	50-58° 	Clean crisp northern European lager yeast.
+European Lager II 2247 	L 	Wyeast 	Low 	73-77% 	46-56° 	Clean, very mild flavor, slight sulfur production.
+Gambrinus Lager 2002 	L 	Wyeast 	Med/High 	71-75% 	46-56° 	Mild floral aroma with lager characteristics in the nose.
+German Lager WLP830 	L 	White Labs 	Medium 	74-79% 	50-55° 	Malty and clean; great for all German lagers.
+Mexican Lager Yeast WLP940 	L 	White Labs 	Medium 	70-78% 	50-55° 	Produces clean lager beer, with a crisp finish.
+Munich Lager 2308 	L 	Wyeast 	Medium 	73-77% 	48-56° 	Very smooth, well-rounded and full-bodied.
+North European Lager BRY 203 	L 	Siebel Inst. 	Low 	High 	68-72° 	Well balanced beer, fewer sulfur compounds.
+Old Bavarian Lager Yeast WLP920 	L 	White Labs 	Medium 	66-73% 	50-55° 	Finishes malty with a slight ester profile. Use in beers such as Octoberfest, Bock, and dark lagers.
+So. German Lager WLP838 	L 	White Labs 	Med/High 	68-76% 	50-55° 	A malty finish and balanced aroma.
+
+European Pale Lager
+Bavarian Lager 2206  	L  	Wyeast  	Medium  	73-77%  	46-58°  	Produces rich, malty, full-bodied beers.
+Bohemian Lager 2124 	L 	Wyeast 	Medium 	69-73% 	48-58° 	Ferments clean and malty.
+Budvar Lager 2000 	L 	Wyeast 	Med/High 	71-75% 	48-56° 	Malty nose with subtle fruit. Finishes dry and crisp.
+California Lager 2112 	L 	Wyeast 	High 	67-71% 	58-68° 	Produces malty, brilliantly clear beers.
+Copenhagen Lager WLP850 	L 	White Labs 	Medium 	72-78% 	50-58° 	Clean crisp northern European lager yeast.
+Czech Budejovice Lager WLP802 	L 	White Labs 	Medium 	74-79% 	50-55° 	Produces dry and crisp lagers, with low diacetyl.
+Czech Pils 2278 	L 	Wyeast 	Medium 	70-74% 	50-58° 	Dry but malty finish.
+Danish Lager 2042 	L 	Wyeast 	Low 	73-77% 	46-56° 	Rich Dortmund style with crisp, dry finish.
+European Lager II 2247 	L 	Wyeast 	Low 	73-77% 	46-56° 	Clean, very mild flavor, slight sulfur production.
+Gambrinus Lager 2002 	L 	Wyeast 	Med/High 	71-75% 	46-56° 	Mild floral aroma with lager characteristics in the nose.
+German Lager WLP830 	L 	White Labs 	Medium 	74-79% 	50-55° 	Malty and clean; great for all German lagers.
+Munich Lager 2308 	L 	Wyeast 	Medium 	73-77% 	48-56° 	Very smooth, well-rounded and full-bodied.
+North European Lager BRY 203 	L 	Siebel Inst. 	Low 	High 	68-72° 	Well balanced beer, fewer sulfur compounds.
+Pilsen Lager 2007 	L 	Wyeast 	Medium 	71-75% 	48-56° 	Smooth malty palate; ferments dry and crisp.
+Pilsner Lager WLP800 	L 	White Labs 	Med/High 	72-77% 	50-55° 	Somewhat dry with a malty finish.
+Saflager S-23 	D 	Fermentis 	Med/High 	80% 	48-59° 	Produces a fruit esterness in lagers.
+So. German Lager WLP838 	L 	White Labs 	Med/High 	68-76% 	50-55° 	A malty finish and balanced aroma.
+Urquell Lager 2001 	L 	Wyeast 	Med/High 	71-75% 	48-58° 	Mild fruit and floral aroma. Very dry with mouth feel.
+Zurich Lager Yeast WLP885 	L 	White Labs 	Medium 	70-80% 	50-55° 	Swiss style lager yeast with minimal sulfer and diacetyl production.
+
+Fruit Beer
+American Ale BRY 96  	L  	Siebel Inst.  	Medium  	High  	64-72°  	Very clean ale flavor.
+California Ale V WLP051 	L 	White Labs 	Med/High 	70-75% 	66-70° 	Produces a fruity, full-bodied beer.
+California Ale WLP001 	L 	White Labs 	Medium 	67-74% 	65-70° 	Clean flavors accentuate hops; very versatile.
+East Coast Ale WLP008 	L 	White Labs 	Low/Med 	70-75% 	68-73° 	Very clean and low esters.
+Fermentis US 56 	D 	Fermentis 	Medium 	77% 	59-75° 	Clean with mild flavor for a wide range of styles.
+
+German Amber Lager
+Bavarian Lager 2206  	L  	Wyeast  	Medium  	73-77%  	46-58°  	Produces rich, malty, full-bodied beers.
+Bohemian Lager 2124 	L 	Wyeast 	Medium 	69-73% 	48-58° 	Ferments clean and malty.
+German Lager WLP830 	L 	White Labs 	Medium 	74-79% 	50-55° 	Malty and clean; great for all German lagers.
+Munich Lager 2308 	L 	Wyeast 	Medium 	73-77% 	48-56° 	Very smooth, well-rounded and full-bodied.
+Octoberfest Lager Blend 2633 	L 	Wyeast 	Low/Med 	73-77% 	48-58° 	Plenty of malt character and mouth feel. Low in sulfer.
+Oktoberfest/Märzen WLP820 	L 	White Labs 	Medium 	65-73% 	52-58° 	Produces a very malty, bock-like style.
+Old Bavarian Lager Yeast WLP920 	L 	White Labs 	Medium 	66-73% 	50-55° 	Finishes malty with a slight ester profile. Use in beers such as Octoberfest, Bock, and dark lagers.
+So. German Lager WLP838 	L 	White Labs 	Med/High 	68-76% 	50-55° 	A malty finish and balanced aroma.
+
+India Pale Ale
+10th Anniversary Blend WLP010  	L  	White Labs  	Medium  	75-80%  	65-70°  	Blend of WLP001, WLP002, WLP004 & WLP810.
+American Ale 1056 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Well balanced. Ferments dry, finishes soft.
+American Ale BRY 96 	L 	Siebel Inst. 	Medium 	High 	64-72° 	Very clean ale flavor.
+American Ale II 1272 	L 	Wyeast 	High 	72-76% 	60-72° 	Slightly nutty, soft, clean and tart finish.
+American Ale Yeast Blend WLP060 	L 	White Labs 	Medium 	72-80% 	68-73° 	Blend celebrates the strengths of California ale strains.
+Bedford British Ale WLP006 	L 	White Labs 	High 	72-80% 	65-70° 	Good choice for most English style ales.
+British Ale 1098 	L 	Wyeast 	Medium 	73-75% 	64-72° 	Ferments dry and crisp, slightly tart and fruity.
+British Ale II 1335 	L 	Wyeast 	High 	73-75% 	63-75° 	Malty flavor, crisp finish, clean, fairly dry.
+British Ale WLP005 	L 	White Labs 	High 	75-80% 	68-75° 	English strain that produces malty beers.
+British Cask Ale 1026 	L 	Wyeast 	Med/High 	75-78% 	60-75° 	Produces nice malt profile with a hint of fruit.
+Burton Ale WLP023 	L 	White Labs 	Medium 	65-75% 	68-73° 	Subtle fruity flavors: apple, clover honey and pear.
+California Ale V WLP051 	L 	White Labs 	Med/High 	70-75% 	66-70° 	Produces a fruity, full-bodied beer.
+California Ale WLP001 	L 	White Labs 	Medium 	67-74% 	65-70° 	Clean flavors accentuate hops; very versatile.
+Canadian/Belgian Style 3864 	L 	Wyeast 	Medium 	75-79% 	65-80° 	Mild phenolics and low ester profile with tart finish.
+Coopers Homebrew Yeast 	D 	Coopers 	High 	High 	68-80° 	Clean, round flavor profile.
+East Coast Ale WLP008 	L 	White Labs 	Low/Med 	70-75% 	68-73° 	Very clean and low esters.
+English Ale BRY 264 	L 	Siebel Inst. 	Medium 	High 	59-68° 	Clean ale with slightly nutty and estery character.
+English Ale WLP002 	L 	White Labs 	Med/High 	70-75% 	68-73° 	Very clear with some residual sweetness.
+English Special Bitter 1768 	L 	Wyeast 	High 	68-72% 	64-72° 	Produces light fruit ethanol aroma with soft finish.
+Essex Ale Yeast WLP022 	L 	White Labs 	Med/High 	71-76% 	66-70° 	Drier finish than many British ale yeasts
+Fermentis US 56 	D 	Fermentis 	Medium 	77% 	59-75° 	Clean with mild flavor for a wide range of styles.
+London Ale 1028 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Bold and crisp with a rich mineral profile.
+London Ale III 1318 	L 	Wyeast 	High 	71-75% 	64-74° 	Very light and fruity, with a soft, balanced palate.
+London Ale WLP013 	L 	White Labs 	Medium 	67-75% 	66-71° 	Dry malty ale yeast for pales, bitters and stouts.
+London ESB Ale 1968 	L 	Wyeast 	High 	67-71% 	64-72° 	Rich, malty character with balanced fruitiness.
+Muntons Premium Gold 	D 	Muntons 	High 	High 	57-77° 	Clean balanced ale yeast for 100% malt recipies.
+Muntons Standard Yeast 	D 	Muntons 	High 	High 	57-77° 	Clean well balanced ale yeast.
+Northwest Ale 1332 	L 	Wyeast 	High 	67-71% 	65-75° 	Malty, mildly fruity, good depth and complexity.
+Nottingham 	D 	Danstar 	High 	High 	57-70° 	Neutral for an ale yeast; fruity estery aromas.
+Pacific Ale WLP041 	L 	White Labs 	Medium 	65-70% 	65-68° 	A popular ale yeast from the Pacific Northwest.
+Ringwood Ale 1187 	L 	Wyeast 	High 	67-71% 	64-74° 	A malty, complex profile that clears well.
+Safale S-04 	D 	Fermentis 	High 	79% 	59-75° 	English ale yeast that forms very compact sediment.
+Safbrew T-58 	D 	Fermentis 	Low 	75% 	59-75° 	Develops estery and somewhat peppery spiceyness.
+Southwold Ale WLP025 	L 	White Labs 	Medium 	72-78% 	65-69° 	Complex fruits and citrus flavors.
+Whitbread Ale 1099 	L 	Wyeast 	High 	68-72% 	64-74° 	Mildly malty and slightly fruity.
+Whitbread Ale WLP017 	L 	White Labs 	Medium 	67-73% 	66-70° 	Brittish style, slightly fruity with a hint of sulfur.
+Windsor 	D 	Danstar 	Low 	Medium 	64-70° 	Full-bodied, fruity English ale.
+Wyeast Ale Blend 1087 	L 	Wyeast 	High 	71-75% 	64-72° 	A blend of the best strains to provide quick starts.
+
+Kölsch & Altbier
+Alt Ale BRY 144  	L  	Siebel Inst.  	Medium  	High  	59-68°  	Full-flavoured but clean tasting with estery flavour.
+Dusseldorf Alt WLP036 	L 	White Labs 	Medium 	65-72% 	65-69° 	Produces clean, slightly sweet alt beers.
+European Ale 1338 	L 	Wyeast 	High 	67-71% 	62-72° 	Full-bodied complex strain and dense malty finish.
+European Ale WLP011 	L 	White Labs 	Medium 	65-70% 	65-70° 	Low ester production, giving a clean profile.
+German Ale 1007 	L 	Wyeast 	Low 	73-77% 	55-68° 	Ferments dry and crisp with a mild flavor.
+German Ale II WLP003 	L 	White Labs 	Medium 	70-75% 	65-70° 	Clean, sulfur component that reduces with aging.
+German Ale/Kölsch WLP029 	L 	White Labs 	Very High 	72-78% 	65-69° 	A super-clean, lager-like ale.
+Kölsch 2565 	L 	Wyeast 	Low 	73-77% 	56-70° 	Malty with a subdued fruitiness and a crisp finish.
+
+Light Ale
+10th Anniversary Blend WLP010  	L  	White Labs  	Medium  	75-80%  	65-70°  	Blend of WLP001, WLP002, WLP004 & WLP810.
+American Ale 1056 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Well balanced. Ferments dry, finishes soft.
+American Ale BRY 96 	L 	Siebel Inst. 	Medium 	High 	64-72° 	Very clean ale flavor.
+American Ale Yeast Blend WLP060 	L 	White Labs 	Medium 	72-80% 	68-73° 	Blend celebrates the strengths of California ale strains.
+American Wheat 1010 	L 	Wyeast 	Low 	74-78% 	58-74° 	Produces a dry, slightly tart, crisp beer.
+California Ale V WLP051 	L 	White Labs 	Med/High 	70-75% 	66-70° 	Produces a fruity, full-bodied beer.
+California Ale WLP001 	L 	White Labs 	Medium 	67-74% 	65-70° 	Clean flavors accentuate hops; very versatile.
+Canadian/Belgian Style 3864 	L 	Wyeast 	Medium 	75-79% 	65-80° 	Mild phenolics and low ester profile with tart finish.
+Coopers Homebrew Yeast 	D 	Coopers 	High 	High 	68-80° 	Clean, round flavor profile.
+East Coast Ale WLP008 	L 	White Labs 	Low/Med 	70-75% 	68-73° 	Very clean and low esters.
+Fermentis US 56 	D 	Fermentis 	Medium 	77% 	59-75° 	Clean with mild flavor for a wide range of styles.
+Muntons Premium Gold 	D 	Muntons 	High 	High 	57-77° 	Clean balanced ale yeast for 100% malt recipies.
+Muntons Standard Yeast 	D 	Muntons 	High 	High 	57-77° 	Clean well balanced ale yeast.
+Wyeast Ale Blend 1087 	L 	Wyeast 	High 	71-75% 	64-72° 	A blend of the best strains to provide quick starts.
+
+Porter
+10th Anniversary Blend WLP010  	L  	White Labs  	Medium  	75-80%  	65-70°  	Blend of WLP001, WLP002, WLP004 & WLP810.
+American Ale 1056 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Well balanced. Ferments dry, finishes soft.
+American Ale BRY 96 	L 	Siebel Inst. 	Medium 	High 	64-72° 	Very clean ale flavor.
+American Ale II 1272 	L 	Wyeast 	High 	72-76% 	60-72° 	Slightly nutty, soft, clean and tart finish.
+American Ale Yeast Blend WLP060 	L 	White Labs 	Medium 	72-80% 	68-73° 	Blend celebrates the strengths of California ale strains.
+Bedford British Ale WLP006 	L 	White Labs 	High 	72-80% 	65-70° 	Good choice for most English style ales.
+British Ale 1098 	L 	Wyeast 	Medium 	73-75% 	64-72° 	Ferments dry and crisp, slightly tart and fruity.
+British Ale II 1335 	L 	Wyeast 	High 	73-75% 	63-75° 	Malty flavor, crisp finish, clean, fairly dry.
+British Ale WLP005 	L 	White Labs 	High 	75-80% 	68-75° 	English strain that produces malty beers.
+British Cask Ale 1026 	L 	Wyeast 	Med/High 	75-78% 	60-75° 	Produces nice malt profile with a hint of fruit.
+Burton Ale WLP023 	L 	White Labs 	Medium 	65-75% 	68-73° 	Subtle fruity flavors: apple, clover honey and pear.
+California Ale V WLP051 	L 	White Labs 	Med/High 	70-75% 	66-70° 	Produces a fruity, full-bodied beer.
+California Ale WLP001 	L 	White Labs 	Medium 	67-74% 	65-70° 	Clean flavors accentuate hops; very versatile.
+Coopers Homebrew Yeast 	D 	Coopers 	High 	High 	68-80° 	Clean, round flavor profile.
+East Coast Ale WLP008 	L 	White Labs 	Low/Med 	70-75% 	68-73° 	Very clean and low esters.
+English Ale BRY 264 	L 	Siebel Inst. 	Medium 	High 	59-68° 	Clean ale with slightly nutty and estery character.
+English Ale WLP002 	L 	White Labs 	Med/High 	70-75% 	68-73° 	Very clear with some residual sweetness.
+English Special Bitter 1768 	L 	Wyeast 	High 	68-72% 	64-72° 	Produces light fruit ethanol aroma with soft finish.
+Essex Ale Yeast WLP022 	L 	White Labs 	Med/High 	71-76% 	66-70° 	Drier finish than many British ale yeasts
+Fermentis US 56 	D 	Fermentis 	Medium 	77% 	59-75° 	Clean with mild flavor for a wide range of styles.
+London Ale 1028 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Bold and crisp with a rich mineral profile.
+London Ale III 1318 	L 	Wyeast 	High 	71-75% 	64-74° 	Very light and fruity, with a soft, balanced palate.
+London Ale WLP013 	L 	White Labs 	Medium 	67-75% 	66-71° 	Dry malty ale yeast for pales, bitters and stouts.
+London ESB Ale 1968 	L 	Wyeast 	High 	67-71% 	64-72° 	Rich, malty character with balanced fruitiness.
+Muntons Premium Gold 	D 	Muntons 	High 	High 	57-77° 	Clean balanced ale yeast for 100% malt recipies.
+Muntons Standard Yeast 	D 	Muntons 	High 	High 	57-77° 	Clean well balanced ale yeast.
+Northwest Ale 1332 	L 	Wyeast 	High 	67-71% 	65-75° 	Malty, mildly fruity, good depth and complexity.
+Nottingham 	D 	Danstar 	High 	High 	57-70° 	Neutral for an ale yeast; fruity estery aromas.
+Pacific Ale WLP041 	L 	White Labs 	Medium 	65-70% 	65-68° 	A popular ale yeast from the Pacific Northwest.
+Ringwood Ale 1187 	L 	Wyeast 	High 	67-71% 	64-74° 	A malty, complex profile that clears well.
+Safale S-04 	D 	Fermentis 	High 	79% 	59-75° 	English ale yeast that forms very compact sediment.
+Southwold Ale WLP025 	L 	White Labs 	Medium 	72-78% 	65-69° 	Complex fruits and citrus flavors.
+Thames Valley Ale 1275 	L 	Wyeast 	Medium 	72-76% 	62-72° 	Clean, light malt character with low esters.
+Thames Valley Ale II 1882 	L 	Wyeast 	High 	73-77% 	62-72° 	Slightly fruitier and maltier than 1275.
+Whitbread Ale 1099 	L 	Wyeast 	High 	68-72% 	64-74° 	Mildly malty and slightly fruity.
+Whitbread Ale WLP017 	L 	White Labs 	Medium 	67-73% 	66-70° 	Brittish style, slightly fruity with a hint of sulfur.
+Windsor 	D 	Danstar 	Low 	Medium 	64-70° 	Full-bodied, fruity English ale.
+Wyeast Ale Blend 1087 	L 	Wyeast 	High 	71-75% 	64-72° 	A blend of the best strains to provide quick starts.
+
+Scottish Ale
+Bedford British Ale WLP006  	L  	White Labs  	High  	72-80%  	65-70°  	Good choice for most English style ales.
+British Ale 1098 	L 	Wyeast 	Medium 	73-75% 	64-72° 	Ferments dry and crisp, slightly tart and fruity.
+British Ale II 1335 	L 	Wyeast 	High 	73-75% 	63-75° 	Malty flavor, crisp finish, clean, fairly dry.
+British Ale WLP005 	L 	White Labs 	High 	75-80% 	68-75° 	English strain that produces malty beers.
+British Cask Ale 1026 	L 	Wyeast 	Med/High 	75-78% 	60-75° 	Produces nice malt profile with a hint of fruit.
+Burton Ale WLP023 	L 	White Labs 	Medium 	65-75% 	68-73° 	Subtle fruity flavors: apple, clover honey and pear.
+Coopers Homebrew Yeast 	D 	Coopers 	High 	High 	68-80° 	Clean, round flavor profile.
+Edinburgh Ale WLP028 	L 	White Labs 	Medium 	70-75% 	65-70° 	Malty, strong Scottish ales.
+English Ale BRY 264 	L 	Siebel Inst. 	Medium 	High 	59-68° 	Clean ale with slightly nutty and estery character.
+English Ale WLP002 	L 	White Labs 	Med/High 	70-75% 	68-73° 	Very clear with some residual sweetness.
+English Special Bitter 1768 	L 	Wyeast 	High 	68-72% 	64-72° 	Produces light fruit ethanol aroma with soft finish.
+Essex Ale Yeast WLP022 	L 	White Labs 	Med/High 	71-76% 	66-70° 	Drier finish than many British ale yeasts
+London Ale 1028 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Bold and crisp with a rich mineral profile.
+London Ale WLP013 	L 	White Labs 	Medium 	67-75% 	66-71° 	Dry malty ale yeast for pales, bitters and stouts.
+London ESB Ale 1968 	L 	Wyeast 	High 	67-71% 	64-72° 	Rich, malty character with balanced fruitiness.
+Muntons Premium Gold 	D 	Muntons 	High 	High 	57-77° 	Clean balanced ale yeast for 100% malt recipies.
+Muntons Standard Yeast 	D 	Muntons 	High 	High 	57-77° 	Clean well balanced ale yeast.
+Ringwood Ale 1187 	L 	Wyeast 	High 	67-71% 	64-74° 	A malty, complex profile that clears well.
+Safale S-04 	D 	Fermentis 	High 	79% 	59-75° 	English ale yeast that forms very compact sediment.
+Scottish Ale 1728 	L 	Wyeast 	High 	69-73% 	55-75° 	Suited for Scottish-style ales, high-gravity ales.
+Thames Valley Ale 1275 	L 	Wyeast 	Medium 	72-76% 	62-72° 	Clean, light malt character with low esters.
+Thames Valley Ale II 1882 	L 	Wyeast 	High 	73-77% 	62-72° 	Slightly fruitier and maltier than 1275.
+Whitbread Ale 1099 	L 	Wyeast 	High 	68-72% 	64-74° 	Mildly malty and slightly fruity.
+Whitbread Ale WLP017 	L 	White Labs 	Medium 	67-73% 	66-70° 	Brittish style, slightly fruity with a hint of sulfur.
+Windsor 	D 	Danstar 	Low 	Medium 	64-70° 	Full-bodied, fruity English ale.
+Wyeast Ale Blend 1087 	L 	Wyeast 	High 	71-75% 	64-72° 	A blend of the best strains to provide quick starts.
+
+Smoked Beer
+10th Anniversary Blend WLP010  	L  	White Labs  	Medium  	75-80%  	65-70°  	Blend of WLP001, WLP002, WLP004 & WLP810.
+American Ale 1056 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Well balanced. Ferments dry, finishes soft.
+American Ale BRY 96 	L 	Siebel Inst. 	Medium 	High 	64-72° 	Very clean ale flavor.
+American Ale II 1272 	L 	Wyeast 	High 	72-76% 	60-72° 	Slightly nutty, soft, clean and tart finish.
+American Ale Yeast Blend WLP060 	L 	White Labs 	Medium 	72-80% 	68-73° 	Blend celebrates the strengths of California ale strains.
+Bedford British Ale WLP006 	L 	White Labs 	High 	72-80% 	65-70° 	Good choice for most English style ales.
+British Ale 1098 	L 	Wyeast 	Medium 	73-75% 	64-72° 	Ferments dry and crisp, slightly tart and fruity.
+British Ale II 1335 	L 	Wyeast 	High 	73-75% 	63-75° 	Malty flavor, crisp finish, clean, fairly dry.
+British Ale WLP005 	L 	White Labs 	High 	75-80% 	68-75° 	English strain that produces malty beers.
+British Cask Ale 1026 	L 	Wyeast 	Med/High 	75-78% 	60-75° 	Produces nice malt profile with a hint of fruit.
+Burton Ale WLP023 	L 	White Labs 	Medium 	65-75% 	68-73° 	Subtle fruity flavors: apple, clover honey and pear.
+California Ale V WLP051 	L 	White Labs 	Med/High 	70-75% 	66-70° 	Produces a fruity, full-bodied beer.
+California Ale WLP001 	L 	White Labs 	Medium 	67-74% 	65-70° 	Clean flavors accentuate hops; very versatile.
+Coopers Homebrew Yeast 	D 	Coopers 	High 	High 	68-80° 	Clean, round flavor profile.
+East Coast Ale WLP008 	L 	White Labs 	Low/Med 	70-75% 	68-73° 	Very clean and low esters.
+English Ale BRY 264 	L 	Siebel Inst. 	Medium 	High 	59-68° 	Clean ale with slightly nutty and estery character.
+English Ale WLP002 	L 	White Labs 	Med/High 	70-75% 	68-73° 	Very clear with some residual sweetness.
+English Special Bitter 1768 	L 	Wyeast 	High 	68-72% 	64-72° 	Produces light fruit ethanol aroma with soft finish.
+Essex Ale Yeast WLP022 	L 	White Labs 	Med/High 	71-76% 	66-70° 	Drier finish than many British ale yeasts
+Fermentis US 56 	D 	Fermentis 	Medium 	77% 	59-75° 	Clean with mild flavor for a wide range of styles.
+London Ale 1028 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Bold and crisp with a rich mineral profile.
+London Ale III 1318 	L 	Wyeast 	High 	71-75% 	64-74° 	Very light and fruity, with a soft, balanced palate.
+London Ale WLP013 	L 	White Labs 	Medium 	67-75% 	66-71° 	Dry malty ale yeast for pales, bitters and stouts.
+London ESB Ale 1968 	L 	Wyeast 	High 	67-71% 	64-72° 	Rich, malty character with balanced fruitiness.
+Muntons Premium Gold 	D 	Muntons 	High 	High 	57-77° 	Clean balanced ale yeast for 100% malt recipies.
+Muntons Standard Yeast 	D 	Muntons 	High 	High 	57-77° 	Clean well balanced ale yeast.
+Nottingham 	D 	Danstar 	High 	High 	57-70° 	Neutral for an ale yeast; fruity estery aromas.
+Ringwood Ale 1187 	L 	Wyeast 	High 	67-71% 	64-74° 	A malty, complex profile that clears well.
+Safale S-04 	D 	Fermentis 	High 	79% 	59-75° 	English ale yeast that forms very compact sediment.
+Whitbread Ale 1099 	L 	Wyeast 	High 	68-72% 	64-74° 	Mildly malty and slightly fruity.
+Whitbread Ale WLP017 	L 	White Labs 	Medium 	67-73% 	66-70° 	Brittish style, slightly fruity with a hint of sulfur.
+Windsor 	D 	Danstar 	Low 	Medium 	64-70° 	Full-bodied, fruity English ale.
+Wyeast Ale Blend 1087 	L 	Wyeast 	High 	71-75% 	64-72° 	A blend of the best strains to provide quick starts.
+
+Specialty & Experimental Beer
+10th Anniversary Blend WLP010  	L  	White Labs  	Medium  	75-80%  	65-70°  	Blend of WLP001, WLP002, WLP004 & WLP810.
+American Ale 1056 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Well balanced. Ferments dry, finishes soft.
+American Ale BRY 96 	L 	Siebel Inst. 	Medium 	High 	64-72° 	Very clean ale flavor.
+American Ale II 1272 	L 	Wyeast 	High 	72-76% 	60-72° 	Slightly nutty, soft, clean and tart finish.
+American Ale Yeast Blend WLP060 	L 	White Labs 	Medium 	72-80% 	68-73° 	Blend celebrates the strengths of California ale strains.
+Bedford British Ale WLP006 	L 	White Labs 	High 	72-80% 	65-70° 	Good choice for most English style ales.
+British Ale 1098 	L 	Wyeast 	Medium 	73-75% 	64-72° 	Ferments dry and crisp, slightly tart and fruity.
+British Ale II 1335 	L 	Wyeast 	High 	73-75% 	63-75° 	Malty flavor, crisp finish, clean, fairly dry.
+British Ale WLP005 	L 	White Labs 	High 	75-80% 	68-75° 	English strain that produces malty beers.
+British Cask Ale 1026 	L 	Wyeast 	Med/High 	75-78% 	60-75° 	Produces nice malt profile with a hint of fruit.
+Burton Ale WLP023 	L 	White Labs 	Medium 	65-75% 	68-73° 	Subtle fruity flavors: apple, clover honey and pear.
+California Ale V WLP051 	L 	White Labs 	Med/High 	70-75% 	66-70° 	Produces a fruity, full-bodied beer.
+California Ale WLP001 	L 	White Labs 	Medium 	67-74% 	65-70° 	Clean flavors accentuate hops; very versatile.
+Coopers Homebrew Yeast 	D 	Coopers 	High 	High 	68-80° 	Clean, round flavor profile.
+East Coast Ale WLP008 	L 	White Labs 	Low/Med 	70-75% 	68-73° 	Very clean and low esters.
+English Ale BRY 264 	L 	Siebel Inst. 	Medium 	High 	59-68° 	Clean ale with slightly nutty and estery character.
+English Ale WLP002 	L 	White Labs 	Med/High 	70-75% 	68-73° 	Very clear with some residual sweetness.
+English Special Bitter 1768 	L 	Wyeast 	High 	68-72% 	64-72° 	Produces light fruit ethanol aroma with soft finish.
+Essex Ale Yeast WLP022 	L 	White Labs 	Med/High 	71-76% 	66-70° 	Drier finish than many British ale yeasts
+Fermentis US 56 	D 	Fermentis 	Medium 	77% 	59-75° 	Clean with mild flavor for a wide range of styles.
+London Ale 1028 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Bold and crisp with a rich mineral profile.
+London Ale III 1318 	L 	Wyeast 	High 	71-75% 	64-74° 	Very light and fruity, with a soft, balanced palate.
+London Ale WLP013 	L 	White Labs 	Medium 	67-75% 	66-71° 	Dry malty ale yeast for pales, bitters and stouts.
+London ESB Ale 1968 	L 	Wyeast 	High 	67-71% 	64-72° 	Rich, malty character with balanced fruitiness.
+Muntons Premium Gold 	D 	Muntons 	High 	High 	57-77° 	Clean balanced ale yeast for 100% malt recipies.
+Muntons Standard Yeast 	D 	Muntons 	High 	High 	57-77° 	Clean well balanced ale yeast.
+Nottingham 	D 	Danstar 	High 	High 	57-70° 	Neutral for an ale yeast; fruity estery aromas.
+Ringwood Ale 1187 	L 	Wyeast 	High 	67-71% 	64-74° 	A malty, complex profile that clears well.
+Safale S-04 	D 	Fermentis 	High 	79% 	59-75° 	English ale yeast that forms very compact sediment.
+Safbrew S-33 	D 	Fermentis 	Med/High 	75% 	59-75° 	Versatile strain that can perform in beers up to 11.5% ABV.
+Wyeast Ale Blend 1087 	L 	Wyeast 	High 	71-75% 	64-72° 	A blend of the best strains to provide quick starts.
+
+Spice, Herb & Vegetable Beer
+10th Anniversary Blend WLP010  	L  	White Labs  	Medium  	75-80%  	65-70°  	Blend of WLP001, WLP002, WLP004 & WLP810.
+American Ale 1056 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Well balanced. Ferments dry, finishes soft.
+American Ale BRY 96 	L 	Siebel Inst. 	Medium 	High 	64-72° 	Very clean ale flavor.
+American Ale II 1272 	L 	Wyeast 	High 	72-76% 	60-72° 	Slightly nutty, soft, clean and tart finish.
+American Ale Yeast Blend WLP060 	L 	White Labs 	Medium 	72-80% 	68-73° 	Blend celebrates the strengths of California ale strains.
+Bedford British Ale WLP006 	L 	White Labs 	High 	72-80% 	65-70° 	Good choice for most English style ales.
+British Ale 1098 	L 	Wyeast 	Medium 	73-75% 	64-72° 	Ferments dry and crisp, slightly tart and fruity.
+British Ale II 1335 	L 	Wyeast 	High 	73-75% 	63-75° 	Malty flavor, crisp finish, clean, fairly dry.
+British Ale WLP005 	L 	White Labs 	High 	75-80% 	68-75° 	English strain that produces malty beers.
+British Cask Ale 1026 	L 	Wyeast 	Med/High 	75-78% 	60-75° 	Produces nice malt profile with a hint of fruit.
+Burton Ale WLP023 	L 	White Labs 	Medium 	65-75% 	68-73° 	Subtle fruity flavors: apple, clover honey and pear.
+California Ale V WLP051 	L 	White Labs 	Med/High 	70-75% 	66-70° 	Produces a fruity, full-bodied beer.
+California Ale WLP001 	L 	White Labs 	Medium 	67-74% 	65-70° 	Clean flavors accentuate hops; very versatile.
+Coopers Homebrew Yeast 	D 	Coopers 	High 	High 	68-80° 	Clean, round flavor profile.
+East Coast Ale WLP008 	L 	White Labs 	Low/Med 	70-75% 	68-73° 	Very clean and low esters.
+English Ale BRY 264 	L 	Siebel Inst. 	Medium 	High 	59-68° 	Clean ale with slightly nutty and estery character.
+English Ale WLP002 	L 	White Labs 	Med/High 	70-75% 	68-73° 	Very clear with some residual sweetness.
+English Special Bitter 1768 	L 	Wyeast 	High 	68-72% 	64-72° 	Produces light fruit ethanol aroma with soft finish.
+Essex Ale Yeast WLP022 	L 	White Labs 	Med/High 	71-76% 	66-70° 	Drier finish than many British ale yeasts
+Fermentis US 56 	D 	Fermentis 	Medium 	77% 	59-75° 	Clean with mild flavor for a wide range of styles.
+London Ale 1028 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Bold and crisp with a rich mineral profile.
+London Ale III 1318 	L 	Wyeast 	High 	71-75% 	64-74° 	Very light and fruity, with a soft, balanced palate.
+London Ale WLP013 	L 	White Labs 	Medium 	67-75% 	66-71° 	Dry malty ale yeast for pales, bitters and stouts.
+London ESB Ale 1968 	L 	Wyeast 	High 	67-71% 	64-72° 	Rich, malty character with balanced fruitiness.
+Muntons Premium Gold 	D 	Muntons 	High 	High 	57-77° 	Clean balanced ale yeast for 100% malt recipies.
+Muntons Standard Yeast 	D 	Muntons 	High 	High 	57-77° 	Clean well balanced ale yeast.
+Nottingham 	D 	Danstar 	High 	High 	57-70° 	Neutral for an ale yeast; fruity estery aromas.
+Ringwood Ale 1187 	L 	Wyeast 	High 	67-71% 	64-74° 	A malty, complex profile that clears well.
+Safale S-04 	D 	Fermentis 	High 	79% 	59-75° 	English ale yeast that forms very compact sediment.
+Windsor 	D 	Danstar 	Low 	Medium 	64-70° 	Full-bodied, fruity English ale.
+Wyeast Ale Blend 1087 	L 	Wyeast 	High 	71-75% 	64-72° 	A blend of the best strains to provide quick starts.
+
+Stout
+10th Anniversary Blend WLP010  	L  	White Labs  	Medium  	75-80%  	65-70°  	Blend of WLP001, WLP002, WLP004 & WLP810.
+American Ale 1056 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Well balanced. Ferments dry, finishes soft.
+American Ale BRY 96 	L 	Siebel Inst. 	Medium 	High 	64-72° 	Very clean ale flavor.
+American Ale II 1272 	L 	Wyeast 	High 	72-76% 	60-72° 	Slightly nutty, soft, clean and tart finish.
+American Ale Yeast Blend WLP060 	L 	White Labs 	Medium 	72-80% 	68-73° 	Blend celebrates the strengths of California ale strains.
+Bedford British Ale WLP006 	L 	White Labs 	High 	72-80% 	65-70° 	Good choice for most English style ales.
+British Ale 1098 	L 	Wyeast 	Medium 	73-75% 	64-72° 	Ferments dry and crisp, slightly tart and fruity.
+British Ale II 1335 	L 	Wyeast 	High 	73-75% 	63-75° 	Malty flavor, crisp finish, clean, fairly dry.
+British Ale WLP005 	L 	White Labs 	High 	75-80% 	68-75° 	English strain that produces malty beers.
+British Cask Ale 1026 	L 	Wyeast 	Med/High 	75-78% 	60-75° 	Produces nice malt profile with a hint of fruit.
+Burton Ale WLP023 	L 	White Labs 	Medium 	65-75% 	68-73° 	Subtle fruity flavors: apple, clover honey and pear.
+California Ale V WLP051 	L 	White Labs 	Med/High 	70-75% 	66-70° 	Produces a fruity, full-bodied beer.
+California Ale WLP001 	L 	White Labs 	Medium 	67-74% 	65-70° 	Clean flavors accentuate hops; very versatile.
+Coopers Homebrew Yeast 	D 	Coopers 	High 	High 	68-80° 	Clean, round flavor profile.
+East Coast Ale WLP008 	L 	White Labs 	Low/Med 	70-75% 	68-73° 	Very clean and low esters.
+English Ale BRY 264 	L 	Siebel Inst. 	Medium 	High 	59-68° 	Clean ale with slightly nutty and estery character.
+English Ale WLP002 	L 	White Labs 	Med/High 	70-75% 	68-73° 	Very clear with some residual sweetness.
+English Special Bitter 1768 	L 	Wyeast 	High 	68-72% 	64-72° 	Produces light fruit ethanol aroma with soft finish.
+Essex Ale Yeast WLP022 	L 	White Labs 	Med/High 	71-76% 	66-70° 	Drier finish than many British ale yeasts
+Fermentis US 56 	D 	Fermentis 	Medium 	77% 	59-75° 	Clean with mild flavor for a wide range of styles.
+Irish Ale 1084 	L 	Wyeast 	High 	73-77% 	60-72° 	Slight residual diacetyl and fruitiness.
+Irish Ale WLP004 	L 	White Labs 	Medium 	73-80% 	65-70° 	Light fruitiness and slight dry crispness.
+London Ale 1028 	L 	Wyeast 	Low/Med 	73-77% 	60-72° 	Bold and crisp with a rich mineral profile.
+London Ale III 1318 	L 	Wyeast 	High 	71-75% 	64-74° 	Very light and fruity, with a soft, balanced palate.
+London Ale WLP013 	L 	White Labs 	Medium 	67-75% 	66-71° 	Dry malty ale yeast for pales, bitters and stouts.
+London ESB Ale 1968 	L 	Wyeast 	High 	67-71% 	64-72° 	Rich, malty character with balanced fruitiness.
+Muntons Premium Gold 	D 	Muntons 	High 	High 	57-77° 	Clean balanced ale yeast for 100% malt recipies.
+Muntons Standard Yeast 	D 	Muntons 	High 	High 	57-77° 	Clean well balanced ale yeast.
+Northwest Ale 1332 	L 	Wyeast 	High 	67-71% 	65-75° 	Malty, mildly fruity, good depth and complexity.
+Nottingham 	D 	Danstar 	High 	High 	57-70° 	Neutral for an ale yeast; fruity estery aromas.
+Pacific Ale WLP041 	L 	White Labs 	Medium 	65-70% 	65-68° 	A popular ale yeast from the Pacific Northwest.
+Ringwood Ale 1187 	L 	Wyeast 	High 	67-71% 	64-74° 	A malty, complex profile that clears well.
+Safale S-04 	D 	Fermentis 	High 	79% 	59-75° 	English ale yeast that forms very compact sediment.
+Southwold Ale WLP025 	L 	White Labs 	Medium 	72-78% 	65-69° 	Complex fruits and citrus flavors.
+Thames Valley Ale 1275 	L 	Wyeast 	Medium 	72-76% 	62-72° 	Clean, light malt character with low esters.
+Thames Valley Ale II 1882 	L 	Wyeast 	High 	73-77% 	62-72° 	Slightly fruitier and maltier than 1275.
+Whitbread Ale 1099 	L 	Wyeast 	High 	68-72% 	64-74° 	Mildly malty and slightly fruity.
+Whitbread Ale WLP017 	L 	White Labs 	Medium 	67-73% 	66-70° 	Brittish style, slightly fruity with a hint of sulfur.
+Windsor 	D 	Danstar 	Low 	Medium 	64-70° 	Full-bodied, fruity English ale.
+Wyeast Ale Blend 1087 	L 	Wyeast 	High 	71-75% 	64-72° 	A blend of the best strains to provide quick starts.
+
+Wheat Beer
+Amer. Hefeweizen Ale WLP320  	L  	White Labs  	Low  	70-75%  	65-69°  	Produces a slight amount of banana and clove notes.
+Amer. Hefeweizen WLP320 	L 	White Labs 	Med/High 	72-77% 	50-55° 	Slight amount of banana and clove notes.
+Bavarian Weizen Ale WLP351 	L 	White Labs 	Low 	73-77% 	66-70° 	Moderately high, spicy phenolic overtones of cloves.
+Bavarian Weizen BRY 235 	L 	Siebel Inst. 	High 	Medium 	50-57° 	A very estery beer with mild clove-like spiciness.
+Bavarian Wheat 3056 	L 	Wyeast 	Medium 	73-77% 	64-74° 	Produces mildly estery and phenolic wheat beers.
+Bavarian Wheat 3638 	L 	Wyeast 	Low 	70-76% 	64-75° 	Balance banana esters w/ apple and plum esters.
+Belgian Ardennes 3522 	L 	Wyeast 	High 	72-76% 	65-85° 	Mild fruitiness with complex spicy character.
+Belgian Wheat 3942 	L 	Wyeast 	Medium 	72-76% 	64-74° 	Apple and plum like nose with dry finish.
+Belgian Wit Ale WLP400 	L 	White Labs 	Low/Med 	74-78% 	67-74° 	Slightly phenolic and tart.
+Belgian Wit II Ale WLP410 	L 	White Labs 	Low/Med 	70-75% 	67-74° 	Spicier, sweeter, and less phenolic than WLP400.
+Belgian Witbier 3944 	L 	Wyeast 	Medium 	72-76% 	60-75° 	Alcohol tolerant, with tart, slight phenolic profile.
+Brewferm Blanche 	D 	Brewferm 	Low 	High 	64-73° 	Ferments clean with little or no sulphur.
+Brewferm Lager 	D 	Brewferm 	High 	High 	50-59° 	Develops Witbeer aromas like banana and clove.
+Forbidden Fruit Yeast 3463 	L 	Wyeast 	Low 	73-77% 	63-76° 	Phenolic profile, subdued fruitiness.
+German Wheat 3333 	L 	Wyeast 	High 	73-77% 	63-75° 	Sharp, tart crispness, fruity, sherry-like palate.
+Hefeweizen Ale WLP300 	L 	White Labs 	Low/Med 	72-76% 	68-72° 	Produces banana and clove nose.
+Hefeweizen IV Ale WLP380 	L 	White Labs 	Low 	73-80% 	66-70° 	Crisp, large clove and phenolic aroma and flavor.
+Weihenstephan Weizen 3068 	L 	Wyeast 	Low 	73-77% 	64-75° 	A unique, rich and spicy weizen character.

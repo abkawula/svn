@@ -1,0 +1,919 @@
+American Amber & Pale Ale
+Ahtanum  	4-6.3%  	Amarillo, Cascade  	Floral, citrus, sharp, and piney.
+Amarillo 	8-9% 	Cascade, Centennial 	Citrusy, flowery.
+Apollo 	15-19% 	Zeus 	A high alpha acid varietal known for its disease resistance.
+Bravo 	14-17% 	Apollo, Zeus 	No Description
+Cascade (U.S.) 	4.5-7% 	Amarillo, Centennial, Columbus 	Pleasant, flowery, spicy, and citrusy. Can have a grapefruit flavor.
+Cascade (New Zealand) 	6-8% 	Ahtanum, Cascade, Centennial 	Similar to US Cascade, has floral, citrus grapefruit character.
+Centennial 	8-11.5% 	Cascade, Columbus 	Medium with floral and citrus tones.
+Chinook 	10-14% 	Columbus, Northern Brewer, Nugget, Target (U.K.) 	Mild to medium-heavy, spicy, piney, and grapefruity.
+Cluster 	5.5-8.5% 	Galena 	Medium and quite spicy.
+Columbus 	11-16% 	Chinook, Northern Brewer, Nugget, Target (U.K.) 	Pleasant, with pungent aroma.
+Galena 	10-14% 	Chinook, Nugget, Pride of Ringwood 	Medium but pleasant hoppiness, citrusy.
+Glacier (U.S.) 	5-9% 	Styrian Golding, Fuggle (U.S.), Tettnanger (U.S.), Willamette 	Dual purpose hop with a citrus earthy aroma.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Nelson Sauvin (New Zealand) 	12-14% 		Unique hop with grape-like flavor
+Newport 	13-17% 	Galena, Nugget 	Fairly pungent.
+Northern Brewer (German) 	7-10% 	Chinook, Northern Brewer (U.S.) 	Medium-strong with some wild tones.
+Northern Brewer (U.S.) 	6-10% 	Chinook, Nugget 	Medium-strong with some wild tones.
+Northwest Golding 	4-5% 		Known for aromatic properties.
+Nugget 	11-14.5% 	Chinook, Columbus, Galena, Target (U.K.) 	Quite heavy and herbal.
+Olympic 	11-13% 	Chinook 	Mild to medium, citrusy aroma, spicy.
+Pacific Gem (New Zealand) 	13-15% 		Bittering hop with a woody character.
+Pacific Jade (New Zealand) 	12-14% 		A "soft" bittering hop with spicy and citrus aroma qualities.
+Palisade 	5.5-9.5% 	Cascade (U.S.) 	Some "American" characteristics.
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Pride of Ringwood (Australia) 	7-10% 	Cluster, Galena 	Quite pronounced, woody, earthy, herbal.
+Riwaka (New Zealand) 	4.5-6.5% 	Saaz (Czech), possible American "C" hops 	Citrusy, grapefruit aroma hop
+Santiam 	5-7.9% 	German Spalt, German Spalt Select, Tettnanger (German) 	 characteristics.
+Satus 	12.5-14% 	Galena 	Known for its bittering and aromatic properties.
+Simcoe 	12-14% 		A bittering and aromatic hop.
+Sorachi Ace (Japan) 	13-16% 		Bittering hop with lemony aroma
+Summit 	16-18% 	Simcoe 	Ultra high-alpha bittering hop
+Sun 	12-16% 	Magnum 	High-alpha hop with intense character
+Super Alpha (New Zealand) 	10-12% 		Earthy, piney bittering hop.
+Super Pride (Australia) 	14% 	Pride of Ringwood 	A high alpha variety bred from Pride of Ringwood.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tomahawk 	15-17% 	Columbus 	Primarily a bittering hop.
+Warrior 	15-17% 	Nugget 	A bittering and aromatic hop.
+Willamette 	3.5-6% 	Styrian Golding, Fuggle (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, fruity, floral, a little earthy.
+Yakima Cluster 	6-8.5% 		Used as a kettle hop for bittering.
+Zeus 	13-17% 	Columbus 	Aromatic and pleasant.
+
+American Lager
+Chinook  	10-14%  	Columbus, Northern Brewer, Nugget, Target (U.K.)  	Mild to medium-heavy, spicy, piney, and grapefruity.
+Cluster 	5.5-8.5% 	Galena 	Medium and quite spicy.
+Crystal 	2-4.5% 	Strisslespalt (France), Hallertauer, Hersbrucker, Liberty, Mt. Hood 	Mild and pleasant, spicy and flowery.
+Green Bullet (New Zealand) 	11-14% 	Crystal, Hallertauer Tradition, Liberty, Mt. Hood, Ultra 	Dual purpose hop.
+Hallertau Aroma (New Zealand) 	6.5-8.5% 	Perle 	A dual purpose hop which has been used to replace Perle
+Hallertauer (U.S.) 	3.5-5.5% 	Hallertauer Tradition, Liberty, Ultra 	Very mild, pleasant, and slightly flowery, some spicy.
+Hallertauer Gold (German) 	6-6.5% 	Crystal, Mt. Hood 	Known for its aromatic properties similar to Hallertauer.
+Hallertauer Mittelfr�h (German) 	3-5.5% 	Tradition (German), Liberty, Ultra 	Mild and pleasant.
+Hallertauer Tradition (German) 	3.5-5.5% 	Crystal, Liberty 	Known for its aromatic properties. A replacement for Hallertauer Mittelfr�h.
+Hersbrucker (German) 	3-5.5% 	Strisslespalt (France), Mt. Hood 	Mild to semi-strong, pleasant, hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Liberty 	3-6% 	Hallertauer, Hallertauer Tradition, Mt. Hood 	Mild and clean aroma, slightly spicy character.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Millenium 	12-15% 	Nugget 	Mild, herbal, similar to Nugget.
+Mt. Hood 	3-8% 	Crystal, Strisslespalt (France), Hersbrucker 	Mild, pleasant, and clean, somewhat pungent and resiny.
+Newport 	13-17% 	Galena, Nugget 	Fairly pungent.
+Olympic 	11-13% 	Chinook 	Mild to medium, citrusy aroma, spicy.
+Pacific Jade (New Zealand) 	12-14% 		A "soft" bittering hop with spicy and citrus aroma qualities.
+Saaz (Czech) 	3-4.5% 	Saaz (U.S.) 	Very mild with pleasant hoppy notes, earthy, spicy, and herbal.
+Saaz (U.S.) 	3-5% 	Saaz (Czech) 	Mild and pleasant, earthy and spicy.
+Santiam 	5-7.9% 	German Spalt, German Spalt Select, Tettnanger (German) 	Noble characteristics.
+Saphir (German) 	2.5-4.5% 	Hallertauer Tradition (German), Tettnanger (German), Spalt (German), Saaz (Czech) 	Mild aroma hop.
+Sladek (Czech) 	5-6% 	Saaz (Czech), Saaz (U.S.), Tettnanger (U.S.) 	A dual-purpose Saaz hybrid.
+Sorachi Ace (Japan) 	13-16% 		Bittering hop with lemony aroma
+Southern Cross (New Zealand) 	11-14% 		Piney, resinous bittering hop
+Spalt (German) 	4-5.5% 	German Spalt Select, Saaz (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy.
+Spalt Select (German) 	4-6% 	German Spalt, Saaz (U.S.), Tettnanger (U.S.) 	Very fine Spalter-type aroma.
+Spalt Select (U.S.) 	3-5% 	Saaz, Tettnanger 	Medium intensity and pleasant hoppy qualities. Medium-strong aroma with wild American tones.
+Sterling 	6-9% 	Saaz 	Herbal, spicy, pleasant aroma, hint of floral and citrus.
+Strisslespalt (France) 	3-5% 	Crystal, Hersbrucker, Mt. Hood 	Medium intensity, pleasant, hoppy.
+Styrian Golding (Slovenia) 	4.5-6% 	Fuggle (U.K.), Fuggle (U.S.), Willamette 	Delicate, slightly spicy.
+Super Alpha (New Zealand) 	10-12% 		Earthy, piney bittering hop.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tettnanger (German) 	3.5-5.5% 	German Spalt, German Spalt Select, Saaz, Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, herbal.
+Tettnanger (U.S.) 	3.4-5.2% 	Saaz (Czech), German Spalt, Santiam 	An aromatic hop, mild and slightly spicy.
+Tradition (German) 	5-7% 	Hallertauer Mittelfr�h, Hersbrucker 	Very fine and similar to Hallertauer Mittelfr�h.
+Ultra 	2-4.1% 	Hallertauer Tradition, Liberty, Saaz 	Very good to outstanding, some Saaz-like qualities. Aromatic properties similar to Hallertauer.
+Vanguard 	4-5.7% 	Hallertauer Mittelfr�h, Saaz 	Aroma similar to continental European types.
+
+Barleywine and Imperial Stout
+Admiral (U.K.)  	13.5-16%  	Challenger (U.K.), Northdown (U.K.), Target (U.K.)  	Known for its bittering potential.
+Apollo 	15-19% 	Zeus 	A high alpha acid varietal known for its disease resistance.
+Bramling Cross (U.K.) 	5-7% 	Kent Golding (U.K.), Progress (U.K.), Whitbread Golding Variety 	Quite mild, fruity currant aroma.
+Brewer's Gold (U.S.) 	7-10% 	Bullion 	Bittering hop with neutral aroma character.
+Bullion (U.K.) 	6.5-9% 	Columbus, Northern Brewer 	A rich hop primarily used for bittering. Intense blackcurrant aroma.
+Cascade (U.S.) 	4.5-7% 	Amarillo, Centennial, Columbus 	Pleasant, flowery, spicy, and citrusy. Can have a grapefruit flavor.
+Cascade (New Zealand) 	6-8% 	Ahtanum, Cascade, Centennial 	Similar to US Cascade, has floral, citrus grapefruit character.
+Centennial 	8-11.5% 	Cascade, Columbus 	Medium with floral and citrus tones.
+Challenger (U.K.) 	6.5-8.5% 	Northern Brewer, Perle (German), Perle (U.S.) 	Mild to moderate, quite spicy.
+Chinook 	10-14% 	Columbus, Northern Brewer, Nugget, Target (U.K.) 	Mild to medium-heavy, spicy, piney, and grapefruity.
+Cluster 	5.5-8.5% 	Galena 	Medium and quite spicy.
+Columbus 	11-16% 	Chinook, Northern Brewer, Nugget, Target (U.K.) 	Pleasant, with pungent aroma.
+First Gold (U.K.) 	6.5-8.5% 	Crystal, Kent Golding (U.K.) 	A little like Golding family; spicy.
+Fuggle (U.K.) 	4-5.5% 	Styrian Golding, Fuggle (U.S.), Willamette 	Mild, pleasant, hoppy, and robust.
+Fuggle (U.S.) 	4-5.5% 	Styrian Golding, Fuggle (U.K.), Tettnanger (U.S.), Willamette 	Mild and pleasant, earthy and fruity.
+Galena 	10-14% 	Chinook, Nugget, Pride of Ringwood 	Medium but pleasant hoppiness, citrusy.
+Golding (U.S.) 	4-6% 	Kent Golding (U.K.), Progress (U.K.), Whitbread Golding Variety 	Mild, extremely pleasant, and gently hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Kent Golding (U.K.) 	4-5.5% 	Progress (U.K.), Golding (U.S.), Whitbread Golding Variety 	Gentle, fragrant, and pleasant.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Nelson Sauvin (New Zealand) 	12-14% 		Unique hop with grape-like flavor
+Newport 	13-17% 	Galena, Nugget 	Fairly pungent.
+Northdown (U.K.) 	7.5-9.5% 		Fruity with some spiciness.
+Northern Brewer (German) 	7-10% 	Chinook, Northern Brewer (U.S.) 	Medium-strong with some wild tones.
+Northern Brewer (U.S.) 	6-10% 	Chinook, Nugget 	Medium-strong with some wild tones.
+Northwest Golding 	4-5% 		Known for aromatic properties.
+Nugget 	11-14.5% 	Chinook, Columbus, Galena, Target (U.K.) 	Quite heavy and herbal.
+Olympic 	11-13% 	Chinook 	Mild to medium, citrusy aroma, spicy.
+Pacific Gem (New Zealand) 	13-15% 		Bittering hop with a woody character.
+Pacific Jade (New Zealand) 	12-14% 		A "soft" bittering hop with spicy and citrus aroma qualities.
+Palisade 	5.5-9.5% 	Cascade (U.S.) 	Some "American" characteristics.
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Phoenix (U.K.) 	4.2-5.5% 	Challenger (U.K.), Kent Golding (U.K.), Northdown (U.K.) 	Similar to Challenger (U.K.).
+Pioneer (U.K.) 	8-10% 	Kent Golding (U.K.) 	A mild, typical English aroma.
+Pride of Ringwood (Australia) 	7-10% 	Cluster, Galena 	Quite pronounced, woody, earthy, herbal.
+Progress (U.K.) 	5-7.5% 	Fuggle, Kent Golding (U.K.) 	Moderately strong, good aroma.
+Satus 	12.5-14% 	Galena 	Known for its bittering and aromatic properties.
+Simcoe 	12-14% 		A bittering and aromatic hop.
+Southern Cross (New Zealand) 	11-14% 		Piney, resinous bittering hop
+Summit 	16-18% 	Simcoe 	Ultra high-alpha bittering hop
+Sun 	12-16% 	Magnum 	High-alpha hop with intense character
+Super Alpha (New Zealand) 	10-12% 		Earthy, piney bittering hop.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tomahawk 	15-17% 	Columbus 	Primarily a bittering hop.
+Warrior 	15-17% 	Nugget 	A bittering and aromatic hop.
+WGV (Whitbread Golding Variety) (U.K.) 	5-7% 	Kent Golding (U.K.), Progress (U.K.) 	Quite pleasant and hoppy, moderately intense.
+Willamette 	3.5-6% 	Styrian Golding, Fuggle (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, fruity, floral, a little earthy.
+Yakima Cluster 	6-8.5% 		Used as a kettle hop for bittering.
+Zeus 	13-17% 	Columbus 	Aromatic and pleasant.
+
+Belgian and French Ale
+Hallertauer (U.S.)  	3.5-5.5%  	Hallertauer Tradition, Liberty, Ultra  	Very mild, pleasant, and slightly flowery, some spicy.
+Hallertauer Gold (German) 	6-6.5% 	Crystal, Mt. Hood 	Known for its aromatic properties similar to Hallertauer.
+Hallertauer Mittelfr�h (German) 	3-5.5% 	Tradition (German), Liberty, Ultra 	Mild and pleasant.
+Hallertauer Tradition (German) 	3.5-5.5% 	Crystal, Liberty 	Known for its aromatic properties. A replacement for Hallertauer Mittelfr�h.
+Hersbrucker (German) 	3-5.5% 	Strisslespalt (France), Mt. Hood 	Mild to semi-strong, pleasant, hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Liberty 	3-6% 	Hallertauer, Hallertauer Tradition, Mt. Hood 	Mild and clean aroma, slightly spicy character.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Mt. Hood 	3-8% 	Crystal, Strisslespalt (France), Hersbrucker 	Mild, pleasant, and clean, somewhat pungent and resiny.
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Saaz (Czech) 	3-4.5% 	Saaz (U.S.) 	Very mild with pleasant hoppy notes, earthy, spicy, and herbal.
+Saaz (U.S.) 	3-5% 	Saaz (Czech) 	Mild and pleasant, earthy and spicy.
+Santiam 	5-7.9% 	German Spalt, German Spalt Select, Tettnanger (German) 	Noble characteristics.
+Saphir (German) 	2.5-4.5% 	Hallertauer Tradition (German), Tettnanger (German), Spalt (German), Saaz (Czech) 	Mild aroma hop.
+Spalt (German) 	4-5.5% 	German Spalt Select, Saaz (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy.
+Spalt Select (German) 	4-6% 	German Spalt, Saaz (U.S.), Tettnanger (U.S.) 	Very fine Spalter-type aroma.
+Spalt Select (U.S.) 	3-5% 	Saaz, Tettnanger 	Medium intensity and pleasant hoppy qualities. Medium-strong aroma with wild American tones.
+Sterling 	6-9% 	Saaz 	Herbal, spicy, pleasant aroma, hint of floral and citrus.
+Strisslespalt (France) 	3-5% 	Crystal, Hersbrucker, Mt. Hood 	Medium intensity, pleasant, hoppy.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tettnanger (German) 	3.5-5.5% 	German Spalt, German Spalt Select, Saaz, Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, herbal.
+Tettnanger (U.S.) 	3.4-5.2% 	Saaz (Czech), German Spalt, Santiam 	An aromatic hop, mild and slightly spicy.
+Tradition (German) 	5-7% 	Hallertauer Mittelfr�h, Hersbrucker 	Very fine and similar to Hallertauer Mittelfr�h.
+Ultra 	2-4.1% 	Hallertauer Tradition, Liberty, Saaz 	Very good to outstanding, some Saaz-like qualities. Aromatic properties similar to Hallertauer.
+Vanguard 	4-5.7% 	Hallertauer Mittelfr�h, Saaz 	Aroma similar to continental European types.
+
+Belgian Lambic and Sour Ale
+Hallertauer (U.S.)  	3.5-5.5%  	Hallertauer Tradition, Liberty, Ultra  	Very mild, pleasant, and slightly flowery, some spicy.
+Hallertauer Gold (German) 	6-6.5% 	Crystal, Mt. Hood 	Known for its aromatic properties similar to Hallertauer.
+Hallertauer Mittelfr�h (German) 	3-5.5% 	Tradition (German), Liberty, Ultra 	Mild and pleasant.
+Hallertauer Tradition (German) 	3.5-5.5% 	Crystal, Liberty 	Known for its aromatic properties. A replacement for Hallertauer Mittelfr�h.
+Hersbrucker (German) 	3-5.5% 	Strisslespalt (France), Mt. Hood 	Mild to semi-strong, pleasant, hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Liberty 	3-6% 	Hallertauer, Hallertauer Tradition, Mt. Hood 	Mild and clean aroma, slightly spicy character.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Mt. Hood 	3-8% 	Crystal, Strisslespalt (France), Hersbrucker 	Mild, pleasant, and clean, somewhat pungent and resiny.
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Saaz (Czech) 	3-4.5% 	Saaz (U.S.) 	Very mild with pleasant hoppy notes, earthy, spicy, and herbal.
+Saaz (U.S.) 	3-5% 	Saaz (Czech) 	Mild and pleasant, earthy and spicy.
+Santiam 	5-7.9% 	German Spalt, German Spalt Select, Tettnanger (German) 	Noble characteristics.
+Saphir (German) 	2.5-4.5% 	Hallertauer Tradition (German), Tettnanger (German), Spalt (German), Saaz (Czech) 	Mild aroma hop.
+Spalt (German) 	4-5.5% 	German Spalt Select, Saaz (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy.
+Spalt Select (German) 	4-6% 	German Spalt, Saaz (U.S.), Tettnanger (U.S.) 	Very fine Spalter-type aroma.
+Spalt Select (U.S.) 	3-5% 	Saaz, Tettnanger 	Medium intensity and pleasant hoppy qualities. Medium-strong aroma with wild American tones.
+Sterling 	6-9% 	Saaz 	Herbal, spicy, pleasant aroma, hint of floral and citrus.
+Strisslespalt (France) 	3-5% 	Crystal, Hersbrucker, Mt. Hood 	Medium intensity, pleasant, hoppy.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tettnanger (German) 	3.5-5.5% 	German Spalt, German Spalt Select, Saaz, Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, herbal.
+Tettnanger (U.S.) 	3.4-5.2% 	Saaz (Czech), German Spalt, Santiam 	An aromatic hop, mild and slightly spicy.
+Tradition (German) 	5-7% 	Hallertauer Mittelfr�h, Hersbrucker 	Very fine and similar to Hallertauer Mittelfr�h.
+Ultra 	2-4.1% 	Hallertauer Tradition, Liberty, Saaz 	Very good to outstanding, some Saaz-like qualities. Aromatic properties similar to Hallertauer.
+Vanguard 	4-5.7% 	Hallertauer Mittelfr�h, Saaz 	Aroma similar to continental European types.
+
+Belgian Strong Ale
+Hallertauer (U.S.)  	3.5-5.5%  	Hallertauer Tradition, Liberty, Ultra  	Very mild, pleasant, and slightly flowery, some spicy.
+Hallertauer Gold (German) 	6-6.5% 	Crystal, Mt. Hood 	Known for its aromatic properties similar to Hallertauer.
+Hallertauer Mittelfr�h (German) 	3-5.5% 	Tradition (German), Liberty, Ultra 	Mild and pleasant.
+Hallertauer Tradition (German) 	3.5-5.5% 	Crystal, Liberty 	Known for its aromatic properties. A replacement for Hallertauer Mittelfr�h.
+Hersbrucker (German) 	3-5.5% 	Strisslespalt (France), Mt. Hood 	Mild to semi-strong, pleasant, hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Liberty 	3-6% 	Hallertauer, Hallertauer Tradition, Mt. Hood 	Mild and clean aroma, slightly spicy character.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Mt. Hood 	3-8% 	Crystal, Strisslespalt (France), Hersbrucker 	Mild, pleasant, and clean, somewhat pungent and resiny.
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Saaz (Czech) 	3-4.5% 	Saaz (U.S.) 	Very mild with pleasant hoppy notes, earthy, spicy, and herbal.
+Saaz (U.S.) 	3-5% 	Saaz (Czech) 	Mild and pleasant, earthy and spicy.
+Santiam 	5-7.9% 	German Spalt, German Spalt Select, Tettnanger (German) 	Noble characteristics.
+Saphir (German) 	2.5-4.5% 	Hallertauer Tradition (German), Tettnanger (German), Spalt (German), Saaz (Czech) 	Mild aroma hop.
+Spalt (German) 	4-5.5% 	German Spalt Select, Saaz (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy.
+Spalt Select (German) 	4-6% 	German Spalt, Saaz (U.S.), Tettnanger (U.S.) 	Very fine Spalter-type aroma.
+Spalt Select (U.S.) 	3-5% 	Saaz, Tettnanger 	Medium intensity and pleasant hoppy qualities. Medium-strong aroma with wild American tones.
+Sterling 	6-9% 	Saaz 	Herbal, spicy, pleasant aroma, hint of floral and citrus.
+Strisslespalt (France) 	3-5% 	Crystal, Hersbrucker, Mt. Hood 	Medium intensity, pleasant, hoppy.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tettnanger (German) 	3.5-5.5% 	German Spalt, German Spalt Select, Saaz, Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, herbal.
+Tettnanger (U.S.) 	3.4-5.2% 	Saaz (Czech), German Spalt, Santiam 	An aromatic hop, mild and slightly spicy.
+Tradition (German) 	5-7% 	Hallertauer Mittelfr�h, Hersbrucker 	Very fine and similar to Hallertauer Mittelfr�h.
+Ultra 	2-4.1% 	Hallertauer Tradition, Liberty, Saaz 	Very good to outstanding, some Saaz-like qualities. Aromatic properties similar to Hallertauer.
+Vanguard 	4-5.7% 	Hallertauer Mittelfr�h, Saaz 	Aroma similar to continental European types.
+
+Bock
+Brewer's Gold (German)  	6-7%  	Bullion, Galena, Northdown, Northern Brewer  	Black currant, fruity, spicy.
+Green Bullet (New Zealand) 	11-14% 	Crystal, Hallertauer Tradition, Liberty, Mt. Hood, Ultra 	Dual purpose hop.
+Hallertauer (U.S.) 	3.5-5.5% 	Hallertauer Tradition, Liberty, Ultra 	Very mild, pleasant, and slightly flowery, some spicy.
+Hallertauer Gold (German) 	6-6.5% 	Crystal, Mt. Hood 	Known for its aromatic properties similar to Hallertauer.
+Hallertauer Mittelfr�h (German) 	3-5.5% 	Tradition (German), Liberty, Ultra 	Mild and pleasant.
+Hallertauer Tradition (German) 	3.5-5.5% 	Crystal, Liberty 	Known for its aromatic properties. A replacement for Hallertauer Mittelfr�h.
+Hersbrucker (German) 	3-5.5% 	Strisslespalt (France), Mt. Hood 	Mild to semi-strong, pleasant, hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Liberty 	3-6% 	Hallertauer, Hallertauer Tradition, Mt. Hood 	Mild and clean aroma, slightly spicy character.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Motueka (New Zealand) 	6.5-7.5% 	Saaz (Czech), Saaz (U.S.) 	New aroma hop
+Mt. Hood 	3-8% 	Crystal, Strisslespalt (France), Hersbrucker 	Mild, pleasant, and clean, somewhat pungent and resiny.
+Pacifica (New Zealand) 	5-6% 	Hallertauer (U.S.) 	An aroma hop with some citrus and floral character
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Saaz (Czech) 	3-4.5% 	Saaz (U.S.) 	Very mild with pleasant hoppy notes, earthy, spicy, and herbal.
+Saaz (U.S.) 	3-5% 	Saaz (Czech) 	Mild and pleasant, earthy and spicy.
+Santiam 	5-7.9% 	German Spalt, German Spalt Select, Tettnanger (German) 	Noble characteristics.
+Saphir (German) 	2.5-4.5% 	Hallertauer Tradition (German), Tettnanger (German), Spalt (German), Saaz (Czech) 	Mild aroma hop.
+Select (German) 	4-6% 	Saaz (Czech), German Spalt, Tettnanger 	noble-type aroma
+Sladek (Czech) 	5-6% 	Saaz (Czech), Saaz (U.S.), Tettnanger (U.S.) 	A dual-purpose Saaz hybrid.
+Spalt (German) 	4-5.5% 	German Spalt Select, Saaz (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy.
+Spalt Select (German) 	4-6% 	German Spalt, Saaz (U.S.), Tettnanger (U.S.) 	Very fine Spalter-type aroma.
+Spalt Select (U.S.) 	3-5% 	Saaz, Tettnanger 	Medium intensity and pleasant hoppy qualities. Medium-strong aroma with wild American tones.
+Sterling 	6-9% 	Saaz 	Herbal, spicy, pleasant aroma, hint of floral and citrus.
+Strisslespalt (France) 	3-5% 	Crystal, Hersbrucker, Mt. Hood 	Medium intensity, pleasant, hoppy.
+Super Alpha (New Zealand) 	10-12% 		Earthy, piney bittering hop.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tettnanger (German) 	3.5-5.5% 	German Spalt, German Spalt Select, Saaz, Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, herbal.
+Tettnanger (U.S.) 	3.4-5.2% 	Saaz (Czech), German Spalt, Santiam 	An aromatic hop, mild and slightly spicy.
+Tradition (German) 	5-7% 	Hallertauer Mittelfr�h, Hersbrucker 	Very fine and similar to Hallertauer Mittelfr�h.
+Ultra 	2-4.1% 	Hallertauer Tradition, Liberty, Saaz 	Very good to outstanding, some Saaz-like qualities. Aromatic properties similar to Hallertauer.
+Vanguard 	4-5.7% 	Hallertauer Mittelfr�h, Saaz 	Aroma similar to continental European types.
+
+Brown Ale
+Ahtanum  	4-6.3%  	Amarillo, Cascade  	Floral, citrus, sharp, and piney.
+Brewer's Gold (U.S.) 	7-10% 	Bullion 	Bittering hop with neutral aroma character.
+Bullion (U.K.) 	6.5-9% 	Columbus, Northern Brewer 	A rich hop primarily used for bittering. Intense blackcurrant aroma.
+Cascade (U.S.) 	4.5-7% 	Amarillo, Centennial, Columbus 	Pleasant, flowery, spicy, and citrusy. Can have a grapefruit flavor.
+Cascade (New Zealand) 	6-8% 	Ahtanum, Cascade, Centennial 	Similar to US Cascade, has floral, citrus grapefruit character.
+Centennial 	8-11.5% 	Cascade, Columbus 	Medium with floral and citrus tones.
+Chinook 	10-14% 	Columbus, Northern Brewer, Nugget, Target (U.K.) 	Mild to medium-heavy, spicy, piney, and grapefruity.
+Cluster 	5.5-8.5% 	Galena 	Medium and quite spicy.
+Columbus 	11-16% 	Chinook, Northern Brewer, Nugget, Target (U.K.) 	Pleasant, with pungent aroma.
+First Gold (U.K.) 	6.5-8.5% 	Crystal, Kent Golding (U.K.) 	A little like Golding family; spicy.
+Fuggle (U.K.) 	4-5.5% 	Styrian Golding, Fuggle (U.S.), Willamette 	Mild, pleasant, hoppy, and robust.
+Fuggle (U.S.) 	4-5.5% 	Styrian Golding, Fuggle (U.K.), Tettnanger (U.S.), Willamette 	Mild and pleasant, earthy and fruity.
+Galena 	10-14% 	Chinook, Nugget, Pride of Ringwood 	Medium but pleasant hoppiness, citrusy.
+Golding (U.S.) 	4-6% 	Kent Golding (U.K.), Progress (U.K.), Whitbread Golding Variety 	Mild, extremely pleasant, and gently hoppy.
+Herald (U.K.) 	11-13% 		New dual-purpose hop
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Kent Golding (U.K.) 	4-5.5% 	Progress (U.K.), Golding (U.S.), Whitbread Golding Variety 	Gentle, fragrant, and pleasant.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Newport 	13-17% 	Galena, Nugget 	Fairly pungent.
+Northdown (U.K.) 	7.5-9.5% 		Fruity with some spiciness.
+Northern Brewer (German) 	7-10% 	Chinook, Northern Brewer (U.S.) 	Medium-strong with some wild tones.
+Northern Brewer (U.S.) 	6-10% 	Chinook, Nugget 	Medium-strong with some wild tones.
+Northwest Golding 	4-5% 		Known for aromatic properties.
+Nugget 	11-14.5% 	Chinook, Columbus, Galena, Target (U.K.) 	Quite heavy and herbal.
+Olympic 	11-13% 	Chinook 	Mild to medium, citrusy aroma, spicy.
+Pacific Jade (New Zealand) 	12-14% 		A "soft" bittering hop with spicy and citrus aroma qualities.
+Palisade 	5.5-9.5% 	Cascade (U.S.) 	Some "American" characteristics.
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Phoenix (U.K.) 	4.2-5.5% 	Challenger (U.K.), Kent Golding (U.K.), Northdown (U.K.) 	Similar to Challenger (U.K.).
+Pioneer (U.K.) 	8-10% 	Kent Golding (U.K.) 	A mild, typical English aroma.
+Progress (U.K.) 	5-7.5% 	Fuggle, Kent Golding (U.K.) 	Moderately strong, good aroma.
+Santiam 	5-7.9% 	German Spalt, German Spalt Select, Tettnanger (German) 	Noble characteristics.
+Satus 	12.5-14% 	Galena 	Known for its bittering and aromatic properties.
+Simcoe 	12-14% 		A bittering and aromatic hop.
+Sorachi Ace (Japan) 	13-16% 		Bittering hop with lemony aroma
+Southern Cross (New Zealand) 	11-14% 		Piney, resinous bittering hop
+Styrian Golding (Slovenia) 	4.5-6% 	Fuggle (U.K.), Fuggle (U.S.), Willamette 	Delicate, slightly spicy.
+Summit 	16-18% 	Simcoe 	Ultra high-alpha bittering hop
+Sun 	12-16% 	Magnum 	High-alpha hop with intense character
+Super Alpha (New Zealand) 	10-12% 		Earthy, piney bittering hop.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tomahawk 	15-17% 	Columbus 	Primarily a bittering hop.
+Warrior 	15-17% 	Nugget 	A bittering and aromatic hop.
+WGV (Whitbread Golding Variety) (U.K.) 	5-7% 	Kent Golding (U.K.), Progress (U.K.) 	Quite pleasant and hoppy, moderately intense.
+Willamette 	3.5-6% 	Styrian Golding, Fuggle (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, fruity, floral, a little earthy.
+Yakima Cluster 	6-8.5% 		Used as a kettle hop for bittering.
+Zeus 	13-17% 	Columbus 	Aromatic and pleasant.
+
+English & Scottish Strong Ale
+Admiral (U.K.)  	13.5-16%  	Challenger (U.K.), Northdown (U.K.), Target (U.K.)  	Known for its bittering potential.
+Bramling Cross (U.K.) 	5-7% 	Kent Golding (U.K.), Progress (U.K.), Whitbread Golding Variety 	Quite mild, fruity currant aroma.
+Brewer's Gold (U.S.) 	7-10% 	Bullion 	Bittering hop with neutral aroma character.
+Brewer's Gold (German) 	6-7% 	Bullion, Galena, Northdown, Northern Brewer 	Black currant, fruity, spicy.
+Bullion (U.K.) 	6.5-9% 	Columbus, Northern Brewer 	A rich hop primarily used for bittering. Intense blackcurrant aroma.
+Challenger (U.K.) 	6.5-8.5% 	Northern Brewer, Perle (German), Perle (U.S.) 	Mild to moderate, quite spicy.
+First Gold (U.K.) 	6.5-8.5% 	Crystal, Kent Golding (U.K.) 	A little like Golding family; spicy.
+Fuggle (U.K.) 	4-5.5% 	Styrian Golding, Fuggle (U.S.), Willamette 	Mild, pleasant, hoppy, and robust.
+Fuggle (U.S.) 	4-5.5% 	Styrian Golding, Fuggle (U.K.), Tettnanger (U.S.), Willamette 	Mild and pleasant, earthy and fruity.
+Golding (U.S.) 	4-6% 	Kent Golding (U.K.), Progress (U.K.), Whitbread Golding Variety 	Mild, extremely pleasant, and gently hoppy.
+Herald (U.K.) 	11-13% 		New dual-purpose hop
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Kent Golding (U.K.) 	4-5.5% 	Progress (U.K.), Golding (U.S.), Whitbread Golding Variety 	Gentle, fragrant, and pleasant.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Northdown (U.K.) 	7.5-9.5% 		Fruity with some spiciness.
+Northern Brewer (German) 	7-10% 	Chinook, Northern Brewer (U.S.) 	Medium-strong with some wild tones.
+Northern Brewer (U.S.) 	6-10% 	Chinook, Nugget 	Medium-strong with some wild tones.
+Northwest Golding 	4-5% 		Known for aromatic properties.
+Phoenix (U.K.) 	4.2-5.5% 	Challenger (U.K.), Kent Golding (U.K.), Northdown (U.K.) 	Similar to Challenger (U.K.).
+Pioneer (U.K.) 	8-10% 	Kent Golding (U.K.) 	A mild, typical English aroma.
+Progress (U.K.) 	5-7.5% 	Fuggle, Kent Golding (U.K.) 	Moderately strong, good aroma.
+Sorachi Ace (Japan) 	13-16% 		Bittering hop with lemony aroma
+Southern Cross (New Zealand) 	11-14% 		Piney, resinous bittering hop
+Styrian Golding (Slovenia) 	4.5-6% 	Fuggle (U.K.), Fuggle (U.S.), Willamette 	Delicate, slightly spicy.
+Super Alpha (New Zealand) 	10-12% 		Earthy, piney bittering hop.
+Super Pride (Australia) 	14% 	Pride of Ringwood 	A high alpha variety bred from Pride of Ringwood.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+WGV (Whitbread Golding Variety) (U.K.) 	5-7% 	Kent Golding (U.K.), Progress (U.K.) 	Quite pleasant and hoppy, moderately intense.
+Willamette 	3.5-6% 	Styrian Golding, Fuggle (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, fruity, floral, a little earthy.
+
+English Bitter & Pale Ale
+Admiral (U.K.)  	13.5-16%  	Challenger (U.K.), Northdown (U.K.), Target (U.K.)  	Known for its bittering potential.
+Apollo 	15-19% 	Zeus 	A high alpha acid varietal known for its disease resistance.
+Bramling Cross (U.K.) 	5-7% 	Kent Golding (U.K.), Progress (U.K.), Whitbread Golding Variety 	Quite mild, fruity currant aroma.
+Brewer's Gold (U.S.) 	7-10% 	Bullion 	Bittering hop with neutral aroma character.
+Brewer's Gold (German) 	6-7% 	Bullion, Galena, Northdown, Northern Brewer 	Black currant, fruity, spicy.
+Bullion (U.K.) 	6.5-9% 	Columbus, Northern Brewer 	A rich hop primarily used for bittering. Intense blackcurrant aroma.
+Cascade (Argentina) 	3-5% 	Hallertauer Tradition (German), Tettnanger (German), Spalt (German), Saaz (Czech) 	Different than US grown Cascades with more of a spicy flavor and lemony aroma.
+Challenger (U.K.) 	6.5-8.5% 	Northern Brewer, Perle (German), Perle (U.S.) 	Mild to moderate, quite spicy.
+First Gold (U.K.) 	6.5-8.5% 	Crystal, Kent Golding (U.K.) 	A little like Golding family; spicy.
+Fuggle (U.K.) 	4-5.5% 	Styrian Golding, Fuggle (U.S.), Willamette 	Mild, pleasant, hoppy, and robust.
+Fuggle (U.S.) 	4-5.5% 	Styrian Golding, Fuggle (U.K.), Tettnanger (U.S.), Willamette 	Mild and pleasant, earthy and fruity.
+Galena 	10-14% 	Chinook, Nugget, Pride of Ringwood 	Medium but pleasant hoppiness, citrusy.
+Glacier (U.S.) 	5-9% 	Styrian Golding, Fuggle (U.S.), Tettnanger (U.S.), Willamette 	Dual purpose hop with a citrus earthy aroma.
+Golding (U.S.) 	4-6% 	Kent Golding (U.K.), Progress (U.K.), Whitbread Golding Variety 	Mild, extremely pleasant, and gently hoppy.
+Herald (U.K.) 	11-13% 		New dual-purpose hop
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Kent Golding (U.K.) 	4-5.5% 	Progress (U.K.), Golding (U.S.), Whitbread Golding Variety 	Gentle, fragrant, and pleasant.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Nelson Sauvin (New Zealand) 	12-14% 		Unique hop with grape-like flavor
+Newport 	13-17% 	Galena, Nugget 	Fairly pungent.
+Northdown (U.K.) 	7.5-9.5% 		Fruity with some spiciness.
+Northern Brewer (German) 	7-10% 	Chinook, Northern Brewer (U.S.) 	Medium-strong with some wild tones.
+Northern Brewer (U.S.) 	6-10% 	Chinook, Nugget 	Medium-strong with some wild tones.
+Northwest Golding 	4-5% 		Known for aromatic properties.
+Pacific Gem (New Zealand) 	13-15% 		Bittering hop with a woody character.
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Phoenix (U.K.) 	4.2-5.5% 	Challenger (U.K.), Kent Golding (U.K.), Northdown (U.K.) 	Similar to Challenger (U.K.).
+Pioneer (U.K.) 	8-10% 	Kent Golding (U.K.) 	A mild, typical English aroma.
+Pride of Ringwood (Australia) 	7-10% 	Cluster, Galena 	Quite pronounced, woody, earthy, herbal.
+Progress (U.K.) 	5-7.5% 	Fuggle, Kent Golding (U.K.) 	Moderately strong, good aroma.
+Satus 	12.5-14% 	Galena 	Known for its bittering and aromatic properties.
+Styrian Golding (Slovenia) 	4.5-6% 	Fuggle (U.K.), Fuggle (U.S.), Willamette 	Delicate, slightly spicy.
+Super Pride (Australia) 	14% 	Pride of Ringwood 	A high alpha variety bred from Pride of Ringwood.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+WGV (Whitbread Golding Variety) (U.K.) 	5-7% 	Kent Golding (U.K.), Progress (U.K.) 	Quite pleasant and hoppy, moderately intense.
+Willamette 	3.5-6% 	Styrian Golding, Fuggle (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, fruity, floral, a little earthy.
+
+European Dark Lager
+Brewer's Gold (German)  	6-7%  	Bullion, Galena, Northdown, Northern Brewer  	Black currant, fruity, spicy.
+Cascade (Argentina) 	3-5% 	Hallertauer Tradition (German), Tettnanger (German), Spalt (German), Saaz (Czech) 	Different than US grown Cascades with more of a spicy flavor and lemony aroma.
+Crystal 	2-4.5% 	Strisslespalt (France), Hallertauer, Hersbrucker, Liberty, Mt. Hood 	Mild and pleasant, spicy and flowery.
+Hallertau Aroma (New Zealand) 	6.5-8.5% 	Perle 	A dual purpose hop which has been used to replace Perle
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Marynka (Poland) 	9-12% 		New hop variety with intense aroma
+Motueka (New Zealand) 	6.5-7.5% 	Saaz (Czech), Saaz (U.S.) 	New aroma hop
+Pacifica (New Zealand) 	5-6% 	Hallertauer (U.S.) 	An aroma hop with some citrus and floral character
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Saaz (Czech) 	3-4.5% 	Saaz (U.S.) 	Very mild with pleasant hoppy notes, earthy, spicy, and herbal.
+Saaz (U.S.) 	3-5% 	Saaz (Czech) 	Mild and pleasant, earthy and spicy.
+Santiam 	5-7.9% 	German Spalt, German Spalt Select, Tettnanger (German) 	Noble characteristics.
+Saphir (German) 	2.5-4.5% 	Hallertauer Tradition (German), Tettnanger (German), Spalt (German), Saaz (Czech) 	Mild aroma hop.
+Select (German) 	4-6% 	Saaz (Czech), German Spalt, Tettnanger 	noble-type aroma
+Sladek (Czech) 	5-6% 	Saaz (Czech), Saaz (U.S.), Tettnanger (U.S.) 	A dual-purpose Saaz hybrid.
+Southern Cross (New Zealand) 	11-14% 		Piney, resinous bittering hop
+Spalt (German) 	4-5.5% 	German Spalt Select, Saaz (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy.
+Spalt Select (German) 	4-6% 	German Spalt, Saaz (U.S.), Tettnanger (U.S.) 	Very fine Spalter-type aroma.
+Spalt Select (U.S.) 	3-5% 	Saaz, Tettnanger 	Medium intensity and pleasant hoppy qualities. Medium-strong aroma with wild American tones.
+Sterling 	6-9% 	Saaz 	Herbal, spicy, pleasant aroma, hint of floral and citrus.
+Strisslespalt (France) 	3-5% 	Crystal, Hersbrucker, Mt. Hood 	Medium intensity, pleasant, hoppy.
+Styrian Golding (Slovenia) 	4.5-6% 	Fuggle (U.K.), Fuggle (U.S.), Willamette 	Delicate, slightly spicy.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tettnanger (German) 	3.5-5.5% 	German Spalt, German Spalt Select, Saaz, Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, herbal.
+Tettnanger (U.S.) 	3.4-5.2% 	Saaz (Czech), German Spalt, Santiam 	An aromatic hop, mild and slightly spicy.
+
+European Pale Lager
+Crystal  	2-4.5%  	Strisslespalt (France), Hallertauer, Hersbrucker, Liberty, Mt. Hood  	Mild and pleasant, spicy and flowery.
+Green Bullet (New Zealand) 	11-14% 	Crystal, Hallertauer Tradition, Liberty, Mt. Hood, Ultra 	Dual purpose hop.
+Hallertau Aroma (New Zealand) 	6.5-8.5% 	Perle 	A dual purpose hop which has been used to replace Perle
+Hallertauer (U.S.) 	3.5-5.5% 	Hallertauer Tradition, Liberty, Ultra 	Very mild, pleasant, and slightly flowery, some spicy.
+Hallertauer Gold (German) 	6-6.5% 	Crystal, Mt. Hood 	Known for its aromatic properties similar to Hallertauer.
+Hallertauer Mittelfr�h (German) 	3-5.5% 	Tradition (German), Liberty, Ultra 	Mild and pleasant.
+Hallertauer Tradition (German) 	3.5-5.5% 	Crystal, Liberty 	Known for its aromatic properties. A replacement for Hallertauer Mittelfr�h.
+Hersbrucker (German) 	3-5.5% 	Strisslespalt (France), Mt. Hood 	Mild to semi-strong, pleasant, hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Liberty 	3-6% 	Hallertauer, Hallertauer Tradition, Mt. Hood 	Mild and clean aroma, slightly spicy character.
+Lublin (Poland) 	3-4.5% 	Saaz (Czech), Saaz (U.S.), Tettnanger (U.S.) 	Mild and typical of noble aroma types, spicy, herbal.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Marynka (Poland) 	9-12% 		New hop variety with intense aroma
+Millenium 	12-15% 	Nugget 	Mild, herbal, similar to Nugget.
+Motueka (New Zealand) 	6.5-7.5% 	Saaz (Czech), Saaz (U.S.) 	New aroma hop
+Mt. Hood 	3-8% 	Crystal, Strisslespalt (France), Hersbrucker 	Mild, pleasant, and clean, somewhat pungent and resiny.
+Pacific Jade (New Zealand) 	12-14% 		A "soft" bittering hop with spicy and citrus aroma qualities.
+Pacifica (New Zealand) 	5-6% 	Hallertauer (U.S.) 	An aroma hop with some citrus and floral character
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Premiant (Czech) 	8-12.5% 		A dual purpose variety with a balanced bitterness and slightly spicy aroma
+Saaz (Czech) 	3-4.5% 	Saaz (U.S.) 	Very mild with pleasant hoppy notes, earthy, spicy, and herbal.
+Saaz (U.S.) 	3-5% 	Saaz (Czech) 	Mild and pleasant, earthy and spicy.
+Santiam 	5-7.9% 	German Spalt, German Spalt Select, Tettnanger (German) 	Noble characteristics.
+Saphir (German) 	2.5-4.5% 	Hallertauer Tradition (German), Tettnanger (German), Spalt (German), Saaz (Czech) 	Mild aroma hop.
+Select (German) 	4-6% 	Saaz (Czech), German Spalt, Tettnanger 	noble-type aroma
+Sladek (Czech) 	5-6% 	Saaz (Czech), Saaz (U.S.), Tettnanger (U.S.) 	A dual-purpose Saaz hybrid.
+Southern Cross (New Zealand) 	11-14% 		Piney, resinous bittering hop
+Spalt (German) 	4-5.5% 	German Spalt Select, Saaz (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy.
+Spalt Select (German) 	4-6% 	German Spalt, Saaz (U.S.), Tettnanger (U.S.) 	Very fine Spalter-type aroma.
+Spalt Select (U.S.) 	3-5% 	Saaz, Tettnanger 	Medium intensity and pleasant hoppy qualities. Medium-strong aroma with wild American tones.
+Sterling 	6-9% 	Saaz 	Herbal, spicy, pleasant aroma, hint of floral and citrus.
+Strisslespalt (France) 	3-5% 	Crystal, Hersbrucker, Mt. Hood 	Medium intensity, pleasant, hoppy.
+Styrian Golding (Slovenia) 	4.5-6% 	Fuggle (U.K.), Fuggle (U.S.), Willamette 	Delicate, slightly spicy.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tettnanger (German) 	3.5-5.5% 	German Spalt, German Spalt Select, Saaz, Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, herbal.
+Tettnanger (U.S.) 	3.4-5.2% 	Saaz (Czech), German Spalt, Santiam 	An aromatic hop, mild and slightly spicy.
+Tradition (German) 	5-7% 	Hallertauer Mittelfr�h, Hersbrucker 	Very fine and similar to Hallertauer Mittelfr�h.
+Ultra 	2-4.1% 	Hallertauer Tradition, Liberty, Saaz 	Very good to outstanding, some Saaz-like qualities. Aromatic properties similar to Hallertauer.
+Vanguard 	4-5.7% 	Hallertauer Mittelfr�h, Saaz 	Aroma similar to continental European types.
+
+Fruit Beer
+Hallertauer Mittelfr�h (German)  	3-5.5%  	Tradition (German), Liberty, Ultra  	Mild and pleasant.
+Hallertauer Tradition (German) 	3.5-5.5% 	Crystal, Liberty 	Known for its aromatic properties. A replacement for Hallertauer Mittelfr�h.
+Hersbrucker (German) 	3-5.5% 	Strisslespalt (France), Mt. Hood 	Mild to semi-strong, pleasant, hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Liberty 	3-6% 	Hallertauer, Hallertauer Tradition, Mt. Hood 	Mild and clean aroma, slightly spicy character.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Mt. Hood 	3-8% 	Crystal, Strisslespalt (France), Hersbrucker 	Mild, pleasant, and clean, somewhat pungent and resiny.
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Saaz (Czech) 	3-4.5% 	Saaz (U.S.) 	Very mild with pleasant hoppy notes, earthy, spicy, and herbal.
+Saaz (U.S.) 	3-5% 	Saaz (Czech) 	Mild and pleasant, earthy and spicy.
+Santiam 	5-7.9% 	German Spalt, German Spalt Select, Tettnanger (German) 	Noble characteristics.
+Saphir (German) 	2.5-4.5% 	Hallertauer Tradition (German), Tettnanger (German), Spalt (German), Saaz (Czech) 	Mild aroma hop.
+Sorachi Ace (Japan) 	13-16% 		Bittering hop with lemony aroma
+Spalt (German) 	4-5.5% 	German Spalt Select, Saaz (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy.
+Spalt Select (German) 	4-6% 	German Spalt, Saaz (U.S.), Tettnanger (U.S.) 	Very fine Spalter-type aroma.
+Spalt Select (U.S.) 	3-5% 	Saaz, Tettnanger 	Medium intensity and pleasant hoppy qualities. Medium-strong aroma with wild American tones.
+Sterling 	6-9% 	Saaz 	Herbal, spicy, pleasant aroma, hint of floral and citrus.
+Strisslespalt (France) 	3-5% 	Crystal, Hersbrucker, Mt. Hood 	Medium intensity, pleasant, hoppy.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tettnanger (German) 	3.5-5.5% 	German Spalt, German Spalt Select, Saaz, Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, herbal.
+Tettnanger (U.S.) 	3.4-5.2% 	Saaz (Czech), German Spalt, Santiam 	An aromatic hop, mild and slightly spicy.
+Tradition (German) 	5-7% 	Hallertauer Mittelfr�h, Hersbrucker 	Very fine and similar to Hallertauer Mittelfr�h.
+Ultra 	2-4.1% 	Hallertauer Tradition, Liberty, Saaz 	Very good to outstanding, some Saaz-like qualities. Aromatic properties similar to Hallertauer.
+Vanguard 	4-5.7% 	Hallertauer Mittelfr�h, Saaz 	Aroma similar to continental European types.
+
+German Amber Lager
+Cascade (Argentina)  	3-5%  	Hallertauer Tradition (German), Tettnanger (German), Spalt (German), Saaz (Czech)  	Different than US grown Cascades with more of a spicy flavor and lemony aroma.
+Green Bullet (New Zealand) 	11-14% 	Crystal, Hallertauer Tradition, Liberty, Mt. Hood, Ultra 	Dual purpose hop.
+Hallertau Aroma (New Zealand) 	6.5-8.5% 	Perle 	A dual purpose hop which has been used to replace Perle
+Hallertauer (U.S.) 	3.5-5.5% 	Hallertauer Tradition, Liberty, Ultra 	Very mild, pleasant, and slightly flowery, some spicy.
+Hallertauer Gold (German) 	6-6.5% 	Crystal, Mt. Hood 	Known for its aromatic properties similar to Hallertauer.
+Hallertauer Mittelfr�h (German) 	3-5.5% 	Tradition (German), Liberty, Ultra 	Mild and pleasant.
+Hallertauer Tradition (German) 	3.5-5.5% 	Crystal, Liberty 	Known for its aromatic properties. A replacement for Hallertauer Mittelfr�h.
+Hersbrucker (German) 	3-5.5% 	Strisslespalt (France), Mt. Hood 	Mild to semi-strong, pleasant, hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Liberty 	3-6% 	Hallertauer, Hallertauer Tradition, Mt. Hood 	Mild and clean aroma, slightly spicy character.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Motueka (New Zealand) 	6.5-7.5% 	Saaz (Czech), Saaz (U.S.) 	New aroma hop
+Mt. Hood 	3-8% 	Crystal, Strisslespalt (France), Hersbrucker 	Mild, pleasant, and clean, somewhat pungent and resiny.
+Pacifica (New Zealand) 	5-6% 	Hallertauer (U.S.) 	An aroma hop with some citrus and floral character
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Saaz (Czech) 	3-4.5% 	Saaz (U.S.) 	Very mild with pleasant hoppy notes, earthy, spicy, and herbal.
+Saaz (U.S.) 	3-5% 	Saaz (Czech) 	Mild and pleasant, earthy and spicy.
+Santiam 	5-7.9% 	German Spalt, German Spalt Select, Tettnanger (German) 	Noble characteristics.
+Saphir (German) 	2.5-4.5% 	Hallertauer Tradition (German), Tettnanger (German), Spalt (German), Saaz (Czech) 	Mild aroma hop.
+Select (German) 	4-6% 	Saaz (Czech), German Spalt, Tettnanger 	noble-type aroma
+Sladek (Czech) 	5-6% 	Saaz (Czech), Saaz (U.S.), Tettnanger (U.S.) 	A dual-purpose Saaz hybrid.
+Sorachi Ace (Japan) 	13-16% 		Bittering hop with lemony aroma
+Southern Cross (New Zealand) 	11-14% 		Piney, resinous bittering hop
+Spalt (German) 	4-5.5% 	German Spalt Select, Saaz (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy.
+Spalt Select (German) 	4-6% 	German Spalt, Saaz (U.S.), Tettnanger (U.S.) 	Very fine Spalter-type aroma.
+Spalt Select (U.S.) 	3-5% 	Saaz, Tettnanger 	Medium intensity and pleasant hoppy qualities. Medium-strong aroma with wild American tones.
+Sterling 	6-9% 	Saaz 	Herbal, spicy, pleasant aroma, hint of floral and citrus.
+Strisslespalt (France) 	3-5% 	Crystal, Hersbrucker, Mt. Hood 	Medium intensity, pleasant, hoppy.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tettnanger (German) 	3.5-5.5% 	German Spalt, German Spalt Select, Saaz, Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, herbal.
+Tettnanger (U.S.) 	3.4-5.2% 	Saaz (Czech), German Spalt, Santiam 	An aromatic hop, mild and slightly spicy.
+Tradition (German) 	5-7% 	Hallertauer Mittelfr�h, Hersbrucker 	Very fine and similar to Hallertauer Mittelfr�h.
+Ultra 	2-4.1% 	Hallertauer Tradition, Liberty, Saaz 	Very good to outstanding, some Saaz-like qualities. Aromatic properties similar to Hallertauer.
+Vanguard 	4-5.7% 	Hallertauer Mittelfr�h, Saaz 	Aroma similar to continental European types.
+
+India Pale Ale
+Admiral (U.K.)  	13.5-16%  	Challenger (U.K.), Northdown (U.K.), Target (U.K.)  	Known for its bittering potential.
+Ahtanum 	4-6.3% 	Amarillo, Cascade 	Floral, citrus, sharp, and piney.
+Amarillo 	8-9% 	Cascade, Centennial 	Citrusy, flowery.
+Apollo 	15-19% 	Zeus 	A high alpha acid varietal known for its disease resistance.
+Bramling Cross (U.K.) 	5-7% 	Kent Golding (U.K.), Progress (U.K.), Whitbread Golding Variety 	Quite mild, fruity currant aroma.
+Bravo 	14-17% 	Apollo, Zeus 	No Description
+Brewer's Gold (U.S.) 	7-10% 	Bullion 	Bittering hop with neutral aroma character.
+Brewer's Gold (German) 	6-7% 	Bullion, Galena, Northdown, Northern Brewer 	Black currant, fruity, spicy.
+Bullion (U.K.) 	6.5-9% 	Columbus, Northern Brewer 	A rich hop primarily used for bittering. Intense blackcurrant aroma.
+Cascade (U.S.) 	4.5-7% 	Amarillo, Centennial, Columbus 	Pleasant, flowery, spicy, and citrusy. Can have a grapefruit flavor.
+Cascade (New Zealand) 	6-8% 	Ahtanum, Cascade, Centennial 	Similar to US Cascade, has floral, citrus grapefruit character.
+Centennial 	8-11.5% 	Cascade, Columbus 	Medium with floral and citrus tones.
+Challenger (U.K.) 	6.5-8.5% 	Northern Brewer, Perle (German), Perle (U.S.) 	Mild to moderate, quite spicy.
+Chinook 	10-14% 	Columbus, Northern Brewer, Nugget, Target (U.K.) 	Mild to medium-heavy, spicy, piney, and grapefruity.
+Cluster 	5.5-8.5% 	Galena 	Medium and quite spicy.
+Columbus 	11-16% 	Chinook, Northern Brewer, Nugget, Target (U.K.) 	Pleasant, with pungent aroma.
+First Gold (U.K.) 	6.5-8.5% 	Crystal, Kent Golding (U.K.) 	A little like Golding family; spicy.
+Fuggle (U.K.) 	4-5.5% 	Styrian Golding, Fuggle (U.S.), Willamette 	Mild, pleasant, hoppy, and robust.
+Fuggle (U.S.) 	4-5.5% 	Styrian Golding, Fuggle (U.K.), Tettnanger (U.S.), Willamette 	Mild and pleasant, earthy and fruity.
+Galena 	10-14% 	Chinook, Nugget, Pride of Ringwood 	Medium but pleasant hoppiness, citrusy.
+Glacier (U.S.) 	5-9% 	Styrian Golding, Fuggle (U.S.), Tettnanger (U.S.), Willamette 	Dual purpose hop with a citrus earthy aroma.
+Golding (U.S.) 	4-6% 	Kent Golding (U.K.), Progress (U.K.), Whitbread Golding Variety 	Mild, extremely pleasant, and gently hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Kent Golding (U.K.) 	4-5.5% 	Progress (U.K.), Golding (U.S.), Whitbread Golding Variety 	Gentle, fragrant, and pleasant.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Nelson Sauvin (New Zealand) 	12-14% 		Unique hop with grape-like flavor
+Newport 	13-17% 	Galena, Nugget 	Fairly pungent.
+Northdown (U.K.) 	7.5-9.5% 		Fruity with some spiciness.
+Northern Brewer (German) 	7-10% 	Chinook, Northern Brewer (U.S.) 	Medium-strong with some wild tones.
+Northern Brewer (U.S.) 	6-10% 	Chinook, Nugget 	Medium-strong with some wild tones.
+Northwest Golding 	4-5% 		Known for aromatic properties.
+Nugget 	11-14.5% 	Chinook, Columbus, Galena, Target (U.K.) 	Quite heavy and herbal.
+Olympic 	11-13% 	Chinook 	Mild to medium, citrusy aroma, spicy.
+Pacific Gem (New Zealand) 	13-15% 		Bittering hop with a woody character.
+Pacific Jade (New Zealand) 	12-14% 		A "soft" bittering hop with spicy and citrus aroma qualities.
+Palisade 	5.5-9.5% 	Cascade (U.S.) 	Some "American" characteristics.
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Phoenix (U.K.) 	4.2-5.5% 	Challenger (U.K.), Kent Golding (U.K.), Northdown (U.K.) 	Similar to Challenger (U.K.).
+Pioneer (U.K.) 	8-10% 	Kent Golding (U.K.) 	A mild, typical English aroma.
+Pride of Ringwood (Australia) 	7-10% 	Cluster, Galena 	Quite pronounced, woody, earthy, herbal.
+Progress (U.K.) 	5-7.5% 	Fuggle, Kent Golding (U.K.) 	Moderately strong, good aroma.
+Riwaka (New Zealand) 	4.5-6.5% 	Saaz (Czech), possible American "C" hops 	Citrusy, grapefruit aroma hop
+Satus 	12.5-14% 	Galena 	Known for its bittering and aromatic properties.
+Simcoe 	12-14% 		A bittering and aromatic hop.
+Sorachi Ace (Japan) 	13-16% 		Bittering hop with lemony aroma
+Southern Cross (New Zealand) 	11-14% 		Piney, resinous bittering hop
+Styrian Golding (Slovenia) 	4.5-6% 	Fuggle (U.K.), Fuggle (U.S.), Willamette 	Delicate, slightly spicy.
+Summit 	16-18% 	Simcoe 	Ultra high-alpha bittering hop
+Sun 	12-16% 	Magnum 	High-alpha hop with intense character
+Super Alpha (New Zealand) 	10-12% 		Earthy, piney bittering hop.
+Super Pride (Australia) 	14% 	Pride of Ringwood 	A high alpha variety bred from Pride of Ringwood.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tomahawk 	15-17% 	Columbus 	Primarily a bittering hop.
+Warrior 	15-17% 	Nugget 	A bittering and aromatic hop.
+WGV (Whitbread Golding Variety) (U.K.) 	5-7% 	Kent Golding (U.K.), Progress (U.K.) 	Quite pleasant and hoppy, moderately intense.
+Willamette 	3.5-6% 	Styrian Golding, Fuggle (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, fruity, floral, a little earthy.
+Yakima Cluster 	6-8.5% 		Used as a kettle hop for bittering.
+Zeus 	13-17% 	Columbus 	Aromatic and pleasant.
+
+K�lsch & Altbier
+Cascade (Argentina)  	3-5%  	Hallertauer Tradition (German), Tettnanger (German), Spalt (German), Saaz (Czech)  	Different than US grown Cascades with more of a spicy flavor and lemony aroma.
+Hallertau Aroma (New Zealand) 	6.5-8.5% 	Perle 	A dual purpose hop which has been used to replace Perle
+Hallertauer (U.S.) 	3.5-5.5% 	Hallertauer Tradition, Liberty, Ultra 	Very mild, pleasant, and slightly flowery, some spicy.
+Hallertauer Gold (German) 	6-6.5% 	Crystal, Mt. Hood 	Known for its aromatic properties similar to Hallertauer.
+Hallertauer Mittelfr�h (German) 	3-5.5% 	Tradition (German), Liberty, Ultra 	Mild and pleasant.
+Hallertauer Tradition (German) 	3.5-5.5% 	Crystal, Liberty 	Known for its aromatic properties. A replacement for Hallertauer Mittelfr�h.
+Hersbrucker (German) 	3-5.5% 	Strisslespalt (France), Mt. Hood 	Mild to semi-strong, pleasant, hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Liberty 	3-6% 	Hallertauer, Hallertauer Tradition, Mt. Hood 	Mild and clean aroma, slightly spicy character.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Mt. Hood 	3-8% 	Crystal, Strisslespalt (France), Hersbrucker 	Mild, pleasant, and clean, somewhat pungent and resiny.
+Northern Brewer (German) 	7-10% 	Chinook, Northern Brewer (U.S.) 	Medium-strong with some wild tones.
+Pacific Jade (New Zealand) 	12-14% 		A "soft" bittering hop with spicy and citrus aroma qualities.
+Pacifica (New Zealand) 	5-6% 	Hallertauer (U.S.) 	An aroma hop with some citrus and floral character
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Saaz (Czech) 	3-4.5% 	Saaz (U.S.) 	Very mild with pleasant hoppy notes, earthy, spicy, and herbal.
+Saaz (U.S.) 	3-5% 	Saaz (Czech) 	Mild and pleasant, earthy and spicy.
+Santiam 	5-7.9% 	German Spalt, German Spalt Select, Tettnanger (German) 	Noble characteristics.
+Saphir (German) 	2.5-4.5% 	Hallertauer Tradition (German), Tettnanger (German), Spalt (German), Saaz (Czech) 	Mild aroma hop.
+Sladek (Czech) 	5-6% 	Saaz (Czech), Saaz (U.S.), Tettnanger (U.S.) 	A dual-purpose Saaz hybrid.
+Southern Cross (New Zealand) 	11-14% 		Piney, resinous bittering hop
+Spalt (German) 	4-5.5% 	German Spalt Select, Saaz (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy.
+Spalt Select (German) 	4-6% 	German Spalt, Saaz (U.S.), Tettnanger (U.S.) 	Very fine Spalter-type aroma.
+Spalt Select (U.S.) 	3-5% 	Saaz, Tettnanger 	Medium intensity and pleasant hoppy qualities. Medium-strong aroma with wild American tones.
+Sterling 	6-9% 	Saaz 	Herbal, spicy, pleasant aroma, hint of floral and citrus.
+Strisslespalt (France) 	3-5% 	Crystal, Hersbrucker, Mt. Hood 	Medium intensity, pleasant, hoppy.
+Super Alpha (New Zealand) 	10-12% 		Earthy, piney bittering hop.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tettnanger (German) 	3.5-5.5% 	German Spalt, German Spalt Select, Saaz, Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, herbal.
+Tettnanger (U.S.) 	3.4-5.2% 	Saaz (Czech), German Spalt, Santiam 	An aromatic hop, mild and slightly spicy.
+Tradition (German) 	5-7% 	Hallertauer Mittelfr�h, Hersbrucker 	Very fine and similar to Hallertauer Mittelfr�h.
+Ultra 	2-4.1% 	Hallertauer Tradition, Liberty, Saaz 	Very good to outstanding, some Saaz-like qualities. Aromatic properties similar to Hallertauer.
+Vanguard 	4-5.7% 	Hallertauer Mittelfr�h, Saaz 	Aroma similar to continental European types.
+
+Light Ale
+Cascade (U.S.)  	4.5-7%  	Amarillo, Centennial, Columbus  	Pleasant, flowery, spicy, and citrusy. Can have a grapefruit flavor.
+Centennial 	8-11.5% 	Cascade, Columbus 	Medium with floral and citrus tones.
+Hallertauer Mittelfr�h (German) 	3-5.5% 	Tradition (German), Liberty, Ultra 	Mild and pleasant.
+Hallertauer Tradition (German) 	3.5-5.5% 	Crystal, Liberty 	Known for its aromatic properties. A replacement for Hallertauer Mittelfr�h.
+Hersbrucker (German) 	3-5.5% 	Strisslespalt (France), Mt. Hood 	Mild to semi-strong, pleasant, hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Liberty 	3-6% 	Hallertauer, Hallertauer Tradition, Mt. Hood 	Mild and clean aroma, slightly spicy character.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Mt. Hood 	3-8% 	Crystal, Strisslespalt (France), Hersbrucker 	Mild, pleasant, and clean, somewhat pungent and resiny.
+Northern Brewer (German) 	7-10% 	Chinook, Northern Brewer (U.S.) 	Medium-strong with some wild tones.
+Northern Brewer (U.S.) 	6-10% 	Chinook, Nugget 	Medium-strong with some wild tones.
+Northwest Golding 	4-5% 		Known for aromatic properties.
+Palisade 	5.5-9.5% 	Cascade (U.S.) 	Some "American" characteristics.
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Saaz (Czech) 	3-4.5% 	Saaz (U.S.) 	Very mild with pleasant hoppy notes, earthy, spicy, and herbal.
+Saaz (U.S.) 	3-5% 	Saaz (Czech) 	Mild and pleasant, earthy and spicy.
+Santiam 	5-7.9% 	German Spalt, German Spalt Select, Tettnanger (German) 	Noble characteristics.
+Saphir (German) 	2.5-4.5% 	Hallertauer Tradition (German), Tettnanger (German), Spalt (German), Saaz (Czech) 	Mild aroma hop.
+Simcoe 	12-14% 		A bittering and aromatic hop.
+Sorachi Ace (Japan) 	13-16% 		Bittering hop with lemony aroma
+Spalt (German) 	4-5.5% 	German Spalt Select, Saaz (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy.
+Spalt Select (German) 	4-6% 	German Spalt, Saaz (U.S.), Tettnanger (U.S.) 	Very fine Spalter-type aroma.
+Spalt Select (U.S.) 	3-5% 	Saaz, Tettnanger 	Medium intensity and pleasant hoppy qualities. Medium-strong aroma with wild American tones.
+Sterling 	6-9% 	Saaz 	Herbal, spicy, pleasant aroma, hint of floral and citrus.
+Strisslespalt (France) 	3-5% 	Crystal, Hersbrucker, Mt. Hood 	Medium intensity, pleasant, hoppy.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tettnanger (German) 	3.5-5.5% 	German Spalt, German Spalt Select, Saaz, Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, herbal.
+Tettnanger (U.S.) 	3.4-5.2% 	Saaz (Czech), German Spalt, Santiam 	An aromatic hop, mild and slightly spicy.
+Tradition (German) 	5-7% 	Hallertauer Mittelfr�h, Hersbrucker 	Very fine and similar to Hallertauer Mittelfr�h.
+Ultra 	2-4.1% 	Hallertauer Tradition, Liberty, Saaz 	Very good to outstanding, some Saaz-like qualities. Aromatic properties similar to Hallertauer.
+Vanguard 	4-5.7% 	Hallertauer Mittelfr�h, Saaz 	Aroma similar to continental European types.
+
+Porter
+Admiral (U.K.)  	13.5-16%  	Challenger (U.K.), Northdown (U.K.), Target (U.K.)  	Known for its bittering potential.
+Ahtanum 	4-6.3% 	Amarillo, Cascade 	Floral, citrus, sharp, and piney.
+Amarillo 	8-9% 	Cascade, Centennial 	Citrusy, flowery.
+Bramling Cross (U.K.) 	5-7% 	Kent Golding (U.K.), Progress (U.K.), Whitbread Golding Variety 	Quite mild, fruity currant aroma.
+Brewer's Gold (U.S.) 	7-10% 	Bullion 	Bittering hop with neutral aroma character.
+Brewer's Gold (German) 	6-7% 	Bullion, Galena, Northdown, Northern Brewer 	Black currant, fruity, spicy.
+Bullion (U.K.) 	6.5-9% 	Columbus, Northern Brewer 	A rich hop primarily used for bittering. Intense blackcurrant aroma.
+Cascade (U.S.) 	4.5-7% 	Amarillo, Centennial, Columbus 	Pleasant, flowery, spicy, and citrusy. Can have a grapefruit flavor.
+Centennial 	8-11.5% 	Cascade, Columbus 	Medium with floral and citrus tones.
+Challenger (U.K.) 	6.5-8.5% 	Northern Brewer, Perle (German), Perle (U.S.) 	Mild to moderate, quite spicy.
+Chinook 	10-14% 	Columbus, Northern Brewer, Nugget, Target (U.K.) 	Mild to medium-heavy, spicy, piney, and grapefruity.
+Cluster 	5.5-8.5% 	Galena 	Medium and quite spicy.
+Columbus 	11-16% 	Chinook, Northern Brewer, Nugget, Target (U.K.) 	Pleasant, with pungent aroma.
+First Gold (U.K.) 	6.5-8.5% 	Crystal, Kent Golding (U.K.) 	A little like Golding family; spicy.
+Fuggle (U.K.) 	4-5.5% 	Styrian Golding, Fuggle (U.S.), Willamette 	Mild, pleasant, hoppy, and robust.
+Fuggle (U.S.) 	4-5.5% 	Styrian Golding, Fuggle (U.K.), Tettnanger (U.S.), Willamette 	Mild and pleasant, earthy and fruity.
+Galena 	10-14% 	Chinook, Nugget, Pride of Ringwood 	Medium but pleasant hoppiness, citrusy.
+Glacier (U.S.) 	5-9% 	Styrian Golding, Fuggle (U.S.), Tettnanger (U.S.), Willamette 	Dual purpose hop with a citrus earthy aroma.
+Golding (U.S.) 	4-6% 	Kent Golding (U.K.), Progress (U.K.), Whitbread Golding Variety 	Mild, extremely pleasant, and gently hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Kent Golding (U.K.) 	4-5.5% 	Progress (U.K.), Golding (U.S.), Whitbread Golding Variety 	Gentle, fragrant, and pleasant.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Nelson Sauvin (New Zealand) 	12-14% 		Unique hop with grape-like flavor
+Newport 	13-17% 	Galena, Nugget 	Fairly pungent.
+Northdown (U.K.) 	7.5-9.5% 		Fruity with some spiciness.
+Northern Brewer (German) 	7-10% 	Chinook, Northern Brewer (U.S.) 	Medium-strong with some wild tones.
+Northern Brewer (U.S.) 	6-10% 	Chinook, Nugget 	Medium-strong with some wild tones.
+Northwest Golding 	4-5% 		Known for aromatic properties.
+Nugget 	11-14.5% 	Chinook, Columbus, Galena, Target (U.K.) 	Quite heavy and herbal.
+Olympic 	11-13% 	Chinook 	Mild to medium, citrusy aroma, spicy.
+Pacific Gem (New Zealand) 	13-15% 		Bittering hop with a woody character.
+Pacific Jade (New Zealand) 	12-14% 		A "soft" bittering hop with spicy and citrus aroma qualities.
+Palisade 	5.5-9.5% 	Cascade (U.S.) 	Some "American" characteristics.
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Phoenix (U.K.) 	4.2-5.5% 	Challenger (U.K.), Kent Golding (U.K.), Northdown (U.K.) 	Similar to Challenger (U.K.).
+Pioneer (U.K.) 	8-10% 	Kent Golding (U.K.) 	A mild, typical English aroma.
+Pride of Ringwood (Australia) 	7-10% 	Cluster, Galena 	Quite pronounced, woody, earthy, herbal.
+Progress (U.K.) 	5-7.5% 	Fuggle, Kent Golding (U.K.) 	Moderately strong, good aroma.
+Santiam 	5-7.9% 	German Spalt, German Spalt Select, Tettnanger (German) 	Noble characteristics.
+Satus 	12.5-14% 	Galena 	Known for its bittering and aromatic properties.
+Simcoe 	12-14% 		A bittering and aromatic hop.
+Southern Cross (New Zealand) 	11-14% 		Piney, resinous bittering hop
+Styrian Golding (Slovenia) 	4.5-6% 	Fuggle (U.K.), Fuggle (U.S.), Willamette 	Delicate, slightly spicy.
+Summit 	16-18% 	Simcoe 	Ultra high-alpha bittering hop
+Sun 	12-16% 	Magnum 	High-alpha hop with intense character
+Super Alpha (New Zealand) 	10-12% 		Earthy, piney bittering hop.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tomahawk 	15-17% 	Columbus 	Primarily a bittering hop.
+Warrior 	15-17% 	Nugget 	A bittering and aromatic hop.
+WGV (Whitbread Golding Variety) (U.K.) 	5-7% 	Kent Golding (U.K.), Progress (U.K.) 	Quite pleasant and hoppy, moderately intense.
+Willamette 	3.5-6% 	Styrian Golding, Fuggle (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, fruity, floral, a little earthy.
+Yakima Cluster 	6-8.5% 		Used as a kettle hop for bittering.
+Zeus 	13-17% 	Columbus 	Aromatic and pleasant.
+
+Scottish Ale
+Admiral (U.K.)  	13.5-16%  	Challenger (U.K.), Northdown (U.K.), Target (U.K.)  	Known for its bittering potential.
+Bramling Cross (U.K.) 	5-7% 	Kent Golding (U.K.), Progress (U.K.), Whitbread Golding Variety 	Quite mild, fruity currant aroma.
+Brewer's Gold (U.S.) 	7-10% 	Bullion 	Bittering hop with neutral aroma character.
+Challenger (U.K.) 	6.5-8.5% 	Northern Brewer, Perle (German), Perle (U.S.) 	Mild to moderate, quite spicy.
+First Gold (U.K.) 	6.5-8.5% 	Crystal, Kent Golding (U.K.) 	A little like Golding family; spicy.
+Fuggle (U.K.) 	4-5.5% 	Styrian Golding, Fuggle (U.S.), Willamette 	Mild, pleasant, hoppy, and robust.
+Fuggle (U.S.) 	4-5.5% 	Styrian Golding, Fuggle (U.K.), Tettnanger (U.S.), Willamette 	Mild and pleasant, earthy and fruity.
+Golding (U.S.) 	4-6% 	Kent Golding (U.K.), Progress (U.K.), Whitbread Golding Variety 	Mild, extremely pleasant, and gently hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Kent Golding (U.K.) 	4-5.5% 	Progress (U.K.), Golding (U.S.), Whitbread Golding Variety 	Gentle, fragrant, and pleasant.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Northdown (U.K.) 	7.5-9.5% 		Fruity with some spiciness.
+Northern Brewer (German) 	7-10% 	Chinook, Northern Brewer (U.S.) 	Medium-strong with some wild tones.
+Northern Brewer (U.S.) 	6-10% 	Chinook, Nugget 	Medium-strong with some wild tones.
+Northwest Golding 	4-5% 		Known for aromatic properties.
+Phoenix (U.K.) 	4.2-5.5% 	Challenger (U.K.), Kent Golding (U.K.), Northdown (U.K.) 	Similar to Challenger (U.K.).
+Pioneer (U.K.) 	8-10% 	Kent Golding (U.K.) 	A mild, typical English aroma.
+Progress (U.K.) 	5-7.5% 	Fuggle, Kent Golding (U.K.) 	Moderately strong, good aroma.
+Styrian Golding (Slovenia) 	4.5-6% 	Fuggle (U.K.), Fuggle (U.S.), Willamette 	Delicate, slightly spicy.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+WGV (Whitbread Golding Variety) (U.K.) 	5-7% 	Kent Golding (U.K.), Progress (U.K.) 	Quite pleasant and hoppy, moderately intense.
+
+Smoked Beer
+Cascade (U.S.)  	4.5-7%  	Amarillo, Centennial, Columbus  	Pleasant, flowery, spicy, and citrusy. Can have a grapefruit flavor.
+Centennial 	8-11.5% 	Cascade, Columbus 	Medium with floral and citrus tones.
+Chinook 	10-14% 	Columbus, Northern Brewer, Nugget, Target (U.K.) 	Mild to medium-heavy, spicy, piney, and grapefruity.
+Cluster 	5.5-8.5% 	Galena 	Medium and quite spicy.
+Columbus 	11-16% 	Chinook, Northern Brewer, Nugget, Target (U.K.) 	Pleasant, with pungent aroma.
+Hallertauer Mittelfr�h (German) 	3-5.5% 	Tradition (German), Liberty, Ultra 	Mild and pleasant.
+Hallertauer Tradition (German) 	3.5-5.5% 	Crystal, Liberty 	Known for its aromatic properties. A replacement for Hallertauer Mittelfr�h.
+Hersbrucker (German) 	3-5.5% 	Strisslespalt (France), Mt. Hood 	Mild to semi-strong, pleasant, hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Liberty 	3-6% 	Hallertauer, Hallertauer Tradition, Mt. Hood 	Mild and clean aroma, slightly spicy character.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Mt. Hood 	3-8% 	Crystal, Strisslespalt (France), Hersbrucker 	Mild, pleasant, and clean, somewhat pungent and resiny.
+Northern Brewer (German) 	7-10% 	Chinook, Northern Brewer (U.S.) 	Medium-strong with some wild tones.
+Northern Brewer (U.S.) 	6-10% 	Chinook, Nugget 	Medium-strong with some wild tones.
+Northwest Golding 	4-5% 		Known for aromatic properties.
+Nugget 	11-14.5% 	Chinook, Columbus, Galena, Target (U.K.) 	Quite heavy and herbal.
+Olympic 	11-13% 	Chinook 	Mild to medium, citrusy aroma, spicy.
+Palisade 	5.5-9.5% 	Cascade (U.S.) 	Some "American" characteristics.
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Saaz (Czech) 	3-4.5% 	Saaz (U.S.) 	Very mild with pleasant hoppy notes, earthy, spicy, and herbal.
+Saaz (U.S.) 	3-5% 	Saaz (Czech) 	Mild and pleasant, earthy and spicy.
+Santiam 	5-7.9% 	German Spalt, German Spalt Select, Tettnanger (German) 	Noble characteristics.
+Saphir (German) 	2.5-4.5% 	Hallertauer Tradition (German), Tettnanger (German), Spalt (German), Saaz (Czech) 	Mild aroma hop.
+Simcoe 	12-14% 		A bittering and aromatic hop.
+Spalt (German) 	4-5.5% 	German Spalt Select, Saaz (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy.
+Spalt Select (German) 	4-6% 	German Spalt, Saaz (U.S.), Tettnanger (U.S.) 	Very fine Spalter-type aroma.
+Spalt Select (U.S.) 	3-5% 	Saaz, Tettnanger 	Medium intensity and pleasant hoppy qualities. Medium-strong aroma with wild American tones.
+Sterling 	6-9% 	Saaz 	Herbal, spicy, pleasant aroma, hint of floral and citrus.
+Strisslespalt (France) 	3-5% 	Crystal, Hersbrucker, Mt. Hood 	Medium intensity, pleasant, hoppy.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tettnanger (German) 	3.5-5.5% 	German Spalt, German Spalt Select, Saaz, Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, herbal.
+Tettnanger (U.S.) 	3.4-5.2% 	Saaz (Czech), German Spalt, Santiam 	An aromatic hop, mild and slightly spicy.
+Tomahawk 	15-17% 	Columbus 	Primarily a bittering hop.
+Tradition (German) 	5-7% 	Hallertauer Mittelfr�h, Hersbrucker 	Very fine and similar to Hallertauer Mittelfr�h.
+Ultra 	2-4.1% 	Hallertauer Tradition, Liberty, Saaz 	Very good to outstanding, some Saaz-like qualities. Aromatic properties similar to Hallertauer.
+Vanguard 	4-5.7% 	Hallertauer Mittelfr�h, Saaz 	Aroma similar to continental European types.
+Warrior 	15-17% 	Nugget 	A bittering and aromatic hop.
+Willamette 	3.5-6% 	Styrian Golding, Fuggle (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, fruity, floral, a little earthy.
+Yakima Cluster 	6-8.5% 		Used as a kettle hop for bittering.
+Zeus 	13-17% 	Columbus 	Aromatic and pleasant.
+
+Specialty & Experimental Beer
+Cascade (U.S.)  	4.5-7%  	Amarillo, Centennial, Columbus  	Pleasant, flowery, spicy, and citrusy. Can have a grapefruit flavor.
+Cascade (New Zealand) 	6-8% 	Ahtanum, Cascade, Centennial 	Similar to US Cascade, has floral, citrus grapefruit character.
+Centennial 	8-11.5% 	Cascade, Columbus 	Medium with floral and citrus tones.
+Chinook 	10-14% 	Columbus, Northern Brewer, Nugget, Target (U.K.) 	Mild to medium-heavy, spicy, piney, and grapefruity.
+Cluster 	5.5-8.5% 	Galena 	Medium and quite spicy.
+Columbus 	11-16% 	Chinook, Northern Brewer, Nugget, Target (U.K.) 	Pleasant, with pungent aroma.
+Galena 	10-14% 	Chinook, Nugget, Pride of Ringwood 	Medium but pleasant hoppiness, citrusy.
+Golding (U.S.) 	4-6% 	Kent Golding (U.K.), Progress (U.K.), Whitbread Golding Variety 	Mild, extremely pleasant, and gently hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Newport 	13-17% 	Galena, Nugget 	Fairly pungent.
+Nugget 	11-14.5% 	Chinook, Columbus, Galena, Target (U.K.) 	Quite heavy and herbal.
+Olympic 	11-13% 	Chinook 	Mild to medium, citrusy aroma, spicy.
+Palisade 	5.5-9.5% 	Cascade (U.S.) 	Some "American" characteristics.
+Satus 	12.5-14% 	Galena 	Known for its bittering and aromatic properties.
+Simcoe 	12-14% 		A bittering and aromatic hop.
+Sorachi Ace (Japan) 	13-16% 		Bittering hop with lemony aroma
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tomahawk 	15-17% 	Columbus 	Primarily a bittering hop.
+Warrior 	15-17% 	Nugget 	A bittering and aromatic hop.
+Willamette 	3.5-6% 	Styrian Golding, Fuggle (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, fruity, floral, a little earthy.
+Yakima Cluster 	6-8.5% 		Used as a kettle hop for bittering.
+Zeus 	13-17% 	Columbus 	Aromatic and pleasant.
+
+Spice, Herb & Vegetable Beer
+Cascade (U.S.)  	4.5-7%  	Amarillo, Centennial, Columbus  	Pleasant, flowery, spicy, and citrusy. Can have a grapefruit flavor.
+Centennial 	8-11.5% 	Cascade, Columbus 	Medium with floral and citrus tones.
+Chinook 	10-14% 	Columbus, Northern Brewer, Nugget, Target (U.K.) 	Mild to medium-heavy, spicy, piney, and grapefruity.
+Cluster 	5.5-8.5% 	Galena 	Medium and quite spicy.
+Columbus 	11-16% 	Chinook, Northern Brewer, Nugget, Target (U.K.) 	Pleasant, with pungent aroma.
+Galena 	10-14% 	Chinook, Nugget, Pride of Ringwood 	Medium but pleasant hoppiness, citrusy.
+Golding (U.S.) 	4-6% 	Kent Golding (U.K.), Progress (U.K.), Whitbread Golding Variety 	Mild, extremely pleasant, and gently hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Newport 	13-17% 	Galena, Nugget 	Fairly pungent.
+Nugget 	11-14.5% 	Chinook, Columbus, Galena, Target (U.K.) 	Quite heavy and herbal.
+Olympic 	11-13% 	Chinook 	Mild to medium, citrusy aroma, spicy.
+Palisade 	5.5-9.5% 	Cascade (U.S.) 	Some "American" characteristics.
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Satus 	12.5-14% 	Galena 	Known for its bittering and aromatic properties.
+Simcoe 	12-14% 		A bittering and aromatic hop.
+Sorachi Ace (Japan) 	13-16% 		Bittering hop with lemony aroma
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tomahawk 	15-17% 	Columbus 	Primarily a bittering hop.
+Warrior 	15-17% 	Nugget 	A bittering and aromatic hop.
+Willamette 	3.5-6% 	Styrian Golding, Fuggle (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, fruity, floral, a little earthy.
+Yakima Cluster 	6-8.5% 		Used as a kettle hop for bittering.
+Zeus 	13-17% 	Columbus 	Aromatic and pleasant.
+
+Stout
+Admiral (U.K.)  	13.5-16%  	Challenger (U.K.), Northdown (U.K.), Target (U.K.)  	Known for its bittering potential.
+Ahtanum 	4-6.3% 	Amarillo, Cascade 	Floral, citrus, sharp, and piney.
+Amarillo 	8-9% 	Cascade, Centennial 	Citrusy, flowery.
+Bramling Cross (U.K.) 	5-7% 	Kent Golding (U.K.), Progress (U.K.), Whitbread Golding Variety 	Quite mild, fruity currant aroma.
+Brewer's Gold (U.S.) 	7-10% 	Bullion 	Bittering hop with neutral aroma character.
+Bullion (U.K.) 	6.5-9% 	Columbus, Northern Brewer 	A rich hop primarily used for bittering. Intense blackcurrant aroma.
+Cascade (U.S.) 	4.5-7% 	Amarillo, Centennial, Columbus 	Pleasant, flowery, spicy, and citrusy. Can have a grapefruit flavor.
+Cascade (New Zealand) 	6-8% 	Ahtanum, Cascade, Centennial 	Similar to US Cascade, has floral, citrus grapefruit character.
+Centennial 	8-11.5% 	Cascade, Columbus 	Medium with floral and citrus tones.
+Challenger (U.K.) 	6.5-8.5% 	Northern Brewer, Perle (German), Perle (U.S.) 	Mild to moderate, quite spicy.
+Chinook 	10-14% 	Columbus, Northern Brewer, Nugget, Target (U.K.) 	Mild to medium-heavy, spicy, piney, and grapefruity.
+Cluster 	5.5-8.5% 	Galena 	Medium and quite spicy.
+Columbus 	11-16% 	Chinook, Northern Brewer, Nugget, Target (U.K.) 	Pleasant, with pungent aroma.
+First Gold (U.K.) 	6.5-8.5% 	Crystal, Kent Golding (U.K.) 	A little like Golding family; spicy.
+Fuggle (U.K.) 	4-5.5% 	Styrian Golding, Fuggle (U.S.), Willamette 	Mild, pleasant, hoppy, and robust.
+Fuggle (U.S.) 	4-5.5% 	Styrian Golding, Fuggle (U.K.), Tettnanger (U.S.), Willamette 	Mild and pleasant, earthy and fruity.
+Galena 	10-14% 	Chinook, Nugget, Pride of Ringwood 	Medium but pleasant hoppiness, citrusy.
+Glacier (U.S.) 	5-9% 	Styrian Golding, Fuggle (U.S.), Tettnanger (U.S.), Willamette 	Dual purpose hop with a citrus earthy aroma.
+Golding (U.S.) 	4-6% 	Kent Golding (U.K.), Progress (U.K.), Whitbread Golding Variety 	Mild, extremely pleasant, and gently hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Kent Golding (U.K.) 	4-5.5% 	Progress (U.K.), Golding (U.S.), Whitbread Golding Variety 	Gentle, fragrant, and pleasant.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Nelson Sauvin (New Zealand) 	12-14% 		Unique hop with grape-like flavor
+Newport 	13-17% 	Galena, Nugget 	Fairly pungent.
+Northdown (U.K.) 	7.5-9.5% 		Fruity with some spiciness.
+Northern Brewer (German) 	7-10% 	Chinook, Northern Brewer (U.S.) 	Medium-strong with some wild tones.
+Northern Brewer (U.S.) 	6-10% 	Chinook, Nugget 	Medium-strong with some wild tones.
+Northwest Golding 	4-5% 		Known for aromatic properties.
+Nugget 	11-14.5% 	Chinook, Columbus, Galena, Target (U.K.) 	Quite heavy and herbal.
+Olympic 	11-13% 	Chinook 	Mild to medium, citrusy aroma, spicy.
+Pacific Gem (New Zealand) 	13-15% 		Bittering hop with a woody character.
+Pacific Jade (New Zealand) 	12-14% 		A "soft" bittering hop with spicy and citrus aroma qualities.
+Palisade 	5.5-9.5% 	Cascade (U.S.) 	Some "American" characteristics.
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Phoenix (U.K.) 	4.2-5.5% 	Challenger (U.K.), Kent Golding (U.K.), Northdown (U.K.) 	Similar to Challenger (U.K.).
+Pioneer (U.K.) 	8-10% 	Kent Golding (U.K.) 	A mild, typical English aroma.
+Pride of Ringwood (Australia) 	7-10% 	Cluster, Galena 	Quite pronounced, woody, earthy, herbal.
+Progress (U.K.) 	5-7.5% 	Fuggle, Kent Golding (U.K.) 	Moderately strong, good aroma.
+Santiam 	5-7.9% 	German Spalt, German Spalt Select, Tettnanger (German) 	Noble characteristics.
+Satus 	12.5-14% 	Galena 	Known for its bittering and aromatic properties.
+Simcoe 	12-14% 		A bittering and aromatic hop.
+Southern Cross (New Zealand) 	11-14% 		Piney, resinous bittering hop
+Styrian Golding (Slovenia) 	4.5-6% 	Fuggle (U.K.), Fuggle (U.S.), Willamette 	Delicate, slightly spicy.
+Summit 	16-18% 	Simcoe 	Ultra high-alpha bittering hop
+Sun 	12-16% 	Magnum 	High-alpha hop with intense character
+Super Alpha (New Zealand) 	10-12% 		Earthy, piney bittering hop.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tomahawk 	15-17% 	Columbus 	Primarily a bittering hop.
+Warrior 	15-17% 	Nugget 	A bittering and aromatic hop.
+WGV (Whitbread Golding Variety) (U.K.) 	5-7% 	Kent Golding (U.K.), Progress (U.K.) 	Quite pleasant and hoppy, moderately intense.
+Willamette 	3.5-6% 	Styrian Golding, Fuggle (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, fruity, floral, a little earthy.
+Yakima Cluster 	6-8.5% 		Used as a kettle hop for bittering.
+Zeus 	13-17% 	Columbus 	Aromatic and pleasant.
+
+Wheat Beer
+Cascade (New Zealand)  	6-8%  	Ahtanum, Cascade, Centennial  	Similar to US Cascade, has floral, citrus grapefruit character.
+Centennial 	8-11.5% 	Cascade, Columbus 	Medium with floral and citrus tones.
+Chinook 	10-14% 	Columbus, Northern Brewer, Nugget, Target (U.K.) 	Mild to medium-heavy, spicy, piney, and grapefruity.
+Cluster 	5.5-8.5% 	Galena 	Medium and quite spicy.
+Columbus 	11-16% 	Chinook, Northern Brewer, Nugget, Target (U.K.) 	Pleasant, with pungent aroma.
+Eroica (German) 	9-12% 	Chinook, Galena, Nugget 	Strong but pleasant aroma.
+Green Bullet (New Zealand) 	11-14% 	Crystal, Hallertauer Tradition, Liberty, Mt. Hood, Ultra 	Dual purpose hop.
+Hallertau Aroma (New Zealand) 	6.5-8.5% 	Perle 	A dual purpose hop which has been used to replace Perle
+Hallertauer (U.S.) 	3.5-5.5% 	Hallertauer Tradition, Liberty, Ultra 	Very mild, pleasant, and slightly flowery, some spicy.
+Hallertauer Gold (German) 	6-6.5% 	Crystal, Mt. Hood 	Known for its aromatic properties similar to Hallertauer.
+Hallertauer Mittelfr�h (German) 	3-5.5% 	Tradition (German), Liberty, Ultra 	Mild and pleasant.
+Hallertauer Tradition (German) 	3.5-5.5% 	Crystal, Liberty 	Known for its aromatic properties. A replacement for Hallertauer Mittelfr�h.
+Hersbrucker (German) 	3-5.5% 	Strisslespalt (France), Mt. Hood 	Mild to semi-strong, pleasant, hoppy.
+Horizon 	11-14% 	Magnum 	Pleasantly hoppy.
+Liberty 	3-6% 	Hallertauer, Hallertauer Tradition, Mt. Hood 	Mild and clean aroma, slightly spicy character.
+Magnum 	13-15% 	Northern Brewer 	Known for bittering value and quality.
+Mt. Hood 	3-8% 	Crystal, Strisslespalt (France), Hersbrucker 	Mild, pleasant, and clean, somewhat pungent and resiny.
+Northern Brewer (German) 	7-10% 	Chinook, Northern Brewer (U.S.) 	Medium-strong with some wild tones.
+Northern Brewer (U.S.) 	6-10% 	Chinook, Nugget 	Medium-strong with some wild tones.
+Northwest Golding 	4-5% 		Known for aromatic properties.
+Nugget 	11-14.5% 	Chinook, Columbus, Galena, Target (U.K.) 	Quite heavy and herbal.
+Olympic 	11-13% 	Chinook 	Mild to medium, citrusy aroma, spicy.
+Pacific Jade (New Zealand) 	12-14% 		A "soft" bittering hop with spicy and citrus aroma qualities.
+Pacifica (New Zealand) 	5-6% 	Hallertauer (U.S.) 	An aroma hop with some citrus and floral character
+Perle (German) 	6-8.5% 	Northern Brewer, Perle (U.S.) 	Moderately intense, good and hoppy, fruity and a little spicy.
+Perle (U.S.) 	6-9.5% 	Chinook, Cluster, Galena, Northern Brewer 	Known for its aromatic and bittering properties, pleasant and slightly spicy.
+Saaz (Czech) 	3-4.5% 	Saaz (U.S.) 	Very mild with pleasant hoppy notes, earthy, spicy, and herbal.
+Saaz (U.S.) 	3-5% 	Saaz (Czech) 	Mild and pleasant, earthy and spicy.
+Santiam 	5-7.9% 	German Spalt, German Spalt Select, Tettnanger (German) 	Noble characteristics.
+Saphir (German) 	2.5-4.5% 	Hallertauer Tradition (German), Tettnanger (German), Spalt (German), Saaz (Czech) 	Mild aroma hop.
+Simcoe 	12-14% 		A bittering and aromatic hop.
+Sladek (Czech) 	5-6% 	Saaz (Czech), Saaz (U.S.), Tettnanger (U.S.) 	A dual-purpose Saaz hybrid.
+Sorachi Ace (Japan) 	13-16% 		Bittering hop with lemony aroma
+Spalt (German) 	4-5.5% 	German Spalt Select, Saaz (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy.
+Spalt Select (German) 	4-6% 	German Spalt, Saaz (U.S.), Tettnanger (U.S.) 	Very fine Spalter-type aroma.
+Spalt Select (U.S.) 	3-5% 	Saaz, Tettnanger 	Medium intensity and pleasant hoppy qualities. Medium-strong aroma with wild American tones.
+Sterling 	6-9% 	Saaz 	Herbal, spicy, pleasant aroma, hint of floral and citrus.
+Strisslespalt (France) 	3-5% 	Crystal, Hersbrucker, Mt. Hood 	Medium intensity, pleasant, hoppy.
+Target (U.K.) 	9.5-12.5% 	Fuggle, Willamette 	Pleasant English hop aroma, quite intense.
+Tettnanger (German) 	3.5-5.5% 	German Spalt, German Spalt Select, Saaz, Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, herbal.
+Tettnanger (U.S.) 	3.4-5.2% 	Saaz (Czech), German Spalt, Santiam 	An aromatic hop, mild and slightly spicy.
+Tomahawk 	15-17% 	Columbus 	Primarily a bittering hop.
+Tradition (German) 	5-7% 	Hallertauer Mittelfr�h, Hersbrucker 	Very fine and similar to Hallertauer Mittelfr�h.
+Ultra 	2-4.1% 	Hallertauer Tradition, Liberty, Saaz 	Very good to outstanding, some Saaz-like qualities. Aromatic properties similar to Hallertauer.
+Vanguard 	4-5.7% 	Hallertauer Mittelfr�h, Saaz 	Aroma similar to continental European types.
+Warrior 	15-17% 	Nugget 	A bittering and aromatic hop.
+Willamette 	3.5-6% 	Styrian Golding, Fuggle (U.S.), Tettnanger (U.S.) 	Mild and pleasant, slightly spicy, fruity, floral, a little earthy.
+Yakima Cluster 	6-8.5% 		Used as a kettle hop for bittering.
+Zeus 	13-17% 	Columbus 	Aromatic and pleasant.
