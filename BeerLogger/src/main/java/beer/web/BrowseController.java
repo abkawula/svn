@@ -50,6 +50,14 @@ public class BrowseController {
 	}
 	
 	@RequestMapping(method = RequestMethod.GET)
+	public Map<String,Object> hop() {
+		Map<String, Object> model = new HashMap<String, Object>();
+		
+		model.put("hops", beerService.getAllHops());
+		return model;
+	}
+	
+	@RequestMapping(method = RequestMethod.GET)
 	public Map<String, Object> showRecipe(@RequestParam(value="id") Integer id) {
 		Map<String, Object> returnMap = new HashMap<String, Object>();
 		

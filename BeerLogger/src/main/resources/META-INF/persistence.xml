@@ -5,11 +5,7 @@
              version="1.0">
    <persistence-unit name="beerDatabase">
       <provider>org.hibernate.ejb.HibernatePersistence</provider>
-      <!-- 
-      <class>org.springframework.webflow.samples.booking.User</class>
-      <class>org.springframework.webflow.samples.booking.Booking</class>
-      <class>org.springframework.webflow.samples.booking.Hotel</class>
-       -->
+     
 		<class>beer.domain.Additive</class>
 		<class>beer.domain.AdditiveIngredient</class>
 		<class>beer.domain.Barley</class>

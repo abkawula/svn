@@ -15,12 +15,12 @@
 	<li><a href="#">Search for recipe by ingredients</a></li>
 	<br/>
 	<br/>
-	<li><a href="data/hop">Add a new hop</a> </li>
-	<li><a href="data/barley">Add a new barley</a> </li>
-	<li><a href="data/yeast">Add a new yeast</a> </li>
-	<li><a href="data/additive">Add a new additive</a> </li>
-	<li><a href="data/flavoring">Add a new flavoring</a> </li>
-	<li><a href="data/recipe">Add a new recipe</a> </li>
+	<li><a href="browse/hop">Browse hops</a> </li>
+	<li><a href="browse/barley">Browse barleys</a> </li>
+	<li><a href="browse/yeast">Browse yeasts</a> </li>
+	<li><a href="browse/additive">Browse additives</a> </li>
+	<li><a href="browse/flavoring">Browse flavorings</a> </li>
+	<li><a href="browse/recipe">Add a new recipe</a> </li>
 </ul>
 </body>
 </html>

@@ -47,7 +47,9 @@ public class BeerService implements IBeerService {
 
     @Transactional(readOnly = true)
 	public Hop findHopById(Integer id) {
-		return em.find(Hop.class, id);
+    	Hop hop = em.find(Hop.class, id);
+    	hop.getSubstitutions().size();
+		return hop;
 	}
 
     @Transactional(readOnly = true)

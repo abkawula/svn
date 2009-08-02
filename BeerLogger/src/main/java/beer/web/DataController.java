@@ -33,7 +33,8 @@ IBeerService beerService;
 	@RequestMapping(method = RequestMethod.GET)
 	public Hop hop(@RequestParam(value="id", required=false) Integer id) {
 		if (id != null) {
-			return beerService.findHopById(id);
+			Hop hop = beerService.findHopById(id); 
+			return hop;
 		} else {
 			return new Hop();
 		}

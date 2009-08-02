@@ -26,6 +26,10 @@
  		<put-attribute name="body" value = "/WEB-INF/jsp/browse/beerList.jsp" />
  	</definition>
  	
+ 	<definition name="browse/hop" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/browse/hop.jsp" />
+ 	</definition>
+ 	
  	<definition name="browse/showRecipe" extends="standardLayout">
  		<put-attribute name="body" value = "/WEB-INF/jsp/browse/recipe.jsp" />
  	</definition>
