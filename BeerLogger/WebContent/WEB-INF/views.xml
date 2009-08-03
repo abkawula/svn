@@ -8,16 +8,7 @@
 	<definition name="welcome" extends="standardLayout">
 		<put-attribute name="body" value="/WEB-INF/jsp/welcome.jsp" />
 	</definition>
-<!-- 	
-	<definition name="login" extends="standardLayout">
-		<put-attribute name="body" value="/WEB-INF/login.jsp" />
-	</definition>
-	
-	<definition name="logoutSuccess" extends="standardLayout">
-		<put-attribute name="body" value="/WEB-INF/logoutSuccess.jsp" />
-	</definition>
- -->
- 
+
  	<definition name="browse/showCategories" extends="standardLayout">
  		<put-attribute name="body" value = "/WEB-INF/jsp/browse/index.jsp" />
  	</definition>

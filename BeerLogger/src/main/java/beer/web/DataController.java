@@ -121,12 +121,6 @@ IBeerService beerService;
 			returnMap.put("recipeForm", new RecipeForm());
 		}
 		
-//		if (id != null) {
-//			return beerService.findRecipeById(id);
-//		} else {
-//			return new Recipe();
-//		}
-		
 		return returnMap;
 	}
 	
@@ -134,4 +128,5 @@ IBeerService beerService;
 	public String processRecipe(@ModelAttribute("Recipe") RecipeForm recipeform) {
 		return "browse/showCategories";
 	}
+	
 }
