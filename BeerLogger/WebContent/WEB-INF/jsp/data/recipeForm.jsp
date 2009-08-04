@@ -69,22 +69,46 @@
 							value="<c:out value="${status.value}"/>" />
 						</spring:bind>
 					</td>
-			</tr>	
+				</tr>	
 			</c:forEach>
 		</tr>
 	</table>
 	**Enter "M" for Mash hops or "D" for Dry Hops
-<%--	
+	
 	<h1>Grains</h1>
 	<table>
 		<tr><th>Variety</th><th>Quantity (lbs)</th></tr>
 		
-		<tr>
-			<td><form:hidden path="barley0.id"/><form:select path="barley0.barley.id"><form:option value="0" label=""> </form:option> <form:options items="${barlies}" itemValue="id" itemLabel="variety" /></form:select></td>
-			<td><form:input path="barley0.quantity" /></td>
-		</tr>	
+		<c:forEach items="${recipeForm.barlies}" varStatus="barleyIngredientRow">
+			<tr>
+				<td>							
+					<spring:bind path="recipeForm.barlies[${barleyIngredientRow.index}].id"> 
+						<input type="hidden" name="<c:out value="${status.expression}"/>"
+						value="<c:out value="${status.value}"/>" />
+					</spring:bind>
+					
+					<spring:bind path="recipeForm.barlies[${barleyIngredientRow.index}].barley">						
+							<select>
+								<c:forEach items="${barlies}" var="barley">
+									<option value="${barley.id}"
+									<c:if test="${barley.id == status.value.id}"> selected="selected" </c:if> > 
+										${barley.variety }
+									</option>
+								</c:forEach>
+							</select>
+					</spring:bind>	
+				</td>
+				
+				<td>
+					<spring:bind path="recipeForm.barlies[${barleyIngredientRow.index}].quantity">
+						<input type="text" name="<c:out value="${status.expression}"/>"
+						value="<c:out value="${status.value}"/>" />
+					</spring:bind>
+				</td>
+			</tr>
+		</c:forEach>	
 	</table>
-	
+<%--	
 	<h1>Additives</h1>
 	<table>
 		<tr><th>Name</th><th>Quantity (lbs)</th></tr>
