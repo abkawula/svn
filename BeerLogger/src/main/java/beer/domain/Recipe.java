@@ -1,5 +1,6 @@
 package beer.domain;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -11,6 +12,9 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Transient;
+
+import org.apache.commons.collections.FactoryUtils;
+import org.apache.commons.collections.list.LazyList;
 
 
 
@@ -57,31 +61,36 @@ public class Recipe {
 	public void setName(String name) { this.name = name; }
 	
 	
-	private List<HopIngredient> hops;
+	private List<HopIngredient> hops = LazyList.decorate(
+			new ArrayList<HopIngredient>(), FactoryUtils.instantiateFactory(HopIngredient.class));;
 	@OneToMany(cascade = CascadeType.ALL)
 	public List<HopIngredient> getHops() { return hops; }
 	public void setHops(List<HopIngredient> hops) {	
 		this.hops = hops;
 	}
 	
-	private List<BarleyIngredient> barlies;
+	private List<BarleyIngredient> barlies = LazyList.decorate(
+			new ArrayList<BarleyIngredient>(), FactoryUtils.instantiateFactory(BarleyIngredient.class));
 	@OneToMany(cascade = CascadeType.ALL)
 	public List<BarleyIngredient> getBarlies() { 
 		return barlies;
 		}
 	public void setBarlies(List<BarleyIngredient> barlies) {this.barlies = barlies;	}
 	
-	private List<YeastIngredient> yeasts;
+	private List<YeastIngredient> yeasts = LazyList.decorate(
+			new ArrayList<YeastIngredient>(), FactoryUtils.instantiateFactory(YeastIngredient.class));
 	@OneToMany(cascade = CascadeType.ALL)
 	public List<YeastIngredient> getYeasts() { return yeasts; }
 	public void setYeasts(List<YeastIngredient> yeasts) { this.yeasts = yeasts;	}
 	
-	private List<AdditiveIngredient> additives;
+	private List<AdditiveIngredient> additives = LazyList.decorate(
+			new ArrayList<AdditiveIngredient>(), FactoryUtils.instantiateFactory(AdditiveIngredient.class));
 	@OneToMany(cascade = CascadeType.ALL)
 	public List<AdditiveIngredient> getAdditives() { return additives;}
 	public void setAdditives(List<AdditiveIngredient> additives) {this.additives = additives;}
 	
-	private List<FlavoringIngredient> flavorings;
+	private List<FlavoringIngredient> flavorings = LazyList.decorate(
+			new ArrayList<FlavoringIngredient>(), FactoryUtils.instantiateFactory(FlavoringIngredient.class));
 	@OneToMany(cascade = CascadeType.ALL)
 	public List<FlavoringIngredient> getFlavorings() { return flavorings;}
 	public void setFlavorings(List<FlavoringIngredient> flavorings) {this.flavorings = flavorings;}

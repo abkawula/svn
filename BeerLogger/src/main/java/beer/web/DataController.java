@@ -18,7 +18,6 @@ import beer.domain.Hop;
 import beer.domain.Recipe;
 import beer.domain.Yeast;
 import beer.service.IBeerService;
-import beer.service.RecipeForm;
 
 @Controller
 public class DataController {
@@ -116,16 +115,16 @@ IBeerService beerService;
 		returnMap.put("styles", Recipe.Style.values());
 		
 		if (id != null) {
-			returnMap.put("recipeForm", new RecipeForm(beerService.findRecipeById(id)));
+			returnMap.put("recipeForm", beerService.findRecipeById(id));
 		} else {
-			returnMap.put("recipeForm", new RecipeForm());
+			returnMap.put("recipeForm", new Recipe());
 		}
 		
 		return returnMap;
 	}
 	
 	@RequestMapping(method = RequestMethod.POST)
-	public String processRecipe(@ModelAttribute("Recipe") RecipeForm recipeform) {
+	public String processRecipe(@ModelAttribute("Recipe") Recipe recipe) {
 		return "browse/showCategories";
 	}
 	

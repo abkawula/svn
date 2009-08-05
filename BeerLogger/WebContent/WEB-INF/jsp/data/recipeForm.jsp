@@ -130,5 +130,6 @@
 		</tr>
 	</table>
  --%>
+ <input type="submit" />
 </form:form>
 

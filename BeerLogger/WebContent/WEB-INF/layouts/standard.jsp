@@ -27,13 +27,14 @@
 	<!-- <link rel="Shortcut Icon" type="image/ico" href="favicon.ico" /> -->
 	
 	<!-- Sourcery-->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>	
     <script type="text/javascript" src="<c:url value="/resources/js/jquery.tabs.min.js" />"></script>
     
      
     <script type="text/javascript" src="<c:url value="/resources/dojo/dojo.js" />"></script>
     <script type="text/javascript" src="<c:url value="/resources/spring/Spring.js" />"></script>
     <script type="text/javascript" src="<c:url value="/resources/spring/Spring-Dojo.js" />"></script>
+
 
 
     <script type="text/javascript">
@@ -51,6 +52,7 @@
 <div id="wrapper">
 <div id="header">
 	<h1 id="logo"><img src="<c:url value="/resources/images/beer_logo.gif"/>" alt="Spring Travel" /></h1>	
+
 	<ul id="menu">		
 		<li><a href="#">My Recipes</a></li>
 		<li><a href="#">Recipe</a>
@@ -82,9 +84,7 @@
 	        </ul>
     	</li> 
 	</ul>
-	
 
-	
 </div>
 
 <div id="content_wrapper">
