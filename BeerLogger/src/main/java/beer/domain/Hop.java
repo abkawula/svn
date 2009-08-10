@@ -6,6 +6,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Hop implements Comparable<Hop> {
@@ -31,6 +33,11 @@ public class Hop implements Comparable<Hop> {
 	@ManyToMany
 	public List<Hop> getSubstitutions() { return substitutions; }
 	public void setSubstitutions(List<Hop> substitutions) { this.substitutions = substitutions; }
+	
+	private List<HopIngredient> hopIngredients;
+	@OneToMany(mappedBy="hop")
+	public List<HopIngredient> getHopIngredients() { return hopIngredients; }
+	public void setHopIngredients(List<HopIngredient> hopIngredients) { this.hopIngredients = hopIngredients; }
 	
 	public int compareTo(Hop h) {
 		return name.compareTo(h.getName());

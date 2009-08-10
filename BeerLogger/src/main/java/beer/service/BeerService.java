@@ -49,6 +49,7 @@ public class BeerService implements IBeerService {
 	public Hop findHopById(Integer id) {
     	Hop hop = em.find(Hop.class, id);
     	hop.getSubstitutions().size();
+    	hop.getHopIngredients().size();
 		return hop;
 	}
 

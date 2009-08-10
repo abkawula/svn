@@ -60,15 +60,16 @@ public class Recipe {
 	public String getName() { return name; }
 	public void setName(String name) { this.name = name; }
 	
-	
+	@SuppressWarnings("unchecked")
 	private List<HopIngredient> hops = LazyList.decorate(
 			new ArrayList<HopIngredient>(), FactoryUtils.instantiateFactory(HopIngredient.class));;
-	@OneToMany(cascade = CascadeType.ALL)
+	@OneToMany(cascade = CascadeType.ALL,mappedBy="recipe")
 	public List<HopIngredient> getHops() { return hops; }
 	public void setHops(List<HopIngredient> hops) {	
 		this.hops = hops;
 	}
 	
+	@SuppressWarnings("unchecked")
 	private List<BarleyIngredient> barlies = LazyList.decorate(
 			new ArrayList<BarleyIngredient>(), FactoryUtils.instantiateFactory(BarleyIngredient.class));
 	@OneToMany(cascade = CascadeType.ALL)
@@ -77,18 +78,21 @@ public class Recipe {
 		}
 	public void setBarlies(List<BarleyIngredient> barlies) {this.barlies = barlies;	}
 	
+	@SuppressWarnings("unchecked")
 	private List<YeastIngredient> yeasts = LazyList.decorate(
 			new ArrayList<YeastIngredient>(), FactoryUtils.instantiateFactory(YeastIngredient.class));
 	@OneToMany(cascade = CascadeType.ALL)
 	public List<YeastIngredient> getYeasts() { return yeasts; }
 	public void setYeasts(List<YeastIngredient> yeasts) { this.yeasts = yeasts;	}
 	
+	@SuppressWarnings("unchecked")
 	private List<AdditiveIngredient> additives = LazyList.decorate(
 			new ArrayList<AdditiveIngredient>(), FactoryUtils.instantiateFactory(AdditiveIngredient.class));
 	@OneToMany(cascade = CascadeType.ALL)
 	public List<AdditiveIngredient> getAdditives() { return additives;}
 	public void setAdditives(List<AdditiveIngredient> additives) {this.additives = additives;}
 	
+	@SuppressWarnings("unchecked")
 	private List<FlavoringIngredient> flavorings = LazyList.decorate(
 			new ArrayList<FlavoringIngredient>(), FactoryUtils.instantiateFactory(FlavoringIngredient.class));
 	@OneToMany(cascade = CascadeType.ALL)

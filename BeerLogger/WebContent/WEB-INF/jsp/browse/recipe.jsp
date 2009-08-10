@@ -125,4 +125,13 @@
 
 <table>
 	<tr><th>Qty</th><th>Hop Variety</th><th>Alpha</th><th>P / L</th><th>Boil Time</th><th> Utilization Rate</th><th>IBU</th></tr>
+	<c:forEach items="${recipe.hops }" var="hop">
+		<td>${hop.quantity }</td>
+		<td>${hop.hop.name }</td>
+		<td>${hop.hop.alpha }</td>
+		<td>${hop.pelletLeaf }</td>
+		<td>${hop.boilTime }</td>
+		<td>${hop.utilization }</td>
+		<td>${hop.IBU }</td>
+	</c:forEach>
 </table>
