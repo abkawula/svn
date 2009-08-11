@@ -1553,20 +1553,6 @@ insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id, recipe_id) va
 insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id, recipe_id) values(12,'d','P',3,10,2);
 insert into HopIngredient (id,boilTime,pelletLeaf,quantity,hop_id, recipe_id) values(13,'d','P',1.75,7,2);
 
---insert into Recipe_HopIngredient (Recipe_id, hops_id) values (1,1);
---insert into Recipe_HopIngredient (Recipe_id, hops_id) values (1,2);
---insert into Recipe_HopIngredient (Recipe_id, hops_id) values (1,3);
---insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,4);
---insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,5);
---insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,6);
---insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,7);
---insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,8);
---insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,9);
---insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,10);
---insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,11);
---insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,12);
---insert into Recipe_HopIngredient (Recipe_id, hops_id) values (2,13);
-
 insert into Barley(id, variety, country, gravity, color, comment) values (1, 'Black Barley', 'American', 1.023, 525.0, 'Imparts dryness. Unmalted; use in porters and dry stouts.');
 insert into Barley(id, variety, country, gravity, color, comment) values (2, 'Black Patent Malt', 'American', 1.026, 500.0, 'Provides color and sharp flavor in stouts and porters.');
 insert into Barley(id, variety, country, gravity, color, comment) values (3, 'Chocolate Malt American', 'American', 1.034, 350.0, 'Use in all types to adjust color and add nutty, toasted flavor. Chocolate flavor.');
@@ -1657,14 +1643,13 @@ insert into Barley(id, variety, country, gravity, color, comment) values (87, 'M
 insert into Barley(id, variety, country, gravity, color, comment) values (88, 'Oak Chips', null, 0.0, 0.0, 'Creates cask-conditioned flavor and aroma. Use in IPAs, Belgian ales and Scottish ales.');
 insert into Barley(id, variety, country, gravity, color, comment) values (89, 'Scotmalt Golden Promise', null, 1.038, 2.4, 'Scottish pale ale malt; base malt for all Scottish beers.');
 
-insert into BarleyIngredient(id,quantity,barley_id) values (1,8,44);
-insert into BarleyIngredient(id,quantity,barley_id) values (2,.5,84);
-insert into BarleyIngredient(id,quantity,barley_id) values (3,.5,12);
+insert into BarleyIngredient(id,quantity,barley_id, recipe_id) values (1,8,44,1);
+insert into BarleyIngredient(id,quantity,barley_id, recipe_id) values (2,.5,84,1);
+insert into BarleyIngredient(id,quantity,barley_id, recipe_id) values (3,.5,12,1);
 
-insert into BarleyIngredient(id,quantity,barley_id) values (4,.25,4);
-insert into BarleyIngredient(id,quantity,barley_id) values (5,11.5,14);
-insert into BarleyIngredient(id,quantity,barley_id) values (6,.875,12);
-
+insert into BarleyIngredient(id,quantity,barley_id, recipe_id) values (4,.25,4,2);
+insert into BarleyIngredient(id,quantity,barley_id, recipe_id) values (5,11.5,14,2);
+insert into BarleyIngredient(id,quantity,barley_id, recipe_id) values (6,.875,12,2);
 
 insert into Additive(id, name, gravity, color, comment) values (1, 'Belgian Candi Sugar (clear)', 1.036, 0.5, 'Smooth taste, good head retention, sweet aroma and high gravity without being apparent. Use in Belgian and holiday ales. Use clear for tripels.');
 insert into Additive(id, name, gravity, color, comment) values (2, 'Brown Sugar', 1.046, 40.0, 'Imparts rich, sweet flavor. Use in Scottish ales, old ales and holiday beers.');
@@ -1688,27 +1673,14 @@ insert into Additive(id, name, gravity, color, comment) values (19, 'Sucrose (wh
 insert into Additive(id, name, gravity, color, comment) values (20, 'Syrup Malt Extract', 1.033, 0.0, 'Extra Light (3.5�), Light (3.5 -5�), Amber (10�), Dark (30�), Wheat (2�).');
 insert into Additive(id, name, gravity, color, comment) values (21, 'Treacle', 1.036, 100.0, 'Imparts intense, sweet flavor. A British mixture of molasses, invert sugar and golden syrup (corn syrup). Use in dark English ales.');
 
-insert into AdditiveIngredient (id, quantity,additive_id) values (1,2,10);
-insert into AdditiveIngredient (id, quantity,additive_id) values (2,1,5);
+insert into AdditiveIngredient (id, quantity,additive_id, recipe_id) values (1,2,10,1);
+insert into AdditiveIngredient (id, quantity,additive_id, recipe_id) values (2,1,2);
 
 insert into Yeast(id,brand,category,name) values (1,'Wyeast',1,'London ESB 1968');
 insert into Yeast(id,brand,category,name) values (2,'White Labs',1,'English Ale 002');
 insert into Yeast(id,brand,category,name) values (3,'Dry Yeast',1,'Muntons Premium Gold');
 insert into Yeast(id,brand,category,name) values (4,'Wyeast',2,'American Ale 1056');
 
-insert into YeastIngredient(id,quantity,yeast_id) values (1,1,1);
-insert into YeastIngredient(id,quantity,yeast_id) values (2,1,4);
-
-insert into Recipe_AdditiveIngredient (Recipe_id,additives_id) values (1,1);
-insert into Recipe_AdditiveIngredient (Recipe_id,additives_id) values (2,2);
-
-insert into Recipe_BarleyIngredient (Recipe_id,barlies_id) values (1,1);
-insert into Recipe_BarleyIngredient (Recipe_id,barlies_id) values (1,2);
-insert into Recipe_BarleyIngredient (Recipe_id,barlies_id) values (1,3);
-insert into Recipe_BarleyIngredient (Recipe_id,barlies_id) values (2,4);
-insert into Recipe_BarleyIngredient (Recipe_id,barlies_id) values (2,5);
-insert into Recipe_BarleyIngredient (Recipe_id,barlies_id) values (2,6);
-
-insert into Recipe_YeastIngredient (Recipe_id, yeasts_id) values(1,1);
-insert into Recipe_YeastIngredient (Recipe_id, yeasts_id) values(2,2);
+insert into YeastIngredient(id,quantity,yeast_id, recipe_id) values (1,1,1,1);
+insert into YeastIngredient(id,quantity,yeast_id, recipe_id) values (2,1,4,2);
 

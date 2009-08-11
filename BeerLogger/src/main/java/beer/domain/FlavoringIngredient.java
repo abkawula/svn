@@ -21,4 +21,9 @@ public class FlavoringIngredient {
 	private double quantity;
 	public double getQuantity() {return quantity;}
 	public void setQuantity(double quantity) {this.quantity = quantity;}
+	
+	private Recipe recipe;
+	@ManyToOne
+	public Recipe getRecipe() { return recipe; }
+	public void setRecipe(Recipe recipe) { this.recipe = recipe; }
 }

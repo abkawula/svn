@@ -1,8 +1,11 @@
 package beer.domain;
 
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 @Entity
 public class Additive implements Comparable<Additive> {
@@ -27,6 +30,11 @@ public class Additive implements Comparable<Additive> {
 	private String comment;
 	public String getComment() { return comment; }
 	public void setComment(String comment) {this.comment = comment; }
+	
+	private List<AdditiveIngredient> additiveIngredients;
+	@OneToMany(mappedBy="additive")
+	public List<AdditiveIngredient> getAdditiveIngredients() { return additiveIngredients; }
+	public void setAdditiveIngredients(List<AdditiveIngredient> additiveIngredients) { this.additiveIngredients = additiveIngredients; }
 	
 	public int compareTo(Additive a) {
 		return name.compareTo(a.getName());

@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.view.RedirectView;
 
 import beer.domain.Additive;
 import beer.domain.Barley;
@@ -115,17 +117,19 @@ IBeerService beerService;
 		returnMap.put("styles", Recipe.Style.values());
 		
 		if (id != null) {
-			returnMap.put("recipeForm", beerService.findRecipeById(id));
+			returnMap.put("recipe", beerService.findRecipeById(id));
 		} else {
-			returnMap.put("recipeForm", new Recipe());
+			returnMap.put("recipe", new Recipe());
 		}
 		
 		return returnMap;
 	}
 	
 	@RequestMapping(method = RequestMethod.POST)
-	public String processRecipe(@ModelAttribute("Recipe") Recipe recipe) {
-		return "browse/showCategories";
+	public ModelAndView processRecipe(@ModelAttribute("Recipe") Recipe recipe) {
+		Map<String, Object> model = new HashMap<String, Object>();
+		model.put("id", recipe.getId());
+		return new ModelAndView(new RedirectView("../browse/showRecipe"), model);
 	}
 	
 }

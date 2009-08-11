@@ -1,11 +1,15 @@
 package beer.domain;
 
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Transient;
+
+import org.apache.commons.lang.math.NumberUtils;
 
 @Entity
 public class HopIngredient {
@@ -38,13 +42,41 @@ public class HopIngredient {
 	public void setBoilTime(String boilTime) {this.boilTime = boilTime;}
 	
 	@Transient
-	public String getUtilization() {
-		return recipe.toString();
+	public double getUtilization(){
+		if (NumberUtils.isNumber(boilTime)) {
+			return (getBignessFactor() * getBoilTimeFactor() );
+		} 
+		
+		return 0;
 	}
 	
 	@Transient
-	public String getIBU() {
-		return recipe.toString();
+	private double getBignessFactor() {
+		return 1.65 * Math.pow(0.000125, recipe.getInitialGravity() - 1);
 	}
 	
+	@Transient
+	private double getBoilTimeFactor() {
+		return ((1 - Math.pow(Math.E, -.04 * Double.parseDouble(boilTime))) / 4.15);
+	}
+	
+//	To calculate IBUs, the formula is simple:
+//
+//		IBUs = decimal alpha acid utilization * mg/l of added alpha acids
+//
+//		To calculate the concentration of alpha acids you add to the wort:
+//
+//	mg/l of added alpha acids = decimal AA rating * ozs hops * 7490
+//    -------------------------------------
+//     volume of finished beer in gallons 
+
+	@Transient
+	public double getIBU() {
+		return (getUtilization() * getMillisPerGallonAlpha());
+	}
+	
+	@Transient
+	private double getMillisPerGallonAlpha() {
+		return ((hop.getAlpha() * quantity * 7490) / recipe.getBatchSize());
+	}
 }

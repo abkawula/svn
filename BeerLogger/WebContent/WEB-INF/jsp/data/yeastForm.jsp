@@ -20,7 +20,7 @@
 	<form:hidden path="id"/>
 	<table>
 		<tr>
-			<td>Name: </td
+			<td>Name: </td>
 			<td><form:input path="name"/></td>
 		</tr>
 		<tr>

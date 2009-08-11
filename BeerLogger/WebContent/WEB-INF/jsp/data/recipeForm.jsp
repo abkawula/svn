@@ -4,7 +4,7 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 
 
-<form:form modelAttribute="recipeForm" action="processRecipe" method="post">
+<form:form modelAttribute="recipe" action="processRecipe" method="post">
 	<span class="errors">
 		<form:errors path="*" />
 	</span>
@@ -19,17 +19,17 @@
  
  
  <h1> Hops </h1>
-	<table>
+	<table id="hopTable">
 		<tr><th>Variety</th><th>Quantity (Oz)</th><th>Pellet / Leaf</th><th>Boil Time (minutes)**</th></tr>		
  			
-			<c:forEach items="${recipeForm.hops}" varStatus="hopIngredientRow">
+			<c:forEach items="${recipe.hops}" varStatus="hopIngredientRow">
 				<tr>
 					<td>
-						<spring:bind path="recipeForm.hops[${hopIngredientRow.index}].id"> 
-							<input type="hidden" name="<c:out value="${status.expression}"/>"
+						<spring:bind path="recipe.hops[${hopIngredientRow.index}].id"> 
+							<input type="hidden" class="hopId" name="<c:out value="${status.expression}"/>"
 							value="<c:out value="${status.value}"/>" />
 						</spring:bind>
-						<spring:bind path="recipeForm.hops[${hopIngredientRow.index}].hop">						
+						<spring:bind path="recipe.hops[${hopIngredientRow.index}].hop">						
  							<select>
  								<c:forEach items="${hops}" var="hop">
  									<option value="${hop.id}"
@@ -42,14 +42,14 @@
 					</td>
 					
 					<td>
-						<spring:bind path="recipeForm.hops[${hopIngredientRow.index}].quantity">
+						<spring:bind path="recipe.hops[${hopIngredientRow.index}].quantity">
 							<input type="text" name="<c:out value="${status.expression}"/>"
 							value="<c:out value="${status.value}"/>" />
 						</spring:bind>
 					</td>
 					
 					<td>
-						<spring:bind path="recipeForm.hops[${hopIngredientRow.index}].pelletLeaf">
+						<spring:bind path="recipe.hops[${hopIngredientRow.index}].pelletLeaf">
 							<select>
 								<option value="P"
 									<c:if test="${status.value == 'P'}">selected="selected" </c:if> >
@@ -64,7 +64,7 @@
 					</td>
 					
 					<td>
-						<spring:bind path="recipeForm.hops[${hopIngredientRow.index}].boilTime">
+						<spring:bind path="recipe.hops[${hopIngredientRow.index}].boilTime">
 							<input type="text" name="<c:out value="${status.expression}"/>"
 							value="<c:out value="${status.value}"/>" />
 						</spring:bind>
@@ -76,18 +76,18 @@
 	**Enter "M" for Mash hops or "D" for Dry Hops
 	
 	<h1>Grains</h1>
-	<table>
+	<table id="barleyTable">
 		<tr><th>Variety</th><th>Quantity (lbs)</th></tr>
 		
-		<c:forEach items="${recipeForm.barlies}" varStatus="barleyIngredientRow">
+		<c:forEach items="${recipe.barlies}" varStatus="barleyIngredientRow">
 			<tr>
 				<td>							
-					<spring:bind path="recipeForm.barlies[${barleyIngredientRow.index}].id"> 
+					<spring:bind path="recipe.barlies[${barleyIngredientRow.index}].id"> 
 						<input type="hidden" name="<c:out value="${status.expression}"/>"
 						value="<c:out value="${status.value}"/>" />
 					</spring:bind>
 					
-					<spring:bind path="recipeForm.barlies[${barleyIngredientRow.index}].barley">						
+					<spring:bind path="recipe.barlies[${barleyIngredientRow.index}].barley">						
 							<select>
 								<c:forEach items="${barlies}" var="barley">
 									<option value="${barley.id}"
@@ -100,7 +100,7 @@
 				</td>
 				
 				<td>
-					<spring:bind path="recipeForm.barlies[${barleyIngredientRow.index}].quantity">
+					<spring:bind path="recipe.barlies[${barleyIngredientRow.index}].quantity">
 						<input type="text" name="<c:out value="${status.expression}"/>"
 						value="<c:out value="${status.value}"/>" />
 					</spring:bind>
@@ -108,28 +108,73 @@
 			</tr>
 		</c:forEach>	
 	</table>
-<%--	
-	<h1>Additives</h1>
-	<table>
-		<tr><th>Name</th><th>Quantity (lbs)</th></tr>
-		
-		<tr>
-			<td><form:hidden path="additive0.id"/><form:select path="additive0.additive.id"><form:option value="0" label=""> </form:option> <form:options items="${additives}" itemValue="id" itemLabel="name" /></form:select></td>
-			<td><form:input path="additive0.quantity"/></td>
-		</tr>
-		
-	</table>
 	
+<h1>Additives</h1>
+	<table id="additiveTable">
+		<tr><th>Name</th><th>Quantity (lbs)</th></tr>
+			<c:forEach items="${recipe.additives}" varStatus="additiveIngredientRow">
+				<tr>
+					<td>							
+						<spring:bind path="recipe.additives[${additiveIngredientRow.index}].id"> 
+							<input type="hidden" name="<c:out value="${status.expression}"/>"
+							value="<c:out value="${status.value}"/>" />
+						</spring:bind>						
+						<spring:bind path="recipe.additives[${additiveIngredientRow.index}].additive">						
+								<select>
+									<c:forEach items="${additives}" var="additive">
+										<option value="${additive.id}"
+										<c:if test="${additive.id == status.value.id}"> selected="selected" </c:if> > 
+											${additive.name }
+										</option>
+									</c:forEach>
+								</select>
+						</spring:bind>
+					</td>
+					
+					<td>
+						<spring:bind path="recipe.additives[${additiveIngredientRow.index}].quantity">
+							<input type="text" name="<c:out value="${status.expression}"/>"
+							value="<c:out value="${status.value}"/>" />
+						</spring:bind>
+					</td>
+				</tr>
+			</c:forEach>
+	</table>
+
 	<h1>Flavorings</h1>
-	<table>
+	<table id="flavoringTable">
 		<tr><th>Name</th><th>Quantity</th></tr>
 		
-		<tr>
-			<td><form:hidden path="flavoring0.id"/><form:select path="flavoring0.flavoring.id"><form:option value="0" label=""> </form:option> <form:options items="${flavorings}" itemValue="id" itemLabel="name" /></form:select></td>
-			<td><form:input path="flavoring0.quantity"/></td>
-		</tr>
+		<c:forEach items="${recipe.flavorings}" varStatus="flavoringIngredientRow">
+			<tr>
+				<td>							
+					<spring:bind path="recipe.flavorings[${flavoringIngredientRow.index}].id"> 
+						<input type="hidden" name="<c:out value="${status.expression}"/>"
+						value="<c:out value="${status.value}"/>" />
+					</spring:bind>
+					
+					<spring:bind path="recipe.flavorings[${flavoringIngredientRow.index}].flavoring">						
+							<select>
+								<c:forEach items="${flavorings}" var="flavoring">
+									<option value="${flavoring.id}"
+									<c:if test="${flavoring.id == status.value.id}"> selected="selected" </c:if> > 
+										${flavoring.name }
+									</option>
+								</c:forEach>
+							</select>
+					</spring:bind>	
+				</td>
+				
+				<td>
+					<spring:bind path="recipe.flavorings[${flavoringIngredientRow.index}].quantity">
+						<input type="text" name="<c:out value="${status.expression}"/>"
+						value="<c:out value="${status.value}"/>" />
+					</spring:bind>
+				</td>
+			</tr>
+		</c:forEach>
 	</table>
- --%>
+
  <input type="submit" />
 </form:form>
 

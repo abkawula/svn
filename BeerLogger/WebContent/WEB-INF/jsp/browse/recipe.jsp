@@ -3,7 +3,9 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 
-<h1> Shopping List</h1>
+
+<h1> ${recipe.name }</h1><a href="../data/recipe?id=${recipe.id }">Edit</a>
+<h2>Shopping List</h2>
 <table>
 	<tr>
 		<th>Barley</th><th>Hops</th><th>Yeast</th><th>Other</th>
@@ -125,13 +127,15 @@
 
 <table>
 	<tr><th>Qty</th><th>Hop Variety</th><th>Alpha</th><th>P / L</th><th>Boil Time</th><th> Utilization Rate</th><th>IBU</th></tr>
-	<c:forEach items="${recipe.hops }" var="hop">
-		<td>${hop.quantity }</td>
-		<td>${hop.hop.name }</td>
-		<td>${hop.hop.alpha }</td>
-		<td>${hop.pelletLeaf }</td>
-		<td>${hop.boilTime }</td>
-		<td>${hop.utilization }</td>
-		<td>${hop.IBU }</td>
+	<c:forEach var="hop" items="${recipe.hops }">
+		<tr>
+			<td>${hop.quantity }</td>
+			<td>${hop.hop.name}</td>
+			<td>${hop.hop.alpha }</td>
+			<td>${hop.pelletLeaf }</td>
+			<td>${hop.boilTime }</td>
+			<td>${hop.utilization }</td>
+			<td>${hop.IBU }</td>
+		</tr>
 	</c:forEach>
 </table>
