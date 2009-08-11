@@ -19,6 +19,7 @@ import beer.domain.Flavoring;
 import beer.domain.Hop;
 import beer.domain.Recipe;
 import beer.domain.Yeast;
+import beer.service.BeerService;
 import beer.service.IBeerService;
 
 @Controller
@@ -109,7 +110,6 @@ IBeerService beerService;
 		Map<String, Object> returnMap = new HashMap<String, Object>();
 		
 		returnMap.put("hops", beerService.getAllHops());
-		List<Hop> hops = beerService.getAllHops();
 		returnMap.put("barlies", beerService.getAllBarlies());
 		returnMap.put("yeasts", beerService.getAllYeasts());
 		returnMap.put("additives", beerService.getAllAdditives());
@@ -127,6 +127,8 @@ IBeerService beerService;
 	
 	@RequestMapping(method = RequestMethod.POST)
 	public ModelAndView processRecipe(@ModelAttribute("Recipe") Recipe recipe) {
+		beerService.persist(recipe);
+		
 		Map<String, Object> model = new HashMap<String, Object>();
 		model.put("id", recipe.getId());
 		return new ModelAndView(new RedirectView("../browse/showRecipe"), model);
