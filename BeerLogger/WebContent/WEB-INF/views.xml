@@ -4,6 +4,11 @@
 	"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
 	
 <tiles-definitions>
+
+	<definition name="standardLayout" template="/WEB-INF/jsp/layouts/standard.jsp">
+		<put-attribute name="title">Beericpe.com - Beer recipes</put-attribute>
+		<put-attribute name="header" value="/WEB-INF/jsp/layouts/default-header.jsp" />
+	</definition>
 	
 	<definition name="welcome" extends="standardLayout">
 		<put-attribute name="body" value="/WEB-INF/jsp/welcome.jsp" />

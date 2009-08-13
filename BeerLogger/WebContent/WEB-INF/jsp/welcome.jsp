@@ -20,7 +20,7 @@
 	<li><a href="browse/yeast">Browse yeasts</a> </li>
 	<li><a href="browse/additive">Browse additives</a> </li>
 	<li><a href="browse/flavoring">Browse flavorings</a> </li>
-	<li><a href="browse/recipe">Add a new recipe</a> </li>
+	<li><a href="data/recipe">Add a new recipe</a> </li>
 </ul>
 </body>
 </html>

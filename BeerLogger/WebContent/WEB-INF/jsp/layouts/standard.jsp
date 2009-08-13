@@ -13,7 +13,8 @@
     <meta name="revisit-after" content="1 day" />
     <meta name="DC.title" content="Beericpe.com" />
     <meta name="robots" content="all" />
-    <title>Beericpe.com - Beer recipes</title>
+    
+	<title><tiles:getAsString name="title"/></title>
 	
 	<!--Style--> 
 	<style type="text/css" media="projection, screen">
@@ -27,14 +28,14 @@
 	<!-- <link rel="Shortcut Icon" type="image/ico" href="favicon.ico" /> -->
 	
 	<!-- Sourcery-->
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>	
+	
+	<%-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script> --%>
+	<script type="text/javascript" src="<c:url value="/resources/js/jquery-1.2.6.js" />"></script>
     <script type="text/javascript" src="<c:url value="/resources/js/jquery.tabs.min.js" />"></script>
-    
-     
     <script type="text/javascript" src="<c:url value="/resources/dojo/dojo.js" />"></script>
     <script type="text/javascript" src="<c:url value="/resources/spring/Spring.js" />"></script>
     <script type="text/javascript" src="<c:url value="/resources/spring/Spring-Dojo.js" />"></script>
-
+	 
 
 
     <script type="text/javascript">
@@ -51,40 +52,7 @@
 <body>
 <div id="wrapper">
 <div id="header">
-	<h1 id="logo"><img src="<c:url value="/resources/images/beer_logo.gif"/>" alt="Spring Travel" /></h1>	
-
-	<ul id="menu">		
-		<li><a href="#">My Recipes</a></li>
-		<li><a href="#">Recipe</a>
-			<ul id="recipes">
-	            <li><a href="#">Add Recipes</a></li>
-	            <li><a href="#">Most Popular</a></li>	            
-	        </ul> 
-		</li>
-		
-		<li><a href="#">Ingredient</a>
-			<ul id="ingedients">
-	            <li><a href="#">Add Barley</a></li>
-	            <li><a href="#">Add Hops</a></li>
-	            <li><a href="#">Add xxxx</a></li>
-	        </ul> 
-		</li>
-		
-		<li class="searchContainer">
-	        <div>
-		        <input type="text" id="searchField" />
-		        <!-- <img src="magnifier.png" alt="Search" onclick="alert('You clicked on search button')" />  -->
-	        </div>
-	        <ul id="search">
-	            <li><input id="cbxAll" type="checkbox" />All</li>
-	            <li><input id="Articles" type="checkbox" />Search Reipces</li>
-	            <li><input id="Tutorials" type="checkbox" />Search Ingredents</li>
-	            <li><input id="Reviews" type="checkbox" />Search People</li>
-	            <li><input id="Resources" type="checkbox" />Resources</li>
-	        </ul>
-    	</li> 
-	</ul>
-
+	<tiles:insertAttribute name="header" />
 </div>
 
 <div id="content_wrapper">
