@@ -1674,7 +1674,6 @@ insert into Additive(id, name, gravity, color, comment) values (20, 'Syrup Malt 
 insert into Additive(id, name, gravity, color, comment) values (21, 'Treacle', 1.036, 100.0, 'Imparts intense, sweet flavor. A British mixture of molasses, invert sugar and golden syrup (corn syrup). Use in dark English ales.');
 
 insert into AdditiveIngredient (id, quantity,additive_id, recipe_id) values (1,2,10,1);
-insert into AdditiveIngredient (id, quantity,additive_id, recipe_id) values (2,1,2);
 
 insert into Yeast(id,name,style,lab,floculation,attenuation,temp,description) values (1, '10th Anniversary Blend WLP010', 'L', 'White Labs', 'Medium', '75-80%', '65-70', 'Blend of WLP001, WLP002, WLP004 & WLP810.');
 insert into Yeast(id,name,style,lab,floculation,attenuation,temp,description) values (2, 'American Ale 1056', 'L', 'Wyeast', 'Low/Med', '73-77%', '60-72', 'Well balanced. Ferments dry, finishes soft.');
