@@ -15,17 +15,33 @@ public class Yeast implements Comparable<Yeast> {
 	public int getId() {return id;}
 	public void setId(int id) {this.id = id;}
 	
-	private int category;
-	public int getCategory() {return category;}
-	public void setCategory(int yeastCategory) {this.category = yeastCategory;}
-	
 	private String name;
 	public String getName() {return name;}
 	public void setName(String name) {this.name = name;}
 	
-	private String brand;
-	public String getBrand() {return brand;}
-	public void setBrand(String brand) {this.brand = brand;}
+	private String style;
+	public String getStyle() {return style;}
+	public void setStyle(String style) {this.style = style;};
+	
+	private String lab;
+	public String getLab() {return lab;}
+	public void setLab(String lab) {this.lab = lab;}
+	
+	private String floculation;
+	public String getFloculation() {return floculation;}
+	public void setFloculation(String flocualtion) {this.floculation = flocualtion;}
+	
+	private String attenuation;
+	public String getAttenuation() {return attenuation;}
+	public void setAttenuation(String attenuation) {this.attenuation = attenuation;}
+	
+	private String temp;
+	public String getTemp() {return temp;}
+	public void setTemp(String temp) {this.temp = temp;}
+	
+	private String description;
+	public String getDescription() {return description;}
+	public void setDescription(String description) {this.description = description;}
 	
 	private List<YeastIngredient> yeastIngredients;
 	@OneToMany(mappedBy="yeast")
