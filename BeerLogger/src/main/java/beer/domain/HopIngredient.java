@@ -10,9 +10,12 @@ import javax.persistence.OneToMany;
 import javax.persistence.Transient;
 
 import org.apache.commons.lang.math.NumberUtils;
+import org.apache.log4j.Logger;
 
 @Entity
 public class HopIngredient {
+	
+	private static Logger logger = Logger.getLogger(HopIngredient.class);
 	
 	private int id;
 	@Id @GeneratedValue
@@ -43,21 +46,26 @@ public class HopIngredient {
 	
 	@Transient
 	public double getUtilization(){
+		double utilization = 0;
 		if (NumberUtils.isNumber(boilTime)) {
-			return (getBignessFactor() * getBoilTimeFactor() );
+			utilization = (getBignessFactor() * getBoilTimeFactor() );
 		} 
-		
-		return 0;
+		logger.debug("utilization = " + utilization);
+		return utilization;
 	}
 	
 	@Transient
 	private double getBignessFactor() {
-		return 1.65 * Math.pow(0.000125, recipe.getInitialGravity() - 1);
+		double bignessFactor = 1.65 * Math.pow(0.000125, recipe.getInitialGravity() - 1); 
+		logger.debug("bignessFactor = " + bignessFactor);
+		return bignessFactor;
 	}
 	
 	@Transient
 	private double getBoilTimeFactor() {
-		return ((1 - Math.pow(Math.E, -.04 * Double.parseDouble(boilTime))) / 4.15);
+		double boidTimeFactor = ((1 - Math.pow(Math.E, -.04 * Double.parseDouble(boilTime))) / 4.15); 
+		logger.debug("boilTimeFactor = " + boidTimeFactor);
+		return boidTimeFactor;
 	}
 	
 //	To calculate IBUs, the formula is simple:
@@ -72,11 +80,15 @@ public class HopIngredient {
 
 	@Transient
 	public double getIBU() {
-		return (getUtilization() * getMillisPerGallonAlpha());
+		double ibu = getUtilization() * getMillisPerGallonAlpha();
+		logger.debug("ibu = " + ibu);
+		return ibu;
 	}
 	
 	@Transient
 	private double getMillisPerGallonAlpha() {
-		return ((hop.getAlpha() * quantity * 7490) / recipe.getBatchSize());
+		double millisPerGallonAlpha = ((hop.getAlpha() * quantity * 74.90) / recipe.getBatchSize());
+		logger.debug("millisPerGallonAlpha = " + millisPerGallonAlpha);
+		return millisPerGallonAlpha;
 	}
 }

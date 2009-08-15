@@ -68,8 +68,8 @@
 		</td>
 	</tr>
 </table>
-<%--
-<h1>Grains and Additives</h1>
+
+<h2>Grains and Additives</h2>
 <table>
 	<tr><th></th><th>Qty</th><th>Gravity</th><th>Ingredient</th><th>@CLR</th><th>CU</th></tr>
 	<c:set var="start" value="true" />
@@ -122,20 +122,32 @@
 		<td>${recipe.homebrewColorUnits }</td>
 	</tr>
 </table>
---%>
-<h1>Hops</h1>
+
+<h2>Hops</h2>
 
 <table>
 	<tr><th>Qty</th><th>Hop Variety</th><th>Alpha</th><th>P / L</th><th>Boil Time</th><th> Utilization Rate</th><th>IBU</th></tr>
 	<c:forEach var="hop" items="${recipe.hops }">
 		<tr>
 			<td>${hop.quantity }</td>
-			<td>${hop.hop.name}</td>
+			<td><a href="<c:url value="/spring/data/hop?id=${hop.hop.id }"/>">${hop.hop.name}</a></td>
 			<td>${hop.hop.alpha }</td>
 			<td>${hop.pelletLeaf }</td>
 			<td>${hop.boilTime }</td>
-			<td>${hop.utilization }</td>
-			<td>${hop.IBU }</td>
+			<td><fmt:formatNumber type="percent" value="${hop.utilization }" maxFractionDigits="2"/></td>
+			<td><fmt:formatNumber value="${hop.IBU }" maxFractionDigits="2"/></td>
+		</tr>
+	</c:forEach>
+	<tr><td colspan="6"><b>Total:</b></td><td><fmt:formatNumber value="${recipe.IBU }" maxFractionDigits="2"/></td></tr>
+</table>
+
+<h2>Yeast(s)</h2>
+<table>
+	<tr><th>Quantity</th><th>Name</th></tr>
+	<c:forEach var="yeast" items="${recipe.yeasts }"> 
+		<tr>
+			<td>${yeast.quantity }</td>
+			<td>${yeast.yeast.name }</td>
 		</tr>
 	</c:forEach>
 </table>

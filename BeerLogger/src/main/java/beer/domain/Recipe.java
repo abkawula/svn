@@ -15,12 +15,15 @@ import javax.persistence.Transient;
 
 import org.apache.commons.collections.FactoryUtils;
 import org.apache.commons.collections.list.LazyList;
+import org.apache.log4j.Logger;
 
 
 
 
 @Entity
 public class Recipe {
+	
+	private static Logger logger = Logger.getLogger(Recipe.class);
 	
 	public static enum Style {
 		AMBER_ALE("Amber Ale"),
@@ -153,5 +156,17 @@ public class Recipe {
 		}
 		
 		return cu /batchSize;
+	}
+	
+	@Transient
+	public double getIBU() {
+		double ibu = 0;
+		
+		for (HopIngredient hi : hops) {
+			ibu += hi.getIBU();
+		}
+		
+		logger.debug("IBU = " + ibu);
+		return ibu;
 	}
 }

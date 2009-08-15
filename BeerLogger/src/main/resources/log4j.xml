@@ -4,28 +4,21 @@
 <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
 
 	<!-- Appenders -->
-	<!-- 
-	<appender name="console" class="org.apache.log4j.ConsoleAppender">
-		<param name="Target" value="System.out" />
-		<layout class="org.apache.log4j.PatternLayout">
-			<param name="ConversionPattern" value="%-5p: %c - %m%n" />
-		</layout>
-	</appender>
-	 -->
-	 
-	<appender name="file" class="org.apache.log4j.FileAppender">
-		<param name="File" value="Beercipe.log" />
-		<layout class="org.apache.log4j.PatternLayout">
-			<param name="ConversionPattern" value="%-5p: %c - %m%n" />
-		</layout>
-	</appender>
+	<appender name="filelogger" class="org.apache.log4j.FileAppender">
+        <param name="File" value="${catalina.home}/logs/BeerLogger.log" />
+        <param name="Append" value="true" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{ISO8601} %-5p [%c]: %m%n  "/>
+        </layout>           
+     </appender>
+
 
 	<logger name="org.springframework.beans">
 		<level value="warn" />
 	</logger>
 
 	<logger name="org.springframework.binding">
-		<level value="debug" />
+		<level value="warn" />
 	</logger>
 	
 	<logger name="org.springframework.jdbc">
@@ -41,17 +34,24 @@
 	</logger>
 
 	<logger name="org.springframework.web">
-		<level value="debug" />
+		<level value="warn" />
 	</logger>
 
-	<logger name="org.springframework.webflow">
-		<level value="debug" />
+	<logger name="org.springframework.faces">
+		<level value="warn" />
 	</logger>
 	
+	<logger name="org.springframework.webflow">
+		<level value="warn" />
+	</logger>
+	
+	<logger name="beer">
+		<level value="debug"/>
+	</logger>
 	<!-- Root Logger -->
 	<root>
-		<priority value="debug" />
-		<appender-ref ref="console" />
+		<priority value="error" />
+		<appender-ref ref="filelogger" />
 	</root>
 	
 </log4j:configuration>
