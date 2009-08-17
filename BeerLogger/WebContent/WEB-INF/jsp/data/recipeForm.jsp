@@ -3,7 +3,54 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 
+<script>
+	function addNewHop() {
+		var index = $('#hopTable tr').length - 1;
+		//var appendrow = $('#hopTemplate tr').html();
+		var html = replaceAll($('#hopTemplate tbody').html(), '$index', index);
+		$('#hopTable tr:last').after(html);
 
+	}
+
+	function replaceAll(OldString, FindString, ReplaceString) {
+		  var SearchIndex = 0;
+		  var NewString = ""; 
+		  while (OldString.indexOf(FindString,SearchIndex) != -1)    {
+		    NewString += OldString.substring(SearchIndex,OldString.indexOf(FindString,SearchIndex));
+		    NewString += ReplaceString;
+		    SearchIndex = (OldString.indexOf(FindString,SearchIndex) + FindString.length);         
+		  }
+		  NewString += OldString.substring(SearchIndex,OldString.length);
+		  return NewString;
+		}
+</script>
+
+<table id="hopTemplate" style="display:none">
+	<tr>
+		<td>	
+			<select>
+				<c:forEach items="${hops}" var="hop"><option value="${hop.id}">${hop.name }</option>
+				</c:forEach>
+			</select>
+		</td>
+		
+		<td>
+			<input type="text" name="hops[$index].quantity"/>
+		</td>
+
+		<td>
+			<select>
+				<option value="P">Pellet</option>
+				<option value="L">Leaf</option>
+			</select>
+		</td>
+		
+		<td>
+			<input type="text" name="hops[$index].boilTime" />
+		</td>
+	</tr>	
+ </table>
+ 
 <form:form modelAttribute="recipe" action="processRecipe" method="post">
 	<span class="errors">
 		<form:errors path="*" />
@@ -15,9 +62,7 @@
 	<form:label path="finalGravity">Final Gravity: </form:label><form:input path="finalGravity"/><br>
 	<form:label path="style">Style:</form:label><form:select path="style"><form:options items="${styles}" itemLabel="name"/> </form:select><br>
 	<form:label path="batchSize">Batch Size (Gallons) </form:label><form:input path="batchSize"/><br>
- 
- 
- 
+ 	
  <h1> Hops </h1>
 	<table id="hopTable">
 		<tr><th>Variety</th><th>Quantity (Oz)</th><th>Pellet / Leaf</th><th>Boil Time (minutes)**</th></tr>		
@@ -25,15 +70,14 @@
 			<c:forEach items="${recipe.hops}" varStatus="hopIngredientRow">
 				<tr>
 					<td>
-						<spring:bind path="recipe.hops[${hopIngredientRow.index}].id"> 
+						<spring:bind path="recipe.hops[${hopIngredientRow.index}].id">
 							<input type="hidden" class="hopId" name="<c:out value="${status.expression}"/>"
 							value="<c:out value="${status.value}"/>" />
 						</spring:bind>
-						<spring:bind path="recipe.hops[${hopIngredientRow.index}].hop">						
+						<spring:bind path="recipe.hops[${hopIngredientRow.index}].hopId">						
  							<select>
  								<c:forEach items="${hops}" var="hop">
- 									<option value="${hop.id}"
- 									<c:if test="${hop.id == status.value.id}"> selected="selected" </c:if> > 
+ 									<option value="${hop.id}">
  										${hop.name }
  									</option>
  								</c:forEach>
@@ -73,6 +117,7 @@
 			</c:forEach>
 		</tr>
 	</table>
+	<input id="hopButton" type="button" onclick="addNewHop();" value="Add New Hop"/>
 	**Enter "M" for Mash hops or "D" for Dry Hops
 	
 	<h1>Grains</h1>

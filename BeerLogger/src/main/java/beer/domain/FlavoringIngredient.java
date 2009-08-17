@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.Transient;
 
 @Entity
 public class FlavoringIngredient {
@@ -17,6 +18,14 @@ public class FlavoringIngredient {
 	@ManyToOne
 	public Flavoring getFlavoring() {return flavoring;}
 	public void setFlavoring(Flavoring flavoring) {this.flavoring = flavoring;}
+	@Transient
+	public int getFlavoringId() {
+		return flavoring.getId();
+	}
+	public void setFlavoringId(int flavoringId) {
+		flavoring = new Flavoring();
+		flavoring.setId(flavoringId);
+	}
 	
 	private double quantity;
 	public double getQuantity() {return quantity;}

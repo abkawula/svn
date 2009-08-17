@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.Transient;
 
 @Entity
 public class YeastIngredient {
@@ -17,6 +18,14 @@ public class YeastIngredient {
 	@ManyToOne
 	public Yeast getYeast() {return yeast;}
 	public void setYeast(Yeast yeast) {this.yeast = yeast;}
+	@Transient
+	public int getYeastId() {
+		return yeast.getId();
+	}
+	public void setYeast(int yeastId) {
+		yeast = new Yeast();
+		yeast.setId(yeastId);
+	}
 	
 	private double quantity;
 	public double getQuantity() {return quantity;}

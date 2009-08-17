@@ -89,7 +89,13 @@ public class BeerService implements IBeerService {
     @Transactional
 	public void persist(Object object) {
 		em.persist(object);
-		System.out.println("object saved:" + object);
+		System.out.println("object persisted:" + object);
+	}
+    
+    @Transactional
+	public void merge(Object object) {
+		em.merge(object);
+		System.out.println("object merged:" + object);
 	}
 
     @Transactional(readOnly = true)

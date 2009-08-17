@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.Transient;
 
 @Entity
 public class BarleyIngredient {
@@ -17,6 +18,14 @@ public class BarleyIngredient {
 	@ManyToOne
 	public Barley getBarley() {return barley;}
 	public void setBarley(Barley barley) {this.barley = barley;}
+	@Transient
+	public int getBarleyId() {
+		return barley.getId();
+	}
+	public void setBarleyId(int barleyId) {
+		barley = new Barley();
+		barley.setId(barleyId);
+	}
 	
 	private double quantity;
 	public double getQuantity() {return quantity;}

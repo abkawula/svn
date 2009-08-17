@@ -1,12 +1,11 @@
 package beer.domain;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.ManyToMany;
+import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
 import javax.persistence.Transient;
 
 import org.apache.commons.lang.math.NumberUtils;
@@ -26,9 +25,18 @@ public class HopIngredient {
 	@ManyToOne
 	public Hop getHop() {return hop;}
 	public void setHop(Hop hop) {this.hop = hop;}
+	@Transient
+	public int getHopId() {
+		return hop.getId();
+	}
+	public void setHopId(int hopId) {
+		hop = new Hop();
+		hop.setId(hopId);
+	}
 	
 	private Recipe recipe;
-	@ManyToOne
+	@ManyToOne(cascade = CascadeType.ALL)
+	@JoinColumn (name="recipe_id", nullable = false, updatable = false, insertable = false)
 	public Recipe getRecipe() { return recipe; }
 	public void setRecipe(Recipe recipe) { this.recipe = recipe; }
 	
