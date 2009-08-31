@@ -28,7 +28,7 @@
 <table id="hopTemplate" style="display:none">
 	<tr>
 		<td>	
-			<select>
+			<select name="hops[$index].hop.id">
 				<c:forEach items="${hops}" var="hop"><option value="${hop.id}">${hop.name }</option>
 				</c:forEach>
 			</select>
@@ -39,7 +39,7 @@
 		</td>
 
 		<td>
-			<select>
+			<select name="hops[$index].pelletLeaf">
 				<option value="P">Pellet</option>
 				<option value="L">Leaf</option>
 			</select>
@@ -71,11 +71,12 @@
 			<spring:nestedPath path="hops[${hopIngredientRow.index}]">
 				<tr>
 					<td>
+<%--
 						<spring:bind path="id">
 							<input type="hidden" class="hopId" name="<c:out value="${status.expression}"/>"
 							value="<c:out value="${status.value}"/>" />
 						</spring:bind>
-					 
+--%>
 						<spring:bind path="hop.id">						
  							<select name="<c:out value="${status.expression}"/>"> 
  								<c:forEach items="${hops}" var="hop">

@@ -28,7 +28,6 @@ public class HopIngredient {
 	
 	private Recipe recipe;
 	@ManyToOne(cascade = CascadeType.ALL)
-	@JoinColumn (name="recipe_id", nullable = false, updatable = false, insertable = false)
 	public Recipe getRecipe() { return recipe; }
 	public void setRecipe(Recipe recipe) { this.recipe = recipe; }
 	
