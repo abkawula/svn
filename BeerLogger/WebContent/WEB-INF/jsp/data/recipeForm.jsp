@@ -68,33 +68,36 @@
 		<tr><th>Variety</th><th>Quantity (Oz)</th><th>Pellet / Leaf</th><th>Boil Time (minutes)**</th></tr>		
  			
 			<c:forEach items="${recipe.hops}" varStatus="hopIngredientRow">
+			<spring:nestedPath path="hops[${hopIngredientRow.index}]">
 				<tr>
 					<td>
-						<spring:bind path="recipe.hops[${hopIngredientRow.index}].id">
+						<spring:bind path="id">
 							<input type="hidden" class="hopId" name="<c:out value="${status.expression}"/>"
 							value="<c:out value="${status.value}"/>" />
 						</spring:bind>
-						<spring:bind path="recipe.hops[${hopIngredientRow.index}].hopId">						
- 							<select>
+					 
+						<spring:bind path="hop.id">						
+ 							<select name="<c:out value="${status.expression}"/>"> 
  								<c:forEach items="${hops}" var="hop">
- 									<option value="${hop.id}">
+ 									<option value="${hop.id}" <c:if test="${status.value == hop.id}">selected="selectect" </c:if> >
  										${hop.name }
  									</option>
  								</c:forEach>
  							</select>
 						</spring:bind>
+						 	
 					</td>
 					
 					<td>
-						<spring:bind path="recipe.hops[${hopIngredientRow.index}].quantity">
+						<spring:bind path="quantity">
 							<input type="text" name="<c:out value="${status.expression}"/>"
 							value="<c:out value="${status.value}"/>" />
 						</spring:bind>
 					</td>
 					
 					<td>
-						<spring:bind path="recipe.hops[${hopIngredientRow.index}].pelletLeaf">
-							<select>
+						<spring:bind path="pelletLeaf">
+							<select name="<c:out value="${status.expression}"/>"> 
 								<option value="P"
 									<c:if test="${status.value == 'P'}">selected="selected" </c:if> >
 									Pellet
@@ -108,12 +111,13 @@
 					</td>
 					
 					<td>
-						<spring:bind path="recipe.hops[${hopIngredientRow.index}].boilTime">
+						<spring:bind path="boilTime">
 							<input type="text" name="<c:out value="${status.expression}"/>"
 							value="<c:out value="${status.value}"/>" />
 						</spring:bind>
 					</td>
 				</tr>	
+			</spring:nestedPath>
 			</c:forEach>
 		</tr>
 	</table>
@@ -125,18 +129,19 @@
 		<tr><th>Variety</th><th>Quantity (lbs)</th></tr>
 		
 		<c:forEach items="${recipe.barlies}" varStatus="barleyIngredientRow">
+		<spring:nestedPath path="barlies[${barleyIngredientRow.index}]">
 			<tr>
 				<td>							
-					<spring:bind path="recipe.barlies[${barleyIngredientRow.index}].id"> 
+					<spring:bind path="id"> 
 						<input type="hidden" name="<c:out value="${status.expression}"/>"
 						value="<c:out value="${status.value}"/>" />
 					</spring:bind>
 					
-					<spring:bind path="recipe.barlies[${barleyIngredientRow.index}].barley">						
-							<select>
+					<spring:bind path="barley.id">						
+							<select name="<c:out value="${status.expression}"/>"> 
 								<c:forEach items="${barlies}" var="barley">
 									<option value="${barley.id}"
-									<c:if test="${barley.id == status.value.id}"> selected="selected" </c:if> > 
+									<c:if test="${barley.id == status.value}"> selected="selected" </c:if> > 
 										${barley.variety }
 									</option>
 								</c:forEach>
@@ -145,12 +150,13 @@
 				</td>
 				
 				<td>
-					<spring:bind path="recipe.barlies[${barleyIngredientRow.index}].quantity">
+					<spring:bind path="quantity">
 						<input type="text" name="<c:out value="${status.expression}"/>"
 						value="<c:out value="${status.value}"/>" />
 					</spring:bind>
 				</td>
 			</tr>
+		</spring:nestedPath>
 		</c:forEach>	
 	</table>
 	
@@ -158,17 +164,18 @@
 	<table id="additiveTable">
 		<tr><th>Name</th><th>Quantity (lbs)</th></tr>
 			<c:forEach items="${recipe.additives}" varStatus="additiveIngredientRow">
+			<spring:nestedPath path="additives[${additiveIngredientRow.index}]">
 				<tr>
 					<td>							
-						<spring:bind path="recipe.additives[${additiveIngredientRow.index}].id"> 
+						<spring:bind path="id"> 
 							<input type="hidden" name="<c:out value="${status.expression}"/>"
 							value="<c:out value="${status.value}"/>" />
 						</spring:bind>						
-						<spring:bind path="recipe.additives[${additiveIngredientRow.index}].additive">						
-								<select>
+						<spring:bind path="additive.id">						
+								<select name="<c:out value="${status.expression}"/>"> 
 									<c:forEach items="${additives}" var="additive">
 										<option value="${additive.id}"
-										<c:if test="${additive.id == status.value.id}"> selected="selected" </c:if> > 
+										<c:if test="${additive.id == status.value}"> selected="selected" </c:if> > 
 											${additive.name }
 										</option>
 									</c:forEach>
@@ -177,12 +184,13 @@
 					</td>
 					
 					<td>
-						<spring:bind path="recipe.additives[${additiveIngredientRow.index}].quantity">
+						<spring:bind path="quantity">
 							<input type="text" name="<c:out value="${status.expression}"/>"
 							value="<c:out value="${status.value}"/>" />
 						</spring:bind>
 					</td>
 				</tr>
+			</spring:nestedPath>
 			</c:forEach>
 	</table>
 
@@ -191,18 +199,19 @@
 		<tr><th>Name</th><th>Quantity</th></tr>
 		
 		<c:forEach items="${recipe.flavorings}" varStatus="flavoringIngredientRow">
+		<spring:nestedPath path="flavorings[${flavoringIngredientRow.index}]">
 			<tr>
 				<td>							
-					<spring:bind path="recipe.flavorings[${flavoringIngredientRow.index}].id"> 
+					<spring:bind path="id"> 
 						<input type="hidden" name="<c:out value="${status.expression}"/>"
 						value="<c:out value="${status.value}"/>" />
 					</spring:bind>
 					
-					<spring:bind path="recipe.flavorings[${flavoringIngredientRow.index}].flavoring">						
-							<select>
+					<spring:bind path="flavoring.id">						
+							<select name="<c:out value="${status.expression}"/>"> 
 								<c:forEach items="${flavorings}" var="flavoring">
 									<option value="${flavoring.id}"
-									<c:if test="${flavoring.id == status.value.id}"> selected="selected" </c:if> > 
+									<c:if test="${flavoring.id == status.value}"> selected="selected" </c:if> > 
 										${flavoring.name }
 									</option>
 								</c:forEach>
@@ -211,12 +220,13 @@
 				</td>
 				
 				<td>
-					<spring:bind path="recipe.flavorings[${flavoringIngredientRow.index}].quantity">
+					<spring:bind path="quantity">
 						<input type="text" name="<c:out value="${status.expression}"/>"
 						value="<c:out value="${status.value}"/>" />
 					</spring:bind>
 				</td>
 			</tr>
+		</spring:nestedPath>
 		</c:forEach>
 	</table>
 

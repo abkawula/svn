@@ -25,14 +25,6 @@ public class HopIngredient {
 	@ManyToOne
 	public Hop getHop() {return hop;}
 	public void setHop(Hop hop) {this.hop = hop;}
-	@Transient
-	public int getHopId() {
-		return hop.getId();
-	}
-	public void setHopId(int hopId) {
-		hop = new Hop();
-		hop.setId(hopId);
-	}
 	
 	private Recipe recipe;
 	@ManyToOne(cascade = CascadeType.ALL)
