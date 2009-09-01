@@ -4,14 +4,12 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 
 <script>
-	function addNewHop() {
-		var index = $('#hopTable tr').length - 1;
-		//var appendrow = $('#hopTemplate tr').html();
-		var html = replaceAll($('#hopTemplate tbody').html(), '$index', index);
-		$('#hopTable tr:last').after(html);
-
+	function addNewRow(ingredientType) {
+		var index = $('#' + ingredientType + 'Table tr').length - 1;
+		var html = replaceAll($('#' + ingredientType + 'Template tbody').html(), '$index', index);
+		$('#' + ingredientType + 'Table tr:last').after(html);
 	}
-
+	
 	function replaceAll(OldString, FindString, ReplaceString) {
 		  var SearchIndex = 0;
 		  var NewString = ""; 
@@ -24,32 +22,92 @@
 		  return NewString;
 		}
 </script>
-
-<table id="hopTemplate" style="display:none">
-	<tr>
-		<td>	
-			<select name="hops[$index].hop.id">
-				<c:forEach items="${hops}" var="hop"><option value="${hop.id}">${hop.name }</option>
-				</c:forEach>
-			</select>
-		</td>
-		
-		<td>
-			<input type="text" name="hops[$index].quantity"/>
-		</td>
-
-		<td>
-			<select name="hops[$index].pelletLeaf">
-				<option value="P">Pellet</option>
-				<option value="L">Leaf</option>
-			</select>
-		</td>
-		
-		<td>
-			<input type="text" name="hops[$index].boilTime" />
-		</td>
-	</tr>	
- </table>
+<div id="templateDiv" style="display:none">
+	<table id="hopTemplate">
+		<tr>
+			<td>	
+				<select name="hops[$index].hop.id">
+					<c:forEach items="${hops}" var="hop"><option value="${hop.id}">${hop.name }</option>
+					</c:forEach>
+				</select>
+			</td>
+			
+			<td>
+				<input type="text" name="hops[$index].quantity"/>
+			</td>
+	
+			<td>
+				<select name="hops[$index].pelletLeaf">
+					<option value="P">Pellet</option>
+					<option value="L">Leaf</option>
+				</select>
+			</td>
+			
+			<td>
+				<input type="text" name="hops[$index].boilTime" />
+			</td>
+		</tr>	
+	 </table>
+	 
+	 <table id="barleyTemplate">
+		<tr>
+			<td>							
+				<select name="barlies[$index].barley.id"/>"> 
+					<c:forEach items="${barlies}" var="barley"><option value="${barley.id}">${barley.variety }</option>
+					</c:forEach>
+				</select>
+			</td>
+			
+			<td>
+				<input type="text" name="barlies[$index].quantity"/>"
+			</td>
+		</tr>
+	 </table>
+	 
+	 <table id="additiveTemplate">
+	 	<tr>
+			<td>													
+				<select name="additives[$index].additive.id"/>"> 
+					<c:forEach items="${additives}" var="additive"><option value="${additive.id}">${additive.name }</option>
+					</c:forEach>
+				</select>
+			</td>
+			
+			<td>
+				<input type="text" name="additives[$index].quantity"/>"
+			</td>
+		</tr>
+	 </table>
+	 
+	 <table id="flavoringTemplate">
+	 	<tr>
+			<td>							
+				<select name="flavorings[$index].flavoring.id"/>"> 
+					<c:forEach items="${flavorings}" var="flavoring"><option value="${flavoring.id}">${flavoring.name }</option>
+					</c:forEach>
+				</select>
+			</td>
+			
+			<td>
+				<input type="text" name="flavorings[$index].quantity"/>"
+			</td>
+		</tr>
+	 </table>
+	 <table id="yeastTemplate">
+	 	<tr>
+			<td>							
+				<select name="yeasts[$index].yeast.id"/>"> 
+					<c:forEach items="${yeasts}" var="yeast"><option value="${yeast.id}">${yeast.name }</option>
+					</c:forEach>
+				</select>
+			</td>
+			
+			<td>
+				<input type="text" name="yeasts[$index].quantity"/>"
+			</td>
+		</tr>
+	 </table>
+ </div>
  
 <form:form modelAttribute="recipe" action="processRecipe" method="post">
 	<span class="errors">
@@ -71,12 +129,6 @@
 			<spring:nestedPath path="hops[${hopIngredientRow.index}]">
 				<tr>
 					<td>
-<%--
-						<spring:bind path="id">
-							<input type="hidden" class="hopId" name="<c:out value="${status.expression}"/>"
-							value="<c:out value="${status.value}"/>" />
-						</spring:bind>
---%>
 						<spring:bind path="hop.id">						
  							<select name="<c:out value="${status.expression}"/>"> 
  								<c:forEach items="${hops}" var="hop">
@@ -85,8 +137,7 @@
  									</option>
  								</c:forEach>
  							</select>
-						</spring:bind>
-						 	
+						</spring:bind>		 	
 					</td>
 					
 					<td>
@@ -122,7 +173,7 @@
 			</c:forEach>
 		</tr>
 	</table>
-	<input id="hopButton" type="button" onclick="addNewHop();" value="Add New Hop"/>
+	<input id="hopButton" type="button" onclick="addNewRow('hop');" value="Add New Hop"/>
 	**Enter "M" for Mash hops or "D" for Dry Hops
 	
 	<h1>Grains</h1>
@@ -133,11 +184,6 @@
 		<spring:nestedPath path="barlies[${barleyIngredientRow.index}]">
 			<tr>
 				<td>							
-					<spring:bind path="id"> 
-						<input type="hidden" name="<c:out value="${status.expression}"/>"
-						value="<c:out value="${status.value}"/>" />
-					</spring:bind>
-					
 					<spring:bind path="barley.id">						
 							<select name="<c:out value="${status.expression}"/>"> 
 								<c:forEach items="${barlies}" var="barley">
@@ -160,6 +206,7 @@
 		</spring:nestedPath>
 		</c:forEach>	
 	</table>
+	<input id="barleyButton" type="button" onclick="addNewRow('barley');" value="Add New Barley"/>
 	
 <h1>Additives</h1>
 	<table id="additiveTable">
@@ -194,6 +241,7 @@
 			</spring:nestedPath>
 			</c:forEach>
 	</table>
+	<input id="additiveButton" type="button" onclick="addNewRow('additive');" value="Add New Additive"/>
 
 	<h1>Flavorings</h1>
 	<table id="flavoringTable">
@@ -203,11 +251,6 @@
 		<spring:nestedPath path="flavorings[${flavoringIngredientRow.index}]">
 			<tr>
 				<td>							
-					<spring:bind path="id"> 
-						<input type="hidden" name="<c:out value="${status.expression}"/>"
-						value="<c:out value="${status.value}"/>" />
-					</spring:bind>
-					
 					<spring:bind path="flavoring.id">						
 							<select name="<c:out value="${status.expression}"/>"> 
 								<c:forEach items="${flavorings}" var="flavoring">
@@ -230,6 +273,39 @@
 		</spring:nestedPath>
 		</c:forEach>
 	</table>
+	<input id="flavoringButton" type="button" onclick="addNewRow('flavoring');" value="Add New Flavoring"/>
+
+<h1>Yeasts</h1>
+	<table id="yeastTable">
+		<tr><th>Name</th><th>Quantity</th></tr>	
+		
+		<c:forEach items="${recipe.yeasts}" varStatus="yeastIngredientRow">
+		<spring:nestedPath path="yeasts[${yeastIngredientRow.index}]">
+			<tr>
+				<td>
+					<spring:bind path="yeast.id">
+						<select name="<c:out value="${status.expression}"/>"> 
+							<c:forEach items="${yeasts}" var="yeast">
+								<option value="${yeast.id}"
+								<c:if test="${yeast.id == status.value}"> selected="selected" </c:if> > 
+									${yeast.name }
+								</option>
+							</c:forEach>
+						</select>
+					</spring:bind>
+				</td>
+				
+				<td>
+					<spring:bind path="quantity">
+						<input type="text" name="<c:out value="${status.expression}"/>"
+							value="<c:out value="${status.value}"/>" />
+					</spring:bind>
+				</td>
+			</tr>
+		</spring:nestedPath>
+		</c:forEach>
+	</table>
+	<input id="yeastButton" type="button" onclick="addNewRow('yeast');" value="Add New Yeast"/>
 
  <input type="submit" />
 </form:form>

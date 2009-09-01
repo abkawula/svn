@@ -69,9 +69,6 @@ public class Recipe {
 			new ArrayList<HopIngredient>(), FactoryUtils.instantiateFactory(HopIngredient.class));;
 	@OneToMany(cascade = {CascadeType.ALL})
 	@JoinColumn(name="recipe_id")
-	@org.hibernate.annotations.Cascade(
-			value = org.hibernate.annotations.CascadeType.DELETE_ORPHAN
-	)
 	public List<HopIngredient> getHops() { return hops; }
 	public void setHops(List<HopIngredient> hops) {	
 		this.hops = hops;
@@ -80,7 +77,8 @@ public class Recipe {
 	@SuppressWarnings("unchecked")
 	private List<BarleyIngredient> barlies = LazyList.decorate(
 			new ArrayList<BarleyIngredient>(), FactoryUtils.instantiateFactory(BarleyIngredient.class));
-	@OneToMany(mappedBy="recipe")
+	@OneToMany(cascade = {CascadeType.ALL})
+	@JoinColumn(name="recipe_id")
 	public List<BarleyIngredient> getBarlies() { 
 		return barlies;
 		}
@@ -89,21 +87,24 @@ public class Recipe {
 	@SuppressWarnings("unchecked")
 	private List<YeastIngredient> yeasts = LazyList.decorate(
 			new ArrayList<YeastIngredient>(), FactoryUtils.instantiateFactory(YeastIngredient.class));
-	@OneToMany(mappedBy="recipe")
+	@OneToMany(cascade = {CascadeType.ALL})
+	@JoinColumn(name="recipe_id")
 	public List<YeastIngredient> getYeasts() { return yeasts; }
 	public void setYeasts(List<YeastIngredient> yeasts) { this.yeasts = yeasts;	}
 	
 	@SuppressWarnings("unchecked")
 	private List<AdditiveIngredient> additives = LazyList.decorate(
 			new ArrayList<AdditiveIngredient>(), FactoryUtils.instantiateFactory(AdditiveIngredient.class));
-	@OneToMany(mappedBy="recipe")
+	@OneToMany(cascade = {CascadeType.ALL})
+	@JoinColumn(name="recipe_id")
 	public List<AdditiveIngredient> getAdditives() { return additives;}
 	public void setAdditives(List<AdditiveIngredient> additives) {this.additives = additives;}
 	
 	@SuppressWarnings("unchecked")
 	private List<FlavoringIngredient> flavorings = LazyList.decorate(
 			new ArrayList<FlavoringIngredient>(), FactoryUtils.instantiateFactory(FlavoringIngredient.class));
-	@OneToMany(mappedBy="recipe")
+	@OneToMany(cascade = {CascadeType.ALL})
+	@JoinColumn(name="recipe_id")
 	public List<FlavoringIngredient> getFlavorings() { return flavorings;}
 	public void setFlavorings(List<FlavoringIngredient> flavorings) {this.flavorings = flavorings;}
 	

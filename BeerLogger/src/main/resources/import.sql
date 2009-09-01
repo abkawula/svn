@@ -2179,3 +2179,19 @@ insert into Yeast(id,name,style,lab,floculation,attenuation,temp,description) va
 insert into YeastIngredient(id,quantity,yeast_id, recipe_id) values (1,1,468,1);
 insert into YeastIngredient(id,quantity,yeast_id, recipe_id) values (2,1,444,2);
 
+insert into Flavoring(id, name) values (1,'Apple Flavoring');
+insert into Flavoring(id, name) values (2,'Apricot Flavoring');
+insert into Flavoring(id, name) values (3,'Belgian Cocoa Powder (Unsweetened)');
+insert into Flavoring(id, name) values (4,'Black Cherry Flavoring');
+insert into Flavoring(id, name) values (5,'Blackberry Flavoring');
+insert into Flavoring(id, name) values (6,'Blueberry Flavoring');
+insert into Flavoring(id, name) values (7,'Cassis (Black Currant) Flavoring');
+insert into Flavoring(id, name) values (8,'Cranberry Flavoring');
+insert into Flavoring(id, name) values (9,'Liquor Quick Hazelnut/Noisette (Frangelico)');
+insert into Flavoring(id, name) values (10,'Mandarin Orange Flavoring');
+insert into Flavoring(id, name) values (11,'Peach Flavoring');
+insert into Flavoring(id, name) values (12,'Raspberry Flavoring');
+insert into Flavoring(id, name) values (13,'Strawberry Flavoring');
+insert into Flavoring(id, name) values (14,'Vanilla Flavoring');
+
+
