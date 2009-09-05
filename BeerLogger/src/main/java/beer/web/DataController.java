@@ -127,7 +127,11 @@ IBeerService beerService;
 	
 	@RequestMapping(method = RequestMethod.POST)
 	public ModelAndView processRecipe(@ModelAttribute("Recipe") Recipe recipe) {
-		beerService.merge(recipe);
+		if (recipe.getId() > 0) {
+			beerService.merge(recipe);
+		} else {
+			beerService.persist(recipe);
+		}
 		
 		Map<String, Object> model = new HashMap<String, Object>();
 		model.put("id", recipe.getId());

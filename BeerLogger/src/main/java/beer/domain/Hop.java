@@ -13,7 +13,8 @@ import javax.persistence.OneToMany;
 public class Hop implements Comparable<Hop> {
 	
 	private int id;
-	@Id @GeneratedValue
+	@Id 
+	@GeneratedValue
 	public int getId() { return id; }
 	public void setId(int id) {this.id = id;}
 	

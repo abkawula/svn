@@ -59,7 +59,7 @@
 			</td>
 			
 			<td>
-				<input type="text" name="barlies[$index].quantity"/>"
+				<input type="text" name="barlies[$index].quantity"/>
 			</td>
 		</tr>
 	 </table>
@@ -67,14 +67,14 @@
 	 <table id="additiveTemplate">
 	 	<tr>
 			<td>													
-				<select name="additives[$index].additive.id"/>"> 
+				<select name="additives[$index].additive.id"/> 
 					<c:forEach items="${additives}" var="additive"><option value="${additive.id}">${additive.name }</option>
 					</c:forEach>
 				</select>
 			</td>
 			
 			<td>
-				<input type="text" name="additives[$index].quantity"/>"
+				<input type="text" name="additives[$index].quantity"/>
 			</td>
 		</tr>
 	 </table>
@@ -82,28 +82,28 @@
 	 <table id="flavoringTemplate">
 	 	<tr>
 			<td>							
-				<select name="flavorings[$index].flavoring.id"/>"> 
+				<select name="flavorings[$index].flavoring.id"/> 
 					<c:forEach items="${flavorings}" var="flavoring"><option value="${flavoring.id}">${flavoring.name }</option>
 					</c:forEach>
 				</select>
 			</td>
 			
 			<td>
-				<input type="text" name="flavorings[$index].quantity"/>"
+				<input type="text" name="flavorings[$index].quantity"/>
 			</td>
 		</tr>
 	 </table>
 	 <table id="yeastTemplate">
 	 	<tr>
 			<td>							
-				<select name="yeasts[$index].yeast.id"/>"> 
+				<select name="yeasts[$index].yeast.id"/> 
 					<c:forEach items="${yeasts}" var="yeast"><option value="${yeast.id}">${yeast.name }</option>
 					</c:forEach>
 				</select>
 			</td>
 			
 			<td>
-				<input type="text" name="yeasts[$index].quantity"/>"
+				<input type="text" name="yeasts[$index].quantity"/>
 			</td>
 		</tr>
 	 </table>
@@ -215,10 +215,6 @@
 			<spring:nestedPath path="additives[${additiveIngredientRow.index}]">
 				<tr>
 					<td>							
-						<spring:bind path="id"> 
-							<input type="hidden" name="<c:out value="${status.expression}"/>"
-							value="<c:out value="${status.value}"/>" />
-						</spring:bind>						
 						<spring:bind path="additive.id">						
 								<select name="<c:out value="${status.expression}"/>"> 
 									<c:forEach items="${additives}" var="additive">
@@ -265,7 +261,7 @@
 				
 				<td>
 					<spring:bind path="quantity">
-						<input type="text" name="<c:out value="${status.expression}"/>"
+						<input type="text" name="<c:out value="${status.expression}"/>
 						value="<c:out value="${status.value}"/>" />
 					</spring:bind>
 				</td>
@@ -297,7 +293,7 @@
 				
 				<td>
 					<spring:bind path="quantity">
-						<input type="text" name="<c:out value="${status.expression}"/>"
+						<input type="text" name="<c:out value="${status.expression}"/>
 							value="<c:out value="${status.value}"/>" />
 					</spring:bind>
 				</td>

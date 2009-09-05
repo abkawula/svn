@@ -9,7 +9,8 @@ import javax.persistence.ManyToOne;
 public class MashStep {
 	
 	private int id;
-	@Id @GeneratedValue
+	@Id 
+	@GeneratedValue
 	public int getId() {return id;}
 	public void setId(int id) {this.id = id;}
 	

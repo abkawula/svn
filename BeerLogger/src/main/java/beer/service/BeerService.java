@@ -16,7 +16,6 @@ import beer.domain.Flavoring;
 import beer.domain.Hop;
 import beer.domain.Recipe;
 import beer.domain.Yeast;
-import beer.web.BrowseController;
 
 
 @Service("beerService")
@@ -95,8 +94,8 @@ public class BeerService implements IBeerService {
     @Transactional
 	public void merge(Object object) {
 		em.merge(object);
-		System.out.println("object merged:" + object);
 	}
+    
 
     @Transactional(readOnly = true)
 	public List<Additive> getAllAdditives() {
@@ -121,5 +120,10 @@ public class BeerService implements IBeerService {
     @Transactional(readOnly = true)
 	public List<Yeast> getAllYeasts() {
 		return em.createQuery("from Yeast order by name").getResultList();
+	}
+
+	public void refresh(Object object) {
+		em.refresh(object);
+		
 	}
 }

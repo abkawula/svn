@@ -21,6 +21,7 @@ public interface IBeerService {
 	Recipe findRecipeById(Integer id);
 	void persist(Object object);
 	void merge(Object object);
+	void refresh(Object object);
 	List<Hop> getAllHops();
 	List<Barley> getAllBarlies();
 	List<Yeast> getAllYeasts();
