@@ -21,10 +21,14 @@
 		  NewString += OldString.substring(SearchIndex,OldString.length);
 		  return NewString;
 		}
+
+	function removeRow(rowId) {
+		$('#' + rowId).remove();
+	}
 </script>
 <div id="templateDiv" style="display:none">
 	<table id="hopTemplate">
-		<tr>
+		<tr id="hopRow$index">
 			<td>	
 				<select name="hops[$index].hop.id">
 					<c:forEach items="${hops}" var="hop"><option value="${hop.id}">${hop.name }</option>
@@ -46,11 +50,15 @@
 			<td>
 				<input type="text" name="hops[$index].boilTime" />
 			</td>
+			
+			<td>
+				<a href="#" onclick="removeRow('hopRow$index'); return false;">Remove this row</a>
+			</td>
 		</tr>	
 	 </table>
 	 
 	 <table id="barleyTemplate">
-		<tr>
+		<tr id="barleyRow$index">
 			<td>							
 				<select name="barlies[$index].barley.id"/>"> 
 					<c:forEach items="${barlies}" var="barley"><option value="${barley.id}">${barley.variety }</option>
@@ -61,11 +69,15 @@
 			<td>
 				<input type="text" name="barlies[$index].quantity"/>
 			</td>
+			
+			<td>
+				<a href="#" onclick="removeRow('barleyRow$index'); return false;">Remove this row</a>
+			</td>
 		</tr>
 	 </table>
 	 
 	 <table id="additiveTemplate">
-	 	<tr>
+	 	<tr id="additiveRow$index">
 			<td>													
 				<select name="additives[$index].additive.id"/> 
 					<c:forEach items="${additives}" var="additive"><option value="${additive.id}">${additive.name }</option>
@@ -76,11 +88,15 @@
 			<td>
 				<input type="text" name="additives[$index].quantity"/>
 			</td>
+			
+			<td>
+				<a href="#" onclick="removeRow('additiveRow$index'); return false;">Remove this row</a>
+			</td>
 		</tr>
 	 </table>
 	 
 	 <table id="flavoringTemplate">
-	 	<tr>
+	 	<tr id="flavoringRow$index">
 			<td>							
 				<select name="flavorings[$index].flavoring.id"/> 
 					<c:forEach items="${flavorings}" var="flavoring"><option value="${flavoring.id}">${flavoring.name }</option>
@@ -91,10 +107,14 @@
 			<td>
 				<input type="text" name="flavorings[$index].quantity"/>
 			</td>
+			
+			<td>
+				<a href="#" onclick="removeRow('flavoringRow$index'); return false;">Remove this row</a>
+			</td>
 		</tr>
 	 </table>
 	 <table id="yeastTemplate">
-	 	<tr>
+	 	<tr id="yeastRow$index">
 			<td>							
 				<select name="yeasts[$index].yeast.id"/> 
 					<c:forEach items="${yeasts}" var="yeast"><option value="${yeast.id}">${yeast.name }</option>
@@ -104,6 +124,10 @@
 			
 			<td>
 				<input type="text" name="yeasts[$index].quantity"/>
+			</td>
+			
+			<td>
+				<a href="#" onclick="removeRow('yeastRow$index'); return false;">Remove this row</a>
 			</td>
 		</tr>
 	 </table>
@@ -127,7 +151,7 @@
  			
 			<c:forEach items="${recipe.hops}" varStatus="hopIngredientRow">
 			<spring:nestedPath path="hops[${hopIngredientRow.index}]">
-				<tr>
+				<tr id="hopRow${hopIngredientRow.index}">
 					<td>
 						<spring:bind path="hop.id">						
  							<select name="<c:out value="${status.expression}"/>"> 
@@ -168,6 +192,10 @@
 							value="<c:out value="${status.value}"/>" />
 						</spring:bind>
 					</td>
+					
+					<td>
+						<a href="#" onclick="removeRow('hopRow${hopIngredientRow.index}'); return false;">Remove this row</a>
+					</td>
 				</tr>	
 			</spring:nestedPath>
 			</c:forEach>
@@ -182,7 +210,7 @@
 		
 		<c:forEach items="${recipe.barlies}" varStatus="barleyIngredientRow">
 		<spring:nestedPath path="barlies[${barleyIngredientRow.index}]">
-			<tr>
+			<tr id="barleyRow${barleyIngredientRow.index}">
 				<td>							
 					<spring:bind path="barley.id">						
 							<select name="<c:out value="${status.expression}"/>"> 
@@ -202,6 +230,10 @@
 						value="<c:out value="${status.value}"/>" />
 					</spring:bind>
 				</td>
+				
+				<td>
+					<a href="#" onclick="removeRow('barleyRow${barleyIngredientRow.index}'); return false;">Remove this row</a>
+				</td>
 			</tr>
 		</spring:nestedPath>
 		</c:forEach>	
@@ -213,7 +245,7 @@
 		<tr><th>Name</th><th>Quantity (lbs)</th></tr>
 			<c:forEach items="${recipe.additives}" varStatus="additiveIngredientRow">
 			<spring:nestedPath path="additives[${additiveIngredientRow.index}]">
-				<tr>
+				<tr id="additiveRow${additiveIngredientRow.index}">
 					<td>							
 						<spring:bind path="additive.id">						
 								<select name="<c:out value="${status.expression}"/>"> 
@@ -233,6 +265,10 @@
 							value="<c:out value="${status.value}"/>" />
 						</spring:bind>
 					</td>
+					
+					<td>
+						<a href="#" onclick="removeRow('additiveRow${additiveIngredientRow.index}'); return false;">Remove this row</a>
+					</td>
 				</tr>
 			</spring:nestedPath>
 			</c:forEach>
@@ -245,7 +281,7 @@
 		
 		<c:forEach items="${recipe.flavorings}" varStatus="flavoringIngredientRow">
 		<spring:nestedPath path="flavorings[${flavoringIngredientRow.index}]">
-			<tr>
+			<tr id="flavoringRow${flavoringIngredientRow.index}">
 				<td>							
 					<spring:bind path="flavoring.id">						
 							<select name="<c:out value="${status.expression}"/>"> 
@@ -261,10 +297,15 @@
 				
 				<td>
 					<spring:bind path="quantity">
-						<input type="text" name="<c:out value="${status.expression}"/>
+						<input type="text" name="<c:out value="${status.expression}"/>"
 						value="<c:out value="${status.value}"/>" />
 					</spring:bind>
 				</td>
+				
+				<td>
+					<a href="#" onclick="removeRow('additiveRow${flavoringIngredientRow.index}'); return false;">Remove this row</a>
+				</td>
+				
 			</tr>
 		</spring:nestedPath>
 		</c:forEach>
@@ -277,7 +318,7 @@
 		
 		<c:forEach items="${recipe.yeasts}" varStatus="yeastIngredientRow">
 		<spring:nestedPath path="yeasts[${yeastIngredientRow.index}]">
-			<tr>
+			<tr id="yeastRow${yeastIngredientRow.index}">
 				<td>
 					<spring:bind path="yeast.id">
 						<select name="<c:out value="${status.expression}"/>"> 
@@ -293,9 +334,13 @@
 				
 				<td>
 					<spring:bind path="quantity">
-						<input type="text" name="<c:out value="${status.expression}"/>
+						<input type="text" name="<c:out value="${status.expression}"/>"
 							value="<c:out value="${status.value}"/>" />
 					</spring:bind>
+				</td>
+				
+				<td>
+					<a href="#" onclick="removeRow('yeastRow${yeastIngredientRow.index}'); return false;">Remove this row</a>
 				</td>
 			</tr>
 		</spring:nestedPath>
