@@ -27,7 +27,7 @@
 		<td>Use in the following recipes</td>
 		<td>
 			<c:forEach var="hopIngredient" items="${hop.hopIngredients}">
-				<a href="../browse/showRecipe?id=${hopIngredient.recipe.id }">${hopIngredient.recipe.name }</a><br />
+				<a href="<c:url value="/spring/browse/showRecipe?id=${hopIngredient.recipe.id }"/>">${hopIngredient.recipe.name }</a><br />
 			</c:forEach>
 		</td>
 	</tr>

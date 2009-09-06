@@ -58,6 +58,39 @@ public class BrowseController {
 	}
 	
 	@RequestMapping(method = RequestMethod.GET)
+	public Map<String,Object> barley() {
+		Map<String, Object> model = new HashMap<String, Object>();
+		
+		model.put("barlies", beerService.getAllBarlies());
+		return model;
+	}
+	
+	@RequestMapping(method = RequestMethod.GET)
+	public Map<String,Object> yeast() {
+		Map<String, Object> model = new HashMap<String, Object>();
+		
+		model.put("yeasts", beerService.getAllYeasts());
+		return model;
+	}
+	
+	@RequestMapping(method = RequestMethod.GET)
+	public Map<String,Object> additive() {
+		Map<String, Object> model = new HashMap<String, Object>();
+		
+		model.put("additives", beerService.getAllAdditives());
+		return model;
+	}
+	
+	@RequestMapping(method = RequestMethod.GET)
+	public Map<String,Object> flavoring() {
+		Map<String, Object> model = new HashMap<String, Object>();
+		
+		model.put("flavorings", beerService.getAllFlavorings());
+		return model;
+	}
+	
+	
+	@RequestMapping(method = RequestMethod.GET)
 	public Map<String, Object> showRecipe(@RequestParam(value="id") Integer id) {
 		Map<String, Object> returnMap = new HashMap<String, Object>();
 		

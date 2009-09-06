@@ -1,44 +1,34 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
-
-<form:form modelAttribute="barley" action="processBarley" method="post">
-	<span class="errors">
-		<form:errors path="*" />
-	</span>
-	
-
-	<c:if test="${barley.id > 0}">
-		<h1>Edit Barley Information</h1>
-	</c:if>
-	
-	<c:if test="${barley.id == 0}">
-		<h1> New Barley</h1>
-	</c:if>
-	
-	<form:hidden path="id"/>
+<h1>${barly.variety }</h1>
 	<table>
-		<tr>
-			<td>Name: </td>
-			<td><form:input path="variety"/></td>
-		</tr>
 		
 		<tr>
 			<td>Country: </td>
-			<td><form:input path="country"/></td>
+			<td>${barley.country }</td>
 		</tr>
 		
 		<tr>
 			<td>Gravity: (pound per gallon)</td>
-			<td><form:input path="gravity"/></td>
+			<td>${barley.gravity }</td>
 		</tr>
 		
 		<tr>
 			<td>Color (degrees Lovibond): </td>
-			<td><form:input path="color"/></td>
+			<td>${barley.color }</td>
+		</tr>
+		
+		<tr>
+			<td>Comment</td>
+			<td>${barley.comment }</td>
+		</tr>
+		
+		<tr>
+			<td>Used in the following recipes:</td>
+			<td>
+				<c:forEach var="barleyIngredient" items="${barley.barleyIngredients}">
+					<a href="<c:url value="/spring/browse/showRecipe?id=${barleyIngredient.recipe.id }"/>" >${barleyIngredient.recipe.name }</a><br />
+				</c:forEach>
+			</td>
 		</tr>
 	</table>
-	<input type="submit" />
-	
-</form:form>

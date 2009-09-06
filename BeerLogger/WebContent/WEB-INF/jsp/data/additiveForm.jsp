@@ -1,34 +1,29 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
-
-<form:form modelAttribute="additive" action="processAdditive" method="post">
-	<span class="errors">
-		<form:errors path="*" />
-	</span>
-	
-
-	<c:if test="${additive.id > 0}">
-		<h1>Edit Additive Information</h1>
-	</c:if>
-	
-	<c:if test="${additive.id == 0}">
-		<h1> New Additive</h1>
-	</c:if>
-	
-	<form:hidden path="id"/>
+<h1>${addive.name }</h1>
 	<table>
-		<tr>
-			<td>Name: </td>
-			<td><form:input path="name"/></td>
-		</tr>
 		
 		<tr>
 			<td>Gravity: </td>
-			<td><form:input path="gravity"/></td>
+			<td>${additive.gravity }</td>
+		</tr>
+		
+		<tr>
+			<td>Color: </td>
+			<td>${additive.color }</td>
+		</tr>
+		
+		<tr>
+			<td>Comment: </td>
+			<td>${additive.comment }</td>
+		</tr>
+		
+		<tr>
+			<td>Used in the following recipes:</td>
+			<td>
+				<c:forEach var="additiveIngredient" items="${additive.additiveIngredients}">
+					<a href="<c:url value="/spring/browse/showRecipe?id=${additiveIngredient.recipe.id }"/>" >${additiveIngredient.recipe.name }</a><br />
+				</c:forEach>
+			</td>
 		</tr>
 	</table>
-	<input type="submit" />
-	
-</form:form>

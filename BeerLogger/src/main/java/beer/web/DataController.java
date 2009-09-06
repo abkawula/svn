@@ -33,33 +33,15 @@ IBeerService beerService;
 	}
 
 	@RequestMapping(method = RequestMethod.GET)
-	public Hop hop(@RequestParam(value="id", required=false) Integer id) {
-		if (id != null) {
-			Hop hop = beerService.findHopById(id); 
-			return hop;
-		} else {
-			return new Hop();
-		}
-	}
-	
-	@RequestMapping(method = RequestMethod.POST)
-	public String processHop(@ModelAttribute("hop") Hop hop) {
-		beerService.persist(hop);
-		return "browse/showCategories";
+	public Hop hop(@RequestParam(value="id", required=true) Integer id) {
+		Hop hop = beerService.findHopById(id); 
+		return hop;
+		
 	}
 	
 	@RequestMapping(method = RequestMethod.GET)
-	public Barley barley(@RequestParam(value="id", required=false) Integer id) {
-		if (id != null) {
-			return beerService.findBarleyById(id);
-		} else {
-			return new Barley();
-		}
-	}
-	
-	@RequestMapping(method = RequestMethod.POST)
-	public String processBarley(@ModelAttribute("barley") Barley barley) {
-		return "browse/showCategories";
+	public Barley barley(@RequestParam(value="id", required=true) Integer id) {
+		return beerService.findBarleyById(id);
 	}
 	
 	@RequestMapping(method = RequestMethod.GET)

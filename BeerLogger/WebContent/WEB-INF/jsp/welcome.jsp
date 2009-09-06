@@ -11,15 +11,17 @@
 <h3> What would you like to do</h3>
 <ul>
 	<li><a href="browse/showCategories">Browse by category</a></li>
-	<li><a href="#">Browse by popularity</a> </li>
-	<li><a href="#">Search for recipe by ingredients</a></li>
+	<%--<li><a href="#">Browse by popularity</a> </li> --%>
+	<%--<li><a href="#">Search for recipe by ingredients</a></li> --%>
 	<br/>
 	<br/>
 	<li><a href="browse/hop">Browse hops</a> </li>
-	<li><a href="browse/barley">Browse barleys</a> </li>
+	<li><a href="browse/barley">Browse barlies</a> </li>
 	<li><a href="browse/yeast">Browse yeasts</a> </li>
 	<li><a href="browse/additive">Browse additives</a> </li>
 	<li><a href="browse/flavoring">Browse flavorings</a> </li>
+	<br/>
+	<br/>
 	<li><a href="data/recipe">Add a new recipe</a> </li>
 </ul>
 </body>

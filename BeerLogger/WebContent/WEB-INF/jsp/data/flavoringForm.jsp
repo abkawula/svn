@@ -1,28 +1,13 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-
-
-<form:form modelAttribute="flavoring" action="processFlavoring" method="post">
-	<span class="errors">
-		<form:errors path="*" />
-	</span>
-	
-
-	<c:if test="${flavoring.id > 0}">
-		<h1>Edit Flavoring Information</h1>
-	</c:if>
-	
-	<c:if test="${flavoring.id == 0}">
-		<h1> New Flavoring</h1>
-	</c:if>
-	
-	<form:hidden path="id"/>
+	<h1>${flavoring.name }</h1>
 	<table>
 		<tr>
-			<td>Name: <form:input path="name"/></td>
-		</tr>
+			<td>Used in the following recipes:</td>
+			<td>
+				<c:forEach var="flavoringIngredient" items="${flavoring.flavoringIngredients}">
+					<a href="<c:url value="/spring/browse/showRecipe?id=${flavoringIngredient.recipe.id }"/>" >${flavoringIngredient.recipe.name }</a><br />
+				</c:forEach>
+			</td>
+		</tr>	
 	</table>
-	<input type="submit" />
 	
-</form:form>

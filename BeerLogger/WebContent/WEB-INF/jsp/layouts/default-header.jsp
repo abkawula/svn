@@ -1,6 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<h1 id="logo"><img src="<c:url value="/resources/images/beer_logo.gif"/>" alt="Spring Travel" /></h1>	
+<h1 id="logo"><a href="<c:url value="/"/>"><img src="<c:url value="/resources/images/beer_logo.gif"/>" alt="Spring Travel" /></a></h1>	
 
 	<ul id="menu">		
 		<li><a href="#">My Recipes</a></li>

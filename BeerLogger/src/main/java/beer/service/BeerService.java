@@ -54,16 +54,23 @@ public class BeerService implements IBeerService {
 
     @Transactional(readOnly = true)
 	public Additive findAdditiveById(Integer id) {
-		return em.find(Additive.class, id);
+    	Additive a = em.find(Additive.class, id);
+    	a.getAdditiveIngredients().size();
+		return a;
 	}
 
     @Transactional(readOnly = true)
 	public Barley findBarleyById(Integer id) {
-		return em.find(Barley.class, id);	}
+    	Barley b = em.find(Barley.class, id);
+    	b.getBarleyIngredients().size();
+		return 	b;
+	}
 
     @Transactional(readOnly = true)
 	public Flavoring findFlavoringById(Integer id) {
-		return em.find(Flavoring.class, id);
+    	Flavoring f = em.find(Flavoring.class, id);
+    	f.getFlavoringIngredients().size();
+		return f;
 	}
 
     @Transactional(readOnly = true)
@@ -82,7 +89,9 @@ public class BeerService implements IBeerService {
 
     @Transactional(readOnly = true)
 	public Yeast findYeastById(Integer id) {
-		return em.find(Yeast.class, id);
+    	Yeast y = em.find(Yeast.class, id);
+    	y.getYeastIngredients().size();
+		return y;
 	}
 	
     @Transactional
