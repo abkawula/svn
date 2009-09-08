@@ -1,0 +1,9 @@
+project.name=BeerLogger
+
+src.dir=src/main
+resource.dir=src/main/resources
+web.dir=WebContent
+lib.dir=WebContent/WEB-INF/lib
+build.dir=build
+dist.dir=dist
+hibernate.hbm2ddl.auto.value=validate

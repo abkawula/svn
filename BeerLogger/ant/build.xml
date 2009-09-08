@@ -19,7 +19,7 @@
 		<mkdir dir="${build.dir}/WEB-INF/classes" />
 	</target>
 	
-	<target name="compile" depends="init">
+	<target name="copy" depends="init">
 		<echo>Moving non java files</echo>
 		<copy todir="${build.dir}">
 			<fileset dir="${web.dir}" />
@@ -27,6 +27,18 @@
 		<copy todir="${build.dir}/WEB-INF/classes">
 			<fileset dir="${resource.dir}" />
 		</copy>
+	</target>
+	
+	<target name="configure" depends="copy">
+		<echo>Configuring for targeted environment</echo>
+		<replaceregexp file="${build.dir}/WEB-INF/classes/META-INF/persistence.xml"
+		                         match="name=&quot;hibernate.hbm2ddl.auto&quot; value=&quot;.*&quot;"
+		                         replace="name=&quot;hibernate.hbm2ddl.auto&quot; value=&quot;${hibernate.hbm2ddl.auto.value}&quot;"
+		                         byline="true"/>
+
+	</target>
+	
+	<target name="compile" depends="configure">
 		<echo>Compile the source files</echo>
 		<javac srcdir="${src.dir}" destdir="${build.dir}/WEB-INF/classes">
 			<classpath refid="classpath" />

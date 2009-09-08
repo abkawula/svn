@@ -6,3 +6,4 @@ web.dir=WebContent
 lib.dir=WebContent/WEB-INF/lib
 build.dir=build
 dist.dir=dist
+hibernate.hbm2ddl.auto.value=create-drop
