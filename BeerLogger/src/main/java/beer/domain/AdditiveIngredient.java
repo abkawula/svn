@@ -33,7 +33,7 @@ public class AdditiveIngredient {
 	public double getQuantity() {return quantity;}
 	public void setQuantity(double quantity) {this.quantity = quantity;	}
 	
-	private Recipe recipe;
+	private Recipe recipe = new Recipe();
 	@ManyToOne(cascade = CascadeType.ALL)
 	public Recipe getRecipe() { return recipe; }
 	public void setRecipe(Recipe recipe) { this.recipe = recipe; }

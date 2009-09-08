@@ -27,7 +27,7 @@ public class HopIngredient {
 	public Hop getHop() {return hop;}
 	public void setHop(Hop hop) {this.hop = hop;}
 	
-	private Recipe recipe;
+	private Recipe recipe = new Recipe();
 	@ManyToOne(cascade = CascadeType.ALL)
 	public Recipe getRecipe() { return recipe; }
 	public void setRecipe(Recipe recipe) { this.recipe = recipe; }

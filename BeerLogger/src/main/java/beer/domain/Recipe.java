@@ -18,6 +18,7 @@ import javax.persistence.Transient;
 import org.apache.commons.collections.FactoryUtils;
 import org.apache.commons.collections.list.LazyList;
 import org.apache.log4j.Logger;
+import org.hibernate.annotations.Cascade;
 
 
 
