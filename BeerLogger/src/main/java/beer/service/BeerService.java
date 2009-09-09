@@ -37,7 +37,7 @@ public class BeerService implements IBeerService {
     	
     	String style = searchCriteria.getStyle();
     	
-    	List<Recipe> recipes = em.createQuery("select r from Recipe r")
+    	List<Recipe> recipes = em.createQuery("select r from Recipe r where r.style = '" + style + "'")
 	    .getResultList();
     	
 	    return recipes; 
