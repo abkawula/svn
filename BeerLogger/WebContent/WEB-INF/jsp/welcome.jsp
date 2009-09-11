@@ -20,6 +20,8 @@
 	<li><a href="browse/yeast">Browse yeasts</a> </li>
 	<li><a href="browse/additive">Browse additives</a> </li>
 	<li><a href="browse/flavoring">Browse flavorings</a> </li>
+	<li><a href="browse/clarifier">Browse clarifiers</a> </li>
+	<li><a href="browse/spiceHerb">Browse Spices and Herbs</a> </li>
 	<br/>
 	<br/>
 	<li><a href="data/recipe">Add a new recipe</a> </li>

@@ -37,7 +37,7 @@
 	<table id="hopTemplate">
 		<tr id="hopRow$index">
 			<td>	
-				<c:if test="${recipe.id > 0}">
+				<c:if test="${recipe.new}">
 					<input type="hidden" value="${recipe.id }" name="hops[$index].recipe.id"/>
 				</c:if>
 				<select name="hops[$index].hop.id">
@@ -68,10 +68,64 @@
 		</tr>	
 	 </table>
 	 
+	 <table id="clarifierTemplate">
+		<tr id="clarifierRow$index">
+			<td>	
+				<c:if test="${recipe.new}">
+					<input type="hidden" value="${recipe.id }" name="clarifiers[$index].recipe.id"/>
+				</c:if>
+				<select name="clarifiers[$index].clarifier.id">
+					<c:forEach items="${clarifiers}" var="clarifier"><option value="${clarifier.id}">${clarifier.name }</option>
+					</c:forEach>
+				</select>
+			</td>
+			
+			<td>
+				<input type="text" name="clarifiers[$index].quantity"/>
+			</td>
+			
+			<td>
+				<input type="text" name="clarifiers[$index].boilTime" />
+			</td>
+			
+<%--		<td>
+				<a href="#" onclick="removeRow('clarifierRow$index'); return false;">Remove this row</a>
+			</td>
+--%>
+		</tr>	
+	</table>
+	
+	<table id="spiceHerbTemplate">
+		<tr id="spiceHerbRow$index">
+			<td>	
+				<c:if test="${recipe.new}">
+					<input type="hidden" value="${recipe.id }" name="spiceHerbs[$index].recipe.id"/>
+				</c:if>
+				<select name="spiceHerbs[$index].spiceHerb.id">
+					<c:forEach items="${spiceHerbs}" var="spiceHerb"><option value="${spiceHerb.id}">${spiceHerb.name }</option>
+					</c:forEach>
+				</select>
+			</td>
+			
+			<td>
+				<input type="text" name="spiceHerbs[$index].quantity"/>
+			</td>
+			
+			<td>
+				<input type="text" name="spiceHerbs[$index].boilTime" />
+			</td>
+			
+<%--		<td>
+				<a href="#" onclick="removeRow('spiceHerbRow$index'); return false;">Remove this row</a>
+			</td>
+--%>
+		</tr>	
+	 </table>	 
+	 
 	 <table id="barleyTemplate">
 		<tr id="barleyRow$index">
 			<td>		
-				<c:if test="${recipe.id > 0}">
+				<c:if test="${recipe.new}">
 					<input type="hidden" value="${recipe.id }" name="barlies[$index].recipe.id"/>
 				</c:if>					
 				<select name="barlies[$index].barley.id"/>"> 
@@ -94,7 +148,7 @@
 	 <table id="additiveTemplate">
 	 	<tr id="additiveRow$index">
 			<td>													
-				<c:if test="${recipe.id > 0}">
+				<c:if test="${recipe.new}">
 					<input type="hidden" value="${recipe.id }" name="additives[$index].recipe.id"/>
 				</c:if>
 				<select name="additives[$index].additive.id"/> 
@@ -117,7 +171,7 @@
 	 <table id="flavoringTemplate">
 	 	<tr id="flavoringRow$index">
 			<td>
-				<c:if test="${recipe.id > 0}">							
+				<c:if test="${recipe.new}">							
 					<input type="hidden" value="${recipe.id }" name="flavorings[$index].recipe.id"/>
 				</c:if>
 				<select name="flavorings[$index].flavoring.id"/> 
@@ -139,7 +193,7 @@
 	 <table id="yeastTemplate">
 	 	<tr id="yeastRow$index">
 			<td>
-				<c:if test="${recipe.id > 0}">				
+				<c:if test="${recipe.new}">				
 					<input type="hidden" value="${recipe.id }" name="yeasts[$index].recipe.id"/>
 				</c:if>			
 				<select name="yeasts[$index].yeast.id"/> 
@@ -276,6 +330,70 @@
 		</c:forEach>	
 	</table>
 	<input id="barleyButton" type="button" onclick="addNewRow('barley');" value="Add New Barley"/>
+
+<h1> Clarifiers </h1>
+	<table id="clarifierTable">
+		<tr><th>Variety</th><th>Quantity (Oz)</th><th>Pellet / Leaf</th><th>Boil Time (minutes)**</th></tr>		
+ 			
+			<c:forEach items="${recipe.clarifiers}" varStatus="clarifierIngredientRow">
+			<spring:nestedPath path="clarifiers[${clarifierIngredientRow.index}]">
+				<tr id="clarifierRow${clarifierIngredientRow.index}">
+					<td>
+						<form:hidden path="id" />
+						<spring:bind path="recipe.id">
+							<input type="hidden" value="${recipe.id }" name="<c:out value="${status.expression}"/>"/>
+						</spring:bind>
+						<spring:bind path="clarifier.id">						
+ 							<select name="<c:out value="${status.expression}"/>"> 
+ 								<c:forEach items="${clarifiers}" var="clarifier">
+ 									<option value="${clarifier.id}" <c:if test="${status.value == clarifier.id}">selected="selectect" </c:if> >
+ 										${clarifier.name }
+ 									</option>
+ 								</c:forEach>
+ 							</select>
+						</spring:bind>		 	
+					</td>
+					
+					<td>
+						<spring:bind path="quantity">
+							<input type="text" name="<c:out value="${status.expression}"/>"
+							value="<c:out value="${status.value}"/>" />
+						</spring:bind>
+					</td>
+					
+					<td>
+						<spring:bind path="pelletLeaf">
+							<select name="<c:out value="${status.expression}"/>"> 
+								<option value="P"
+									<c:if test="${status.value == 'P'}">selected="selected" </c:if> >
+									Pellet
+								</option>
+								<option value="L"
+									<c:if test="${status.value == 'L'}">selected="selected" </c:if> >
+									Leaf
+								</option>
+							</select>
+						</spring:bind>
+					</td>
+					
+					<td>
+						<spring:bind path="boilTime">
+							<input type="text" name="<c:out value="${status.expression}"/>"
+							value="<c:out value="${status.value}"/>" />
+						</spring:bind>
+					</td>
+<%--					
+					<td>
+						<a href="#" onclick="removeRow('clarifierRow${clarifierIngredientRow.index}'); return false;">Remove this row</a>
+					</td>
+--%>
+				</tr>	
+			</spring:nestedPath>
+			</c:forEach>
+		</tr>
+	</table>
+	<input id="clarifierButton" type="button" onclick="addNewRow('clarifier');" value="Add New Clarifier"/>
+
 	
 <h1>Additives</h1>
 	<table id="additiveTable">
@@ -357,6 +475,69 @@
 		</c:forEach>
 	</table>
 	<input id="flavoringButton" type="button" onclick="addNewRow('flavoring');" value="Add New Flavoring"/>
+	
+	<h1> Spices and Herbs </h1>
+	<table id="spiceHerbTable">
+		<tr><th>Variety</th><th>Quantity (Oz)</th><th>Pellet / Leaf</th><th>Boil Time (minutes)**</th></tr>		
+ 			
+			<c:forEach items="${recipe.spiceHerbs}" varStatus="spiceHerbIngredientRow">
+			<spring:nestedPath path="spiceHerbs[${spiceHerbIngredientRow.index}]">
+				<tr id="spiceHerbRow${spiceHerbIngredientRow.index}">
+					<td>
+						<form:hidden path="id" />
+						<spring:bind path="recipe.id">
+							<input type="hidden" value="${recipe.id }" name="<c:out value="${status.expression}"/>"/>
+						</spring:bind>
+						<spring:bind path="spiceHerb.id">						
+ 							<select name="<c:out value="${status.expression}"/>"> 
+ 								<c:forEach items="${spiceHerbs}" var="spiceHerb">
+ 									<option value="${spiceHerb.id}" <c:if test="${status.value == spiceHerb.id}">selected="selectect" </c:if> >
+ 										${spiceHerb.name }
+ 									</option>
+ 								</c:forEach>
+ 							</select>
+						</spring:bind>		 	
+					</td>
+					
+					<td>
+						<spring:bind path="quantity">
+							<input type="text" name="<c:out value="${status.expression}"/>"
+							value="<c:out value="${status.value}"/>" />
+						</spring:bind>
+					</td>
+					
+					<td>
+						<spring:bind path="pelletLeaf">
+							<select name="<c:out value="${status.expression}"/>"> 
+								<option value="P"
+									<c:if test="${status.value == 'P'}">selected="selected" </c:if> >
+									Pellet
+								</option>
+								<option value="L"
+									<c:if test="${status.value == 'L'}">selected="selected" </c:if> >
+									Leaf
+								</option>
+							</select>
+						</spring:bind>
+					</td>
+					
+					<td>
+						<spring:bind path="boilTime">
+							<input type="text" name="<c:out value="${status.expression}"/>"
+							value="<c:out value="${status.value}"/>" />
+						</spring:bind>
+					</td>
+<%--					
+					<td>
+						<a href="#" onclick="removeRow('spiceHerbRow${spiceHerbIngredientRow.index}'); return false;">Remove this row</a>
+					</td>
+--%>
+				</tr>	
+			</spring:nestedPath>
+			</c:forEach>
+		</tr>
+	</table>
+	<input id="spiceHerbButton" type="button" onclick="addNewRow('spiceHerb');" value="Add New Spice or Herb"/>
 
 <h1>Yeasts</h1>
 	<table id="yeastTable">

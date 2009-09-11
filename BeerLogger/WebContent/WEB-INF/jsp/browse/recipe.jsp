@@ -64,6 +64,28 @@
 						<td>${flavoring.flavoring.name }</td></tr>
 					</c:forEach>
 			</c:if>
+			
+			<c:if test="${fn:length(recipe.clarifiers) > 0}">
+				<tr><th>Clarifiers</th></tr>
+				<tr>
+					<th>Qty.</th><th>Type</th>
+				</tr>
+					<c:forEach var="clarifier" items="${recipe.clarifiers}">
+						<tr><td>${clarifier.quantity }</td>
+						<td>${clarifier.clarifier.name }</td></tr>
+					</c:forEach>
+			</c:if>
+			
+			<c:if test="${fn:length(recipe.spiceHerbs) > 0}">
+				<tr><th>Spice and Herbs</th></tr>
+				<tr>
+					<th>Qty.</th><th>Type</th>
+				</tr>
+					<c:forEach var="spiceHerb" items="${recipe.spiceHerb}">
+						<tr><td>${spiceHerb.quantity }</td>
+						<td>${spiceHerb.spiceHerb.name }</td></tr>
+					</c:forEach>
+			</c:if>
 		</table>
 		</td>
 	</tr>

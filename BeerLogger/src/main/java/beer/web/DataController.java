@@ -1,7 +1,6 @@
 package beer.web;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,11 +14,12 @@ import org.springframework.web.servlet.view.RedirectView;
 
 import beer.domain.Additive;
 import beer.domain.Barley;
+import beer.domain.Clarifier;
 import beer.domain.Flavoring;
 import beer.domain.Hop;
 import beer.domain.Recipe;
+import beer.domain.SpiceHerb;
 import beer.domain.Yeast;
-import beer.service.BeerService;
 import beer.service.IBeerService;
 
 @Controller
@@ -53,11 +53,6 @@ IBeerService beerService;
 		}
 	}
 	
-	@RequestMapping(method = RequestMethod.POST)
-	public String processYeast(@ModelAttribute("yeast") Yeast yeast) {
-		return "browse/showCategories";
-	}
-	
 	@RequestMapping(method = RequestMethod.GET)
 	public Additive additive(@RequestParam(value="id", required=false) Integer id) {
 		if (id != null) {
@@ -65,11 +60,6 @@ IBeerService beerService;
 		} else {
 			return new Additive();
 		}
-	}
-	
-	@RequestMapping(method = RequestMethod.POST)
-	public String processAdditive(@ModelAttribute("additive") Additive additive) {
-		return "browse/showCategories";
 	}
 	
 	@RequestMapping(method = RequestMethod.GET)
@@ -81,9 +71,22 @@ IBeerService beerService;
 		}
 	}
 	
-	@RequestMapping(method = RequestMethod.POST)
-	public String processFlavoring(@ModelAttribute("flavoring") Flavoring flavoring) {
-		return "browse/showCategories";
+	@RequestMapping(method = RequestMethod.GET)
+	public SpiceHerb spiceHerb(@RequestParam(value="id", required=false) Integer id) {
+		if (id != null) {
+			return beerService.findSpiceHerbById(id);
+		} else {
+			return new SpiceHerb();
+		}
+	}
+	
+	@RequestMapping(method = RequestMethod.GET)
+	public Clarifier clarifier(@RequestParam(value="id", required=false) Integer id) {
+		if (id != null) {
+			return beerService.findClarifierById(id);
+		} else {
+			return new Clarifier();
+		}
 	}
 	
 	@RequestMapping(method = RequestMethod.GET)
@@ -97,6 +100,8 @@ IBeerService beerService;
 		returnMap.put("additives", beerService.getAllAdditives());
 		returnMap.put("flavorings", beerService.getAllFlavorings());
 		returnMap.put("styles", Recipe.Style.values());
+		returnMap.put("clarifiers", beerService.getAllClarifiers());
+		returnMap.put("spiceHerbs", beerService.getAllSpiceHerbs());
 		
 		if (id != null) {
 			returnMap.put("recipe", beerService.findRecipeById(id));
@@ -109,7 +114,7 @@ IBeerService beerService;
 	
 	@RequestMapping(method = RequestMethod.POST)
 	public ModelAndView processRecipe(@ModelAttribute("Recipe") Recipe recipe) {
-		if (recipe.getId() > 0) {
+		if (recipe.isNew()) {
 			beerService.merge(recipe);
 		} else {
 			beerService.persist(recipe);

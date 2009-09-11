@@ -12,9 +12,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 import beer.domain.Additive;
 import beer.domain.Barley;
+import beer.domain.Clarifier;
 import beer.domain.Flavoring;
 import beer.domain.Hop;
 import beer.domain.Recipe;
+import beer.domain.SpiceHerb;
 import beer.domain.Yeast;
 
 
@@ -31,17 +33,29 @@ public class BeerService implements IBeerService {
 	this.em = em;
     }
 
+    @Transactional
+	public void persist(Object object) {
+		em.persist(object);
+		System.out.println("object persisted:" + object);
+	}
+    
+    @Transactional
+	public void merge(Object object) {
+		em.merge(object);
+	}
+    
+    @Transactional
+    public void refresh(Object object) {
+		em.refresh(object);	
+	}
+    
     @Transactional(readOnly = true)
     @SuppressWarnings("unchecked")
     public List<Recipe> getRecipe(SearchCriteria searchCriteria) {
-    	
     	String style = searchCriteria.getStyle();
-    	
     	List<Recipe> recipes = em.createQuery("select r from Recipe r where r.style = '" + style + "'")
 	    .getResultList();
-    	
 	    return recipes; 
-	
     }
 
     @Transactional(readOnly = true)
@@ -82,7 +96,8 @@ public class BeerService implements IBeerService {
 		r.getFlavorings().size();
 		r.getHops().size();
 		r.getYeasts().size();
-		
+		r.getClarifiers().size();
+		r.getSpiceHerbs().size();
 		return r;
 	
 	}
@@ -93,18 +108,20 @@ public class BeerService implements IBeerService {
     	y.getYeastIngredients().size();
 		return y;
 	}
-	
-    @Transactional
-	public void persist(Object object) {
-		em.persist(object);
-		System.out.println("object persisted:" + object);
-	}
     
-    @Transactional
-	public void merge(Object object) {
-		em.merge(object);
-	}
+    @Transactional(readOnly = true)
+    public Clarifier findClarifierById(Integer id) {
+    	Clarifier c = em.find(Clarifier.class, id);
+    	c.getClarifierIngredients().size();
+    	return c;
+    }
     
+    @Transactional(readOnly = true)
+    public SpiceHerb findSpiceHerbById(Integer id) {
+    	SpiceHerb s = em.find(SpiceHerb.class, id);
+    	s.getSpiceHerbIngredients().size();
+    	return s;
+    }
 
     @Transactional(readOnly = true)
 	public List<Additive> getAllAdditives() {
@@ -130,9 +147,15 @@ public class BeerService implements IBeerService {
 	public List<Yeast> getAllYeasts() {
 		return em.createQuery("from Yeast order by name").getResultList();
 	}
+    
+    @Transactional(readOnly = true)
+    public List<Clarifier> getAllClarifiers() {
+    	return em.createQuery("from Clarifier order by name").getResultList();
+    }
 
-	public void refresh(Object object) {
-		em.refresh(object);
-		
-	}
+    @Transactional(readOnly = true)
+    public List<SpiceHerb> getAllSpiceHerbs() {
+    	return em.createQuery("from SpiceHerb order by name").getResultList();
+    }
+	
 }

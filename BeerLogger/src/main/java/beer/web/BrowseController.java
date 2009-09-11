@@ -13,9 +13,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import beer.domain.AdditiveIngredient;
 import beer.domain.BarleyIngredient;
+import beer.domain.ClarifierIngredient;
 import beer.domain.FlavoringIngredient;
 import beer.domain.HopIngredient;
 import beer.domain.Recipe;
+import beer.domain.SpiceHerb;
+import beer.domain.SpiceHerbIngredient;
 import beer.domain.YeastIngredient;
 import beer.service.IBeerService;
 import beer.service.SearchCriteria;
@@ -89,6 +92,22 @@ public class BrowseController {
 		return model;
 	}
 	
+	@RequestMapping(method = RequestMethod.GET)
+	public Map<String,Object> clarifier() {
+		Map<String, Object> model = new HashMap<String, Object>();
+		
+		model.put("clarifiers", beerService.getAllClarifiers());
+		return model;
+	}
+	
+	@RequestMapping(method = RequestMethod.GET)
+	public Map<String,Object> spiceHerb() {
+		Map<String, Object> model = new HashMap<String, Object>();
+		
+		model.put("spiceHerbs", beerService.getAllSpiceHerbs());
+		return model;
+	}
+	
 	
 	@RequestMapping(method = RequestMethod.GET)
 	public Map<String, Object> showRecipe(@RequestParam(value="id") Integer id) {
@@ -102,9 +121,8 @@ public class BrowseController {
 		returnMap.put("yeastMap", getYeastMap(r));
 		returnMap.put("flavoringMap", getFlavoringMap(r));
 		returnMap.put("additiveMap", getAdditiveMap(r));
-		returnMap.put("testString", "Adam Rules");
-		
-		
+		returnMap.put("clarifierMap", getClarifierMap(r));
+		returnMap.put("spiceHerbMap", getSpiceHerbMap(r));
 		
 		return returnMap;
 	}
@@ -172,6 +190,32 @@ public class BrowseController {
 			}
 		}
 		return flavoringMap;
+	}
+	
+	private Map<String, Double> getClarifierMap(Recipe r) {
+		Map<String, Double> clarifierMap = new HashMap<String, Double>();
+		for (ClarifierIngredient c : r.getClarifiers()) {
+			String name = c.getClarifier().getName();
+			if (clarifierMap.get(name) != null) {
+				clarifierMap.put(name, clarifierMap.get(name).doubleValue() + c.getQuantity());
+			} else {
+				clarifierMap.put(name, c.getQuantity());
+			}
+		}
+		return clarifierMap;
+	}
+	
+	private Map<String, Double> getSpiceHerbMap(Recipe r) {
+		Map<String, Double> spiceHerbMap = new HashMap<String, Double>();
+		for (SpiceHerbIngredient s : r.getSpiceHerbs()) {
+			String name = s.getSpiceHerb().getName();
+			if (spiceHerbMap.get(name) != null) {
+				spiceHerbMap.put(name, spiceHerbMap.get(name).doubleValue() + s.getQuantity());
+			} else {
+				spiceHerbMap.put(name, s.getQuantity());
+			}
+		}
+		return spiceHerbMap;
 	}
 	
 }

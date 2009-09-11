@@ -111,6 +111,22 @@ public class Recipe {
 	public List<FlavoringIngredient> getFlavorings() { return flavorings;}
 	public void setFlavorings(List<FlavoringIngredient> flavorings) {this.flavorings = flavorings;}
 	
+	@SuppressWarnings("unchecked")
+	private List<ClarifierIngredient> clarifiers = LazyList.decorate(
+			new ArrayList<ClarifierIngredient>(), FactoryUtils.instantiateFactory(ClarifierIngredient.class));
+	@OneToMany(cascade = {CascadeType.ALL})
+	@JoinColumn(name="recipe_id")
+	public List<ClarifierIngredient> getClarifiers() { return clarifiers;}
+	public void setClarifiers(List<ClarifierIngredient> clarifiers) {this.clarifiers = clarifiers;}
+	
+	@SuppressWarnings("unchecked")
+	private List<SpiceHerbIngredient> spiceHerbs = LazyList.decorate(
+			new ArrayList<SpiceHerbIngredient>(), FactoryUtils.instantiateFactory(SpiceHerbIngredient.class));
+	@OneToMany(cascade = {CascadeType.ALL})
+	@JoinColumn(name="recipe_id")
+	public List<SpiceHerbIngredient> getSpiceHerbs() { return spiceHerbs;}
+	public void setSpiceHerbs(List<SpiceHerbIngredient> spiceHerbs) {this.spiceHerbs = spiceHerbs;}
+	
 	private double initialGravity;
 	public double getInitialGravity() {return initialGravity;}
 	public void setInitialGravity(double initialGravity) {this.initialGravity = initialGravity;}
@@ -134,6 +150,10 @@ public class Recipe {
 	public int getBatchSize() { return batchSize; }
 	public void setBatchSize(int batchSize) { this.batchSize =batchSize; }
 	
+	@Transient
+	public boolean isNew() {
+		return id == 0;
+	}
 	@Transient
 	public double getABV() {
 		return ((initialGravity - finalGravity) * 131);
