@@ -115,9 +115,9 @@ IBeerService beerService;
 	@RequestMapping(method = RequestMethod.POST)
 	public ModelAndView processRecipe(@ModelAttribute("Recipe") Recipe recipe) {
 		if (recipe.isNew()) {
-			beerService.merge(recipe);
-		} else {
 			beerService.persist(recipe);
+		} else {
+			beerService.merge(recipe);
 		}
 		
 		Map<String, Object> model = new HashMap<String, Object>();

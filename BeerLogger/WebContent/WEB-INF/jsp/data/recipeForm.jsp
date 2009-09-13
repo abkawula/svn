@@ -333,7 +333,7 @@
 
 <h1> Clarifiers </h1>
 	<table id="clarifierTable">
-		<tr><th>Variety</th><th>Quantity (Oz)</th><th>Pellet / Leaf</th><th>Boil Time (minutes)**</th></tr>		
+		<tr><th>Variety</th><th>Quantity (Oz)</th><th>Boil Time (minutes)**</th></tr>		
  			
 			<c:forEach items="${recipe.clarifiers}" varStatus="clarifierIngredientRow">
 			<spring:nestedPath path="clarifiers[${clarifierIngredientRow.index}]">
@@ -478,7 +478,7 @@
 	
 	<h1> Spices and Herbs </h1>
 	<table id="spiceHerbTable">
-		<tr><th>Variety</th><th>Quantity (Oz)</th><th>Pellet / Leaf</th><th>Boil Time (minutes)**</th></tr>		
+		<tr><th>Variety</th><th>Quantity (Oz)</th><th>Boil Time (minutes)**</th></tr>		
  			
 			<c:forEach items="${recipe.spiceHerbs}" varStatus="spiceHerbIngredientRow">
 			<spring:nestedPath path="spiceHerbs[${spiceHerbIngredientRow.index}]">

@@ -4,15 +4,24 @@
 <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
 
 	<!-- Appenders -->
-	<appender name="filelogger" class="org.apache.log4j.FileAppender">
+	<appender name="filelogger" class="org.apache.log4j.RollingFileAppender">
+		<param name="MaxFileSize" value="100KB"/>
+    	<param name="MaxBackupIndex" value="1"/>
         <param name="File" value="${catalina.home}/logs/BeerLogger.log" />
         <param name="Append" value="true" />
         <layout class="org.apache.log4j.PatternLayout">
             <param name="ConversionPattern" value="%d{ISO8601} %-5p [%c]: %m%n  "/>
         </layout>           
      </appender>
+     
+	<appender name="console" class="org.apache.log4j.ConsoleAppender">
+		<param name="Target" value="System.out" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%-5p: %c - %m%n" />
+		</layout>
+	</appender>
 
-	<logger name="org.hibernate.type">
+	<logger name="org.hibernate">
 		<level value="debug"/>
 	</logger>
 	
@@ -48,12 +57,17 @@
 		<level value="warn" />
 	</logger>
 	
+	<logger name="org.apache.commons">
+		<level value="warn" />
+	</logger>
+	
 	<logger name="beer">
 		<level value="debug"/>
 	</logger>
 	<!-- Root Logger -->
 	<root>
-		<priority value="error" />
+		<priority value="warn" />
+		<appender-ref ref="console" />
 		<appender-ref ref="filelogger" />
 	</root>
 	

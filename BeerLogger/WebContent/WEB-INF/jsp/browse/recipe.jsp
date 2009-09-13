@@ -81,7 +81,7 @@
 				<tr>
 					<th>Qty.</th><th>Type</th>
 				</tr>
-					<c:forEach var="spiceHerb" items="${recipe.spiceHerb}">
+					<c:forEach var="spiceHerb" items="${recipe.spiceHerbs}">
 						<tr><td>${spiceHerb.quantity }</td>
 						<td>${spiceHerb.spiceHerb.name }</td></tr>
 					</c:forEach>

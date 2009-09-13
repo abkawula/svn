@@ -3,18 +3,18 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 
-<h1>${hop.name }</h1>
+<h1>${spiceHerb.name }</h1>
 <table>
 	<tr>
 		<td>Description:</td>
-		<td>${spiceHop.description }</td>	
+		<td>${spiceHerb.description }</td>	
 	</tr>
 	
 	<tr>
 		<td>Use in the following recipes</td>
 		<td>
-			<c:forEach var="spiceHopIngredient" items="${spiceHop.spiceHopIngredients}">
-				<a href="<c:url value="/spring/browse/showRecipe?id=${spiceHopIngredient.recipe.id }"/>">${spiceHopIngredient.recipe.name }</a><br />
+			<c:forEach var="spiceHerbIngredient" items="${spiceHerb.spiceHerbIngredients}">
+				<a href="<c:url value="/spring/browse/showRecipe?id=${spiceHerbIngredient.recipe.id }"/>">${spiceHerbIngredient.recipe.name }</a><br />
 			</c:forEach>
 		</td>
 	</tr>
