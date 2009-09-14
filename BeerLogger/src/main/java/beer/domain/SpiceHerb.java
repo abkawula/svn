@@ -8,7 +8,10 @@ import javax.persistence.Id;
 import javax.persistence.Lob;
 import javax.persistence.OneToMany;
 
+import org.hibernate.annotations.Cache;
+
 @Entity
+@Cache(usage = org.hibernate.annotations.CacheConcurrencyStrategy.READ_ONLY)
 public class SpiceHerb {
 	
 	private int id;

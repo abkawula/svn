@@ -7,7 +7,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
+import org.hibernate.annotations.Cache;
+
 @Entity
+@Cache(usage = org.hibernate.annotations.CacheConcurrencyStrategy.READ_ONLY)
 public class Yeast implements Comparable<Yeast> {
 
 	private int id;
