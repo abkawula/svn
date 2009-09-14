@@ -27,9 +27,9 @@
 
 		$.each($('#deleteMe').nextAll(), 
 			function(i, val) {
-				$.each($(this + ' input, ' + this + ' select'), function() {
+				$.each($(this).find("input, select"), function() {
 					alert($(this).attr('name'));
-//					$(this).attr('name', $(this).attr('name').replace(/\[\d*\]/,'[' + (i + row) + ']'));
+					$(this).attr('name', $(this).attr('name').replace(/\[\d*\]/,'[' + (i + row) + ']'));
 				});
 			}
 		);

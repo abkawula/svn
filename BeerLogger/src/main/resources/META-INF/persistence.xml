@@ -5,7 +5,6 @@
              version="1.0">
    <persistence-unit name="beerDatabase">
       <provider>org.hibernate.ejb.HibernatePersistence</provider>
-     
 		<class>beer.domain.Additive</class>
 		<class>beer.domain.AdditiveIngredient</class>
 		<class>beer.domain.Barley</class>
@@ -19,6 +18,10 @@
 		<class>beer.domain.YeastIngredient</class>
 		<class>beer.domain.MashSchedule</class>
 		<class>beer.domain.MashStep</class>
+		<class>beer.domain.SpiceHerb</class>
+		<class>beer.domain.SpiceHerbIngredient</class>
+		<class>beer.domain.Clarifier</class>
+		<class>beer.domain.ClarifierIngredient</class>
       <properties>
        
        <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
