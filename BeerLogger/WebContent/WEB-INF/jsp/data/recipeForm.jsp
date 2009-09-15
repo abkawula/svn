@@ -23,34 +23,19 @@
 		}
 
 	function removeRow(ingredientType, row) {
+		// Mark the row for deletion
 		$('#' + ingredientType + 'Row' + row).attr("id","deleteMe");
-
+		
+		// Reindex all of the rows after the marked row
 		$.each($('#deleteMe').nextAll(), 
 			function(i, val) {
 				$.each($(this).find("input, select"), function() {
-					alert($(this).attr('name'));
 					$(this).attr('name', $(this).attr('name').replace(/\[\d*\]/,'[' + (i + row) + ']'));
 				});
 			}
 		);
 
 		$('#deleteMe').remove();
-		
-
-		// Reindex all of the rows
-//		$.each($('#' + ingredientType + 'Table tr[id]'), function(i, val){
-//			if ($('#' + ingredientType + 'Row' + i).size() == 0 && i < $('#' + ingredientType + 'Table tr[id]').size()) {
-//		    	$('#' + ingredientType + 'Row' + (i + 1)).replaceWith(
-//					'<tr id="' + ingredientType + 'Row' + i + '">' + val.innerHTML.replace(/\[\d*\]/g,"[" + i +"]") + '</tr>'
-//		    	);
-//			}
-//		});
-		
-		
-
-//		var val = document.getElementById('hopRow0');
-//		$('#hopRow0').replaceWith(
-//		    '<tr id="hopRow1">' + val.innerHTML.replace(/\[\d*\]/g,"[1]") + '</tr>');
 	}
 </script>
 <div id="templateDiv" style="display:none">
@@ -109,7 +94,7 @@
 			</td>
 			
 			<td>
-				<a href="#" onclick="removeRow('clarifier', 'clarifierRow$index'); return false;">Remove this row</a>
+				<a href="#" onclick="removeRow('clarifier', '$index'); return false;">Remove this row</a>
 			</td>
 		</tr>	
 	</table>
@@ -135,7 +120,7 @@
 			</td>
 			
 			<td>
-				<a href="#" onclick="removeRow('spiceHerb', 'spiceHerbRow$index'); return false;">Remove this row</a>
+				<a href="#" onclick="removeRow('spiceHerb', '$index'); return false;">Remove this row</a>
 			</td>
 		</tr>	
 	 </table>	 
@@ -157,7 +142,7 @@
 			</td>
 			
 			<td>
-				<a href="#" onclick="removeRow('barley', 'barleyRow$index'); return false;">Remove this row</a>
+				<a href="#" onclick="removeRow('barley', '$index'); return false;">Remove this row</a>
 			</td>
 		</tr>
 	 </table>
@@ -179,7 +164,7 @@
 			</td>
 			
 			<td>
-				<a href="#" onclick="removeRow('additive', 'additiveRow$index'); return false;">Remove this row</a>
+				<a href="#" onclick="removeRow('additive', '$index'); return false;">Remove this row</a>
 			</td>
 		</tr>
 	 </table>
@@ -201,7 +186,7 @@
 			</td>
 						
 			<td>
-				<a href="#" onclick="removeRow('flavoring', 'flavoringRow$index'); return false;">Remove this row</a>
+				<a href="#" onclick="removeRow('flavoring', '$index'); return false;">Remove this row</a>
 			</td>
 		</tr>
 	 </table>
@@ -222,7 +207,7 @@
 			</td>
 			
 			<td>
-				<a href="#" onclick="removeRow('yeast', 'yeastRow$index'); return false;">Remove this row</a>
+				<a href="#" onclick="removeRow('yeast', '$index'); return false;">Remove this row</a>
 			</td>
 		</tr>
 	 </table>
@@ -336,7 +321,7 @@
 				</td>
 				
 				<td>
-					<a href="#" onclick="removeRow('barley', 'barleyRow${barleyIngredientRow.index}'); return false;">Remove this row</a>
+					<a href="#" onclick="removeRow('barley', ${barleyIngredientRow.index}); return false;">Remove this row</a>
 				</td>
 			</tr>
 		</spring:nestedPath>
@@ -397,7 +382,7 @@
 					</td>
 					
 					<td>
-						<a href="#" onclick="removeRow('calrifier', 'clarifierRow${clarifierIngredientRow.index}'); return false;">Remove this row</a>
+						<a href="#" onclick="removeRow('calrifier', ${clarifierIngredientRow.index}); return false;">Remove this row</a>
 					</td>
 				</tr>	
 			</spring:nestedPath>
@@ -438,7 +423,7 @@
 					</td>
 					
 					<td>
-						<a href="#" onclick="removeRow('additive', 'additiveRow${additiveIngredientRow.index}'); return false;">Remove this row</a>
+						<a href="#" onclick="removeRow('additive', ${additiveIngredientRow.index}); return false;">Remove this row</a>
 					</td>
 				</tr>
 			</spring:nestedPath>
@@ -478,7 +463,7 @@
 				</td>
 				
 				<td>
-					<a href="#" onclick="removeRow('flavoring','flavoringRow${flavoringIngredientRow.index}'); return false;">Remove this row</a>
+					<a href="#" onclick="removeRow('flavoring', ${flavoringIngredientRow.index}); return false;">Remove this row</a>
 				</td>				
 			</tr>
 		</spring:nestedPath>
@@ -539,7 +524,7 @@
 					</td>
 					
 					<td>
-						<a href="#" onclick="removeRow('spiceHerb', 'spiceHerbRow${spiceHerbIngredientRow.index}'); return false;">Remove this row</a>
+						<a href="#" onclick="removeRow('spiceHerb', ${spiceHerbIngredientRow.index}); return false;">Remove this row</a>
 					</td>
 				</tr>	
 			</spring:nestedPath>
@@ -580,7 +565,7 @@
 				</td>
 				
 				<td>
-					<a href="#" onclick="removeRow('yeast', 'yeastRow${yeastIngredientRow.index}'); return false;">Remove this row</a>
+					<a href="#" onclick="removeRow('yeast', ${yeastIngredientRow.index}); return false;">Remove this row</a>
 				</td>
 			</tr>
 		</spring:nestedPath>
