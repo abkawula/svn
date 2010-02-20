@@ -1635,12 +1635,10 @@ insert into Barley(id, variety, country, gravity, color, comment) values (79, 'F
 insert into Barley(id, variety, country, gravity, color, comment) values (80, 'Flaked Oats', null, 1.033, 1.0, 'Adds body and creamy head. For stouts and oat ales.');
 insert into Barley(id, variety, country, gravity, color, comment) values (81, 'Flaked Rye', null, 1.036, 2.0, 'Imparts a dry, crisp character. Use in rye beers.');
 insert into Barley(id, variety, country, gravity, color, comment) values (82, 'Flaked Wheat', null, 1.036, 2.0, 'Imparts a wheat flavor, hazy color. For wheat and Belgian white beers.');
-insert into Barley(id, variety, country, gravity, color, comment) values (83, 'Franco-Belges Kiln Coffee Malt', null, 0.0, 150.0, 'A unique malt which imparts a coffee flavor.');
+insert into Barley(id, variety, country, gravity, color, comment) values (83, 'Franco-Belges Kiln Coffee Malt', null, 1.033, 150.0, 'A unique malt which imparts a coffee flavor.');
 insert into Barley(id, variety, country, gravity, color, comment) values (84, 'Gambrinus Honey Malt', null, 1.034, 25.0, 'Nutty honey flavor. For brown ales, Belgian wheats, bocks and many other styles.');
 insert into Barley(id, variety, country, gravity, color, comment) values (85, 'Grits', null, 1.037, 1.0, 'Imparts a corn/grain taste. Use in American lagers.');
-insert into Barley(id, variety, country, gravity, color, comment) values (86, 'Irish Moss', null, 0.0, 0.0, 'Prevents chill haze. Use in all beers except cloudy wheat and white beers.');
 insert into Barley(id, variety, country, gravity, color, comment) values (87, 'Malto Dextrin', null, 1.043, 0.0, 'Adds body and mouthfeel. For all extract beers. Does not ferment.');
-insert into Barley(id, variety, country, gravity, color, comment) values (88, 'Oak Chips', null, 0.0, 0.0, 'Creates cask-conditioned flavor and aroma. Use in IPAs, Belgian ales and Scottish ales.');
 insert into Barley(id, variety, country, gravity, color, comment) values (89, 'Scotmalt Golden Promise', null, 1.038, 2.4, 'Scottish pale ale malt; base malt for all Scottish beers.');
 
 insert into BarleyIngredient(id,quantity,barley_id, recipe_id) values (1,8,44,1);

@@ -12,7 +12,7 @@ import javax.persistence.OneToMany;
 import org.hibernate.annotations.Cache;
 
 @Entity
-@Cache(usage = org.hibernate.annotations.CacheConcurrencyStrategy.READ_ONLY)
+//@Cache(usage = org.hibernate.annotations.CacheConcurrencyStrategy.READ_ONLY)
 public class Hop implements Comparable<Hop> {
 	
 	private int id;
