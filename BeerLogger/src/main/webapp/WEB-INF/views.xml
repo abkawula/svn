@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+	
+<tiles-definitions>
+
+	<definition name="standardLayout" template="/WEB-INF/jsp/layouts/standard.jsp">
+		<put-attribute name="title">Beericpe.com - Beer recipes</put-attribute>
+		<put-attribute name="header" value="/WEB-INF/jsp/layouts/default-header.jsp" />
+	</definition>
+	
+	<definition name="welcome" extends="standardLayout">
+		<put-attribute name="body" value="/WEB-INF/jsp/welcome.jsp" />
+	</definition>
+
+ 	<definition name="browse/showCategories" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/browse/index.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="browse/showBeer" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/browse/beerList.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="browse/hop" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/browse/hop.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="browse/barley" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/browse/barley.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="browse/yeast" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/browse/yeast.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="browse/additive" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/browse/additive.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="browse/flavoring" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/browse/flavoring.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="browse/showRecipe" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/browse/recipe.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="browse/clarifier" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/browse/clarifier.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="browse/spiceHerb" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/browse/spiceHerb.jsp" />
+ 	</definition>
+	
+	<definition name="data/hop" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/data/hopForm.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="data/barley" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/data/barleyForm.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="data/yeast" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/data/yeastForm.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="data/additive" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/data/additiveForm.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="data/flavoring" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/data/flavoringForm.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="data/clarifier" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/data/clarifierForm.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="data/spiceHerb" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/data/spiceHerbForm.jsp" />
+ 	</definition>
+ 	
+ 	<definition name="data/recipe" extends="standardLayout">
+ 		<put-attribute name="body" value = "/WEB-INF/jsp/data/recipeForm.jsp" />
+ 	</definition>
+ 	
+</tiles-definitions>
