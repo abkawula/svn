@@ -8,56 +8,63 @@
 <h2>Shopping List</h2>
 <table>
 	<tr>
-		<th>Barley</th><th>Hops</th><th>Yeast</th><th>Other</th>
-	</tr>
-	<tr>
-		<td><table>
+		<td valign="top">
+			<table>
 			<tr>
-				<th>Lbs.</th><th>Type</th>
+				<th align="center">Barley</th>
 			</tr>
 				<c:forEach var="barley" items="${barleyMap}">
-					<tr><td>${barley.value }</td>
+					<tr><td>${barley.value } Lbs.</td>
 					<td>${barley.key }</td></tr>
 				</c:forEach>
-		</table></td>
+			</table>
+		</td>
 		
-		<td><table>
+		<td />
+		
+		<td valign="top">
+			<table>
 			<tr>
-				<th>Oz</th><th>Type</th>
+				<th align="center">Hops</th>
 			</tr>
 				<c:forEach var="hop" items="${hopMap}">
-					<tr><td>${hop.value }</td>
+					<tr><td>${hop.value } Oz</td>
 					<td>${hop.key }</td></tr>
 				</c:forEach>
-		</table></td>
+			</table>
+		</td>
 		
-		<td><table>
+		<td />
+		
+		<td valign="top">
+			<table>
 			<tr>
-				<th>Qty.</th><th>Type</th>
+				<th align="center">Yeast</th>
 			</tr>
 				<c:forEach var="yeast" items="${yeastMap}">
 					<tr><td>${yeast.value }</td>
 					<td>${yeast.key }</td></tr>
 				</c:forEach>
-		</table></td>
+			</table>
+		</td>
 		
-		<td>
-		<table>
+		<td />
+		
+		<td valign="top">
+			<table>
 			<c:if test="${fn:length(recipe.additives) > 0}">
-				<tr><th>Additives</th></tr>
 				<tr>
-					<th>Lbs.</th><th>Type</th>
+					<th align="center">Additive</th>
 				</tr>
 					<c:forEach var="additive" items="${recipe.additives}">
-						<tr><td>${additive.quantity }</td>
+						<tr><td>${additive.quantity } Lbs.</td>
 						<td>${additive.additive.name }</td></tr>
 					</c:forEach>
 			</c:if>
 			
 			<c:if test="${fn:length(recipe.flavorings) > 0}">
-				<tr><th>Flavorings</th></tr>
 				<tr>
-					<th>Qty.</th><th>Type</th>
+					<th align="center">Flavoring</th>
 				</tr>
 					<c:forEach var="flavoring" items="${recipe.flavorings}">
 						<tr><td>${flavoring.quantity }</td>
@@ -66,9 +73,8 @@
 			</c:if>
 			
 			<c:if test="${fn:length(recipe.clarifiers) > 0}">
-				<tr><th>Clarifiers</th></tr>
 				<tr>
-					<th>Qty.</th><th>Type</th>
+					<th align="center">Clarifier</th>
 				</tr>
 					<c:forEach var="clarifier" items="${recipe.clarifiers}">
 						<tr><td>${clarifier.quantity }</td>
@@ -77,12 +83,11 @@
 			</c:if>
 			
 			<c:if test="${fn:length(recipe.spiceHerbs) > 0}">
-				<tr><th>Spice and Herbs</th></tr>
 				<tr>
-					<th>Qty.</th><th>Type</th>
+					<th align="center">Spice and Herbs</th>
 				</tr>
 					<c:forEach var="spiceHerb" items="${recipe.spiceHerbs}">
-						<tr><td>${spiceHerb.quantity }</td>
+						<tr><td>${spiceHerb.quantity } Oz</td>
 						<td>${spiceHerb.spiceHerb.name }</td></tr>
 					</c:forEach>
 			</c:if>

@@ -8,6 +8,11 @@
 	<version>2.1.0.RELEASE</version>
 	<dependencies>
 		<dependency>
+			<groupId>org.tuckey</groupId>
+			<artifactId>urlrewritefilter</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+		<dependency>
 			<groupId>net.sf.ehcache</groupId>
 			<artifactId>ehcache</artifactId>
 			<version>1.2.3</version>
@@ -236,12 +241,13 @@
 					<target>1.5</target>
 				</configuration>
 			</plugin>
-			<!--
 				<plugin> <groupId>org.codehaus.mojo</groupId>
-				<artifactId>tomcat-maven-plugin</artifactId> <configuration>
-				<warFile>/home/adam/apache-tomcat-6.0.26/webapps/BeerLogger.war</warFile>
-				</configuration> </plugin>
-			-->
+				<artifactId>tomcat-maven-plugin</artifactId> 
+				<configuration>
+					<server>tomcat_localhost</server>
+					<path>/beercipe</path>
+				</configuration> 
+			</plugin>
 		</plugins>
 	</build>
 	<properties>
