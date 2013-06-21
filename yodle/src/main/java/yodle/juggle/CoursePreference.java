@@ -1,6 +1,6 @@
 package yodle.juggle;
 
-public class CoursePreference implements Comparable<CoursePreference> {
+public class CoursePreference {
 
 	Course c;
 	int score;
@@ -15,11 +15,6 @@ public class CoursePreference implements Comparable<CoursePreference> {
 		dot += j.getH() * c.getH();
 		dot += j.getP() * c.getP();
 		return dot;
-	}
-	
-	@Override
-	public int compareTo(CoursePreference o) {
-		return o.getScore() - this.score;
 	}
 	
 	@Override
